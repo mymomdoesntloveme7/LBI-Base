@@ -51,7 +51,7 @@ int ReturnDataModel()
 	return DMPad[0] + 0xC;
 }
 
-const char* GetClass(int self)
+const char* GetClass(int self) // skidded
 {
 	return (const char*)(*(int(**)(void))(*(int*)self + 16))();
 }
