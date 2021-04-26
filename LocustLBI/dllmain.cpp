@@ -33,6 +33,7 @@ void Main()
     std::cout << "Initializing interpreter...\n";
     InitLBI(); 
     std::cout << "Registering custom functions...\n";
+    Callcheck::Init();
     registerfunc(rL, reinterpret_cast<int>(getgenv), "getgenv");
     registerfunc(rL, reinterpret_cast<int>(getrenv), "getrenv");
     registerfunc(rL, reinterpret_cast<int>(getsenv), "getsenv");
