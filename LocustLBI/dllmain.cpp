@@ -13,6 +13,7 @@ using namespace Callcheck;
 
 void Main()
 {
+    // Console bypass
     VirtualProtect(FreeConsole, 1, PAGE_EXECUTE_READWRITE, new unsigned long);
     *reinterpret_cast<unsigned int*>(FreeConsole) = 0xC3;
     AllocConsole();
@@ -20,17 +21,17 @@ void Main()
     freopen("CONIN$", "r", stdin);
     SetWindowPos(GetConsoleWindow(), HWND_TOPMOST, 50, 20, 0, 0, SWP_DRAWFRAME | SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
     ShowWindow(GetConsoleWindow(), 1);
-    SetConsoleTitleA("deaddlocust is a cutie");
+    SetConsoleTitleA("deaddlocust is a cutie"); // make sure it has good console title ;)
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
     std::cout << "Getting Lua State...\n";
     DWORD DataModel = ReturnDataModel();
     DWORD ScriptContext = FindFirstClass(DataModel, "ScriptContext");
-    rL = r_newthread(RBX_LuaState(ScriptContext));
+    rL = r_newthread(RBX_LuaState(ScriptContext)); // makes a newthread so the stack is clean (thanks mcgaming)
     std::cout << "Setting context level...\n";
-    *GetLevel(rL) = 8;
+    *GetLevel(rL) = 8; // There's literally no point to set it to 8 i just wanted to
     std::cout << "Initializing interpreter...\n";
-    InitLBI();
+    InitLBI(); 
     std::cout << "Registering custom functions...\n";
     registerfunc(rL, reinterpret_cast<int>(getgenv), "getgenv");
     registerfunc(rL, reinterpret_cast<int>(getrenv), "getrenv");
