@@ -69,4 +69,4 @@ int FindFirstClass(int Instance, const char* Name)
 	}
 }
 
-int* GetLevel(int rL) { return reinterpret_cast<int*>(*reinterpret_cast<int*>(rL + Identity2) + Identity1); }
+DWORD* GetLevel(DWORD rL) { return reinterpret_cast<DWORD*>(*reinterpret_cast<DWORD*>(rL + Identity2) + Identity1); }
