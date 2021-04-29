@@ -42,31 +42,24 @@ def_pushcclosure r_pushcclosure = reinterpret_cast<def_pushcclosure>(unprotect(a
 def_pcall r_pcall = reinterpret_cast<def_pcall>(unprotect(aslr(lua_pcall_addr)));
 
 
-int ReturnDataModel()
+DWORD GetState()
 {
+	DWORD ScriptContext;
 	DWORD DMPad[8];
-	DWORD GetDataModelAdr = unprotect(aslr(getdatamodel_addr));
-	DWORD GetDataModelAdr2 = unprotect(aslr(getdatamodel2_addr));
-	reinterpret_cast<def_getdatamodel>(GetDataModelAdr)(reinterpret_cast<def_getdatamodel2>(GetDataModelAdr2)(), (DWORD)DMPad);
-	return DMPad[0] + 0xC;
-}
-
-const char* GetClass(int self) // skidded
-{
-	return (const char*)(*(int(**)(void))(*(int*)self + 16))();
-}
-
-int FindFirstClass(int Instance, const char* Name)
-{
-	DWORD StartOfChildren = *(DWORD*)(Instance + 44);
-	DWORD EndOfChildren = *(DWORD*)(StartOfChildren + 4);
-	for (int i = *(int*)StartOfChildren; i != EndOfChildren; i += 8)
+	DWORD gdm_addr = unprotect(aslr(getdatamodel_addr));
+	DWORD gdm2_addr = unprotect(aslr(getdatamodel2_addr));
+	reinterpret_cast<def_getdatamodel>(gdm_addr)(reinterpret_cast<def_getdatamodel2>(gdm2_addr)(), (DWORD)DMPad);
+	DWORD startofc = *(DWORD*)(DMPad[0] + 0xC + 44);
+	DWORD endofc = *(DWORD*)(startofc + 4);
+	for (int i = *(int*)startofc; i != endofc; i += 8)
 	{
-		if (memcmp(GetClass(*(int*)i), Name, strlen(Name)) == 0)
+		if (memcmp((const char*)(*(int(**)(void))(*(int*)*(int*)i + 16))(), "ScriptContext", strlen("ScriptContext")) == 0)
 		{
-			return *(int*)i;
+			ScriptContext =  *(int*)i;
 		}
 	}
+
+	return r_newthread(RBX_LuaState(ScriptContext)); // makes a newthread so the stack is clean (thanks mcgaming)
 }
 
 DWORD* GetLevel(DWORD rL) { return reinterpret_cast<DWORD*>(*reinterpret_cast<DWORD*>(rL + Identity2) + Identity1); }
