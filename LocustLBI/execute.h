@@ -22,25 +22,25 @@ void InitLBI()
 
 void Execute(int rL, std::string c) 
 {
-	lua_State* L = lua_open();
-	luaL_openlibs(L);
+	lua_State* VM = lua_open();
+	luaL_openlibs(VM);
 
-	if (luaL_loadbuffer(L, c.c_str(), c.size(), "LBI")) {
+	if (luaL_loadbuffer(VM, c.c_str(), c.size(), "LBI")) {
 		const char* error = lua_tostring(L, -1);
 		r_getfield(rL, -10002, "warn");
 		r_pushlstring(rL, error, strlen(error));
 		r_pcall(rL, 1, 0, 0);
 	}
 	else {
-		lua_getglobal(L, "string");
-		lua_getfield(L, -1, "dump");
-		lua_remove(L, -2);
-		lua_pushvalue(L, -2);
-		lua_pcall(L, 1, 1, 0);
+		lua_getglobal(VM, "string");
+		lua_getfield(VM, -1, "dump");
+		lua_remove(VM, -2);
+		lua_pushvalue(VM, -2);
+		lua_pcall(VM, 1, 1, 0);
 
 		size_t sz;
-		const char* bcode = lua_tolstring(L, -1, &sz);
-		lua_remove(L, -1);
+		const char* bcode = lua_tolstring(VM, -1, &sz);
+		lua_remove(VM, -1);
 
 		r_getfield(rL, -10002, "_G");
 		r_getfield(rL, -1, "locustLBI");
