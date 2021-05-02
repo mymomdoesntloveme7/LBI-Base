@@ -31,8 +31,8 @@ void Main()
     std::cout << "Initializing interpreter...\n";
     InitLBI(); 
     std::cout << "Registering custom functions...\n";
-    Callcheck::Init();
-    registerfunc(rL, reinterpret_cast<int>(getgenv), "getgenv");
+    Callcheck::Init(); // Initialize callcheck bypass
+    registerfunc(rL, reinterpret_cast<int>(getgenv), "getgenv"); // register our custom functions
     registerfunc(rL, reinterpret_cast<int>(getrenv), "getrenv");
     registerfunc(rL, reinterpret_cast<int>(getsenv), "getsenv");
     registerfunc(rL, reinterpret_cast<int>(getreg), "getreg");
