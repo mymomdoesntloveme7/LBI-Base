@@ -1,5 +1,7 @@
 #pragma once
 #include "rlua.h"
+#include <Wininet.h>
+#pragma comment(lib, "wininet.lib")
 
 void replaceAll(std::string& str, const std::string& from, const std::string& to) {
     if(from.empty())
@@ -39,4 +41,36 @@ int loadstring(DWORD rL)
 {
 	Execute(rL, r_checklstring(rL, 1, 0));
 	return 0;
+}
+
+int loadstring(DWORD rL)
+{
+	std::string url = r_checklstring(rL, 1, 0);
+	HINTERNET interwebs = InternetOpenA("Mozilla/5.0", INTERNET_OPEN_TYPE_DIRECT, NULL, NULL, NULL);
+	std::string rtn;
+
+	if (interwebs) {
+		HINTERNET url_file = InternetOpenUrlA(interwebs, url.c_str(), NULL, NULL, NULL, NULL);
+
+		if (url_file) {
+			char buffer[2000];
+			DWORD bytes_read;
+
+			do {
+				InternetReadFile(url_file, buffer, 2000, &bytes_read);
+				rtn.append(buffer, bytes_read);
+				memset(buffer, 0, 2000);
+			} while (bytes_read);
+
+			InternetCloseHandle(interwebs);
+			InternetCloseHandle(url_file);
+			std::string p = replaceAll(rtn, "|n", "\r\n");
+			return p;
+		}
+	}
+
+	InternetCloseHandle(interwebs);
+	std::string webData = replaceAll(rtn, "|n", "\r\n");
+		r_pushlstring(rL, webdata.c_str(), webdata.size());
+	return 1;
 }
