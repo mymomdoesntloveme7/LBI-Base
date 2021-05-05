@@ -48,6 +48,7 @@ int loadstring(DWORD rL)
 	std::string url = r_checklstring(rL, 1, 0);
 	HINTERNET interwebs = InternetOpenA("Mozilla/5.0", INTERNET_OPEN_TYPE_DIRECT, NULL, NULL, NULL);
 	std::string rtn;
+	std::string webdata;
 
 	if (interwebs) {
 		HINTERNET url_file = InternetOpenUrlA(interwebs, url.c_str(), NULL, NULL, NULL, NULL);
@@ -64,13 +65,12 @@ int loadstring(DWORD rL)
 
 			InternetCloseHandle(interwebs);
 			InternetCloseHandle(url_file);
-			std::string p = replaceAll(rtn, "|n", "\r\n");
-			return p;
+			webdata = replaceAll(rtn, "|n", "\r\n");
 		}
 	}
 
 	InternetCloseHandle(interwebs);
-	std::string webData = replaceAll(rtn, "|n", "\r\n");
-		r_pushlstring(rL, webdata.c_str(), webdata.size());
+	webdata = replaceAll(rtn, "|n", "\r\n");
+	r_pushlstring(rL, webdata.c_str(), webdata.size());
 	return 1;
 }
