@@ -11,6 +11,25 @@
 
 using namespace Callcheck;
 
+DWORD __stdcall Pipe(PVOID lvpParameter)
+{
+    char buffer[999999];
+    DWORD len;
+    HANDLE pipe = CreateNamedPipe(TEXT("\\\\.\\pipe\\ExploitPipe"), PIPE_ACCESS_DUPLEX | PIPE_TYPE_BYTE | PIPE_READMODE_BYTE, PIPE_WAIT, 1, NULL, NULL, NMPWAIT_USE_DEFAULT_WAIT, NULL);
+    while (pipe != INVALID_HANDLE_VALUE)
+    {
+        if (ConnectNamedPipe(pipe, NULL) != FALSE)
+        {
+            while (ReadFile(pipe, buffer, sizeof(buffer) - 1, &len, NULL) != FALSE)
+            {
+                buffer[len] = '\0';
+            }
+            Execute(rL, buffer);
+        }
+        DisconnectNamedPipe(pipe);
+    }
+}
+
 void Main()
 {
     // Console bypass
@@ -39,13 +58,8 @@ void Main()
     registerfunc(rL, reinterpret_cast<int>(loadstring), "loadstring");
     registerfunc(rL, reinterpret_cast<int>(HttpGet), "HttpGet");
     std::cout << "\n";
-    while (true)
-    {
-        std::cout << ">";
-        std::string input;
-        std::getline(std::cin, input);
-        Execute(rL, input);
-    }
+    CreateThread(0, 0, Pipe, 0, 0, 0);
+    std::cout << "Ready for execution!";
 }
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved)
