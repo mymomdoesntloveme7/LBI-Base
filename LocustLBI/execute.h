@@ -20,12 +20,13 @@ void InitLBI()
 	r_spawn(rL);
 }
 
-void Execute(int rL, std::string c) 
+void Execute(int rL, std::string script) 
 {
+	replaceAll(script, "game:HttpGet", "HttpGet");
 	lua_State* VM = lua_open();
 	luaL_openlibs(VM);
 
-	if (luaL_loadbuffer(VM, c.c_str(), c.size(), "LBI")) {
+	if (luaL_loadbuffer(VM, script.c_str(), script.size(), "LBI")) {
 		const char* error = lua_tostring(L, -1);
 		r_getfield(rL, -10002, "warn");
 		r_pushlstring(rL, error, strlen(error));
