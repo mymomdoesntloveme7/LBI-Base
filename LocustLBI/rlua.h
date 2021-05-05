@@ -13,7 +13,7 @@ extern "C" {
 #include "Lua/lstate.h"
 }
 
-using namespace Addresses;
+using namespace Adresses;
 
 int aslr(int x) { return(x - 0x400000 + reinterpret_cast<int>(GetModuleHandleA(0))); }
 DWORD rL;
