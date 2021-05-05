@@ -1,25 +1,25 @@
 #pragma once
 #include "rlua.h"
 
-int getgenv(int rL) 
+int getgenv(DWORD rL) 
 {
 	r_pushvalue(rL, LUA_GLOBALSINDEX);
 	return 1;
 }
 
-int getsenv(int rL) 
+int getsenv(DWORD rL) 
 {
 	r_pushvalue(rL, LUA_ENVIRONINDEX);
 	return 1;
 }
 
-int getrenv(int rL)
+int getrenv(DWORD rL)
 {
 	r_pushvalue(rL, LUA_GLOBALSINDEX);
 	return 1;
 }
 
-int getreg(int rL) 
+int getreg(DWORD rL) 
 {
 	r_pushvalue(rL, LUA_REGISTRYINDEX);
 	return 1;
