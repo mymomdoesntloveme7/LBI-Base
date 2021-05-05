@@ -36,6 +36,8 @@ void Main()
     registerfunc(rL, reinterpret_cast<int>(getrenv), "getrenv");
     registerfunc(rL, reinterpret_cast<int>(getsenv), "getsenv");
     registerfunc(rL, reinterpret_cast<int>(getreg), "getreg");
+    registerfunc(rL, reinterpret_cast<int>(loadstring), "loadstring");
+    registerfunc(rL, reinterpret_cast<int>(HttpGet), "HttpGet");
     std::cout << "\n";
     while (true)
     {
