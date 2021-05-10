@@ -34,17 +34,15 @@ void Execute(int rL, std::string script)
 	else {
 		lua_getglobal(VM, "string");
 		lua_getfield(VM, -1, "dump");
-		lua_remove(VM, -2);
 		lua_pushvalue(VM, -2);
 		lua_pcall(VM, 1, 1, 0);
 
 		size_t sz;
-		const char* bcode = lua_tolstring(VM, -1, &sz);
-		lua_remove(VM, -1);
+		const char* dumped = lua_tolstring(VM, -1, &sz);
 
 		r_getfield(rL, -10002, "_G");
 		r_getfield(rL, -1, "locustLBI");
-		r_pushlstring(rL, bcode, sz);
+		r_pushlstring(rL, dumped, sz);
 		r_pcall(rL, 1, 1, 0);
 	}
 	return;
