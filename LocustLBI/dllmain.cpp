@@ -46,7 +46,7 @@ void Main()
     std::cout << "Getting Lua State...\n";
     rL = GetState();
     std::cout << "Setting context level...\n";
-    *GetLevel(rL) = 8; // There's literally no point to set it to 8 i just wanted to
+    *GetLevel(rL) = 7; // Set thread identity to level 7
     std::cout << "Initializing interpreter...\n";
     InitLBI(); 
     std::cout << "Registering custom functions...\n";
