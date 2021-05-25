@@ -1,7 +1,7 @@
 // Auto Lua Type: https://github.com/Mellonyt/Roblox-Lua-Type-Scanner 
-// Scanning Time: 1.000000 Secs 
-// Dumping Date: Tue May  4 15:06:30 2021
-// For version-a28f2f02fcb14a89 
+// Scanning Time: 2.000000 Secs 
+// Dumping Date: Mon May 17 17:36:35 2021
+// For version-389b7d6e3bdb46f8 
 // Dumped With Mellonyt aka Mellon Addy Dumper My Discord: mellonyt#1234 
 #include <Windows.h> 
 #include<cstdint> 
@@ -17,7 +17,7 @@ namespace Adresses {
 * Usage (Not 100% Accurate):
 
 using r_addinfo_typedef = int(__cdecl*)(int a1);
-r_addinfo_typedef r_addinfo = (r_addinfo_typedef)(x(0x015458B0));
+r_addinfo_typedef r_addinfo = (r_addinfo_typedef)(x(0x015804A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -27,7 +27,7 @@ r_addinfo_typedef r_addinfo = (r_addinfo_typedef)(x(Adresses::addinfo_addr));
 
 
 */
-static constexpr std::uintptr_t addinfo_addr = 0x015458B0;
+static constexpr std::uintptr_t addinfo_addr = 0x015804A0;
 #define addinfo_CCV __cdecl
 
 /* 
@@ -41,7 +41,7 @@ static constexpr std::uintptr_t addinfo_addr = 0x015458B0;
 * Usage (Not 100% Accurate):
 
 using r_adjuststack_typedef = int(__cdecl*)(int a1);
-r_adjuststack_typedef r_adjuststack = (r_adjuststack_typedef)(x(0x01539510));
+r_adjuststack_typedef r_adjuststack = (r_adjuststack_typedef)(x(0x015746A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -51,7 +51,7 @@ r_adjuststack_typedef r_adjuststack = (r_adjuststack_typedef)(x(Adresses::adjust
 
 
 */
-static constexpr std::uintptr_t adjuststack_addr = 0x01539510;
+static constexpr std::uintptr_t adjuststack_addr = 0x015746A0;
 #define adjuststack_CCV __cdecl
 
 /* 
@@ -65,7 +65,7 @@ static constexpr std::uintptr_t adjuststack_addr = 0x01539510;
 * Usage (Not 100% Accurate):
 
 using r_arith_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_arith_typedef r_arith = (r_arith_typedef)(x(0x01554080));
+r_arith_typedef r_arith = (r_arith_typedef)(x(0x0158E910));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -75,7 +75,7 @@ r_arith_typedef r_arith = (r_arith_typedef)(x(Adresses::arith_addr));
 
 
 */
-static constexpr std::uintptr_t arith_addr = 0x01554080;
+static constexpr std::uintptr_t arith_addr = 0x0158E910;
 #define arith_CCV __cdecl
 
 /* 
@@ -89,7 +89,7 @@ static constexpr std::uintptr_t arith_addr = 0x01554080;
 * Usage (Not 100% Accurate):
 
 using r_appendarray_typedef = int(__thiscall*)(int a1, int a2);
-r_appendarray_typedef r_appendarray = (r_appendarray_typedef)(x(0x005D2B20));
+r_appendarray_typedef r_appendarray = (r_appendarray_typedef)(x(0x005BFAF0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -99,7 +99,7 @@ r_appendarray_typedef r_appendarray = (r_appendarray_typedef)(x(Adresses::append
 
 
 */
-static constexpr std::uintptr_t appendarray_addr = 0x005D2B20;
+static constexpr std::uintptr_t appendarray_addr = 0x005BFAF0;
 #define appendarray_CCV __thiscall
 
 /* 
@@ -113,7 +113,7 @@ static constexpr std::uintptr_t appendarray_addr = 0x005D2B20;
 * Usage (Not 100% Accurate):
 
 using r_aux_upvalue_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_aux_upvalue_typedef r_aux_upvalue = (r_aux_upvalue_typedef)(x(0x01536B60));
+r_aux_upvalue_typedef r_aux_upvalue = (r_aux_upvalue_typedef)(x(0x01571EF0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -123,7 +123,7 @@ r_aux_upvalue_typedef r_aux_upvalue = (r_aux_upvalue_typedef)(x(Adresses::aux_up
 
 
 */
-static constexpr std::uintptr_t aux_upvalue_addr = 0x01536B60;
+static constexpr std::uintptr_t aux_upvalue_addr = 0x01571EF0;
 #define aux_upvalue_CCV __cdecl
 
 /* 
@@ -137,7 +137,7 @@ static constexpr std::uintptr_t aux_upvalue_addr = 0x01536B60;
 * Usage (Not 100% Accurate):
 
 using r_auxgetinfo_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4, int a5);
-r_auxgetinfo_typedef r_auxgetinfo = (r_auxgetinfo_typedef)(x(0x01545920));
+r_auxgetinfo_typedef r_auxgetinfo = (r_auxgetinfo_typedef)(x(0x01580510));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -147,7 +147,7 @@ r_auxgetinfo_typedef r_auxgetinfo = (r_auxgetinfo_typedef)(x(Adresses::auxgetinf
 
 
 */
-static constexpr std::uintptr_t auxgetinfo_addr = 0x01545920;
+static constexpr std::uintptr_t auxgetinfo_addr = 0x01580510;
 #define auxgetinfo_CCV __cdecl
 
 /* 
@@ -161,7 +161,7 @@ static constexpr std::uintptr_t auxgetinfo_addr = 0x01545920;
 * Usage (Not 100% Accurate):
 
 using r_auxresume_typedef = int(__thiscall*)(std::uintptr_t a1, int a2, int a3);
-r_auxresume_typedef r_auxresume = (r_auxresume_typedef)(x(0x015472E0));
+r_auxresume_typedef r_auxresume = (r_auxresume_typedef)(x(0x01581E60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -171,7 +171,7 @@ r_auxresume_typedef r_auxresume = (r_auxresume_typedef)(x(Adresses::auxresume_ad
 
 
 */
-static constexpr std::uintptr_t auxresume_addr = 0x015472E0;
+static constexpr std::uintptr_t auxresume_addr = 0x01581E60;
 #define auxresume_CCV __thiscall
 
 /* 
@@ -185,7 +185,7 @@ static constexpr std::uintptr_t auxresume_addr = 0x015472E0;
 * Usage (Not 100% Accurate):
 
 using r_call_bintm_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_call_bintm_typedef r_call_bintm = (r_call_bintm_typedef)(x(0x015535E0));
+r_call_bintm_typedef r_call_bintm = (r_call_bintm_typedef)(x(0x0158DE50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -195,7 +195,7 @@ r_call_bintm_typedef r_call_bintm = (r_call_bintm_typedef)(x(Adresses::call_bint
 
 
 */
-static constexpr std::uintptr_t call_bintm_addr = 0x015535E0;
+static constexpr std::uintptr_t call_bintm_addr = 0x0158DE50;
 #define call_bintm_CCV __cdecl
 
 /* 
@@ -209,7 +209,7 @@ static constexpr std::uintptr_t call_bintm_addr = 0x015535E0;
 * Usage (Not 100% Accurate):
 
 using r_call_ordertm_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_call_ordertm_typedef r_call_ordertm = (r_call_ordertm_typedef)(x(0x01553690));
+r_call_ordertm_typedef r_call_ordertm = (r_call_ordertm_typedef)(x(0x0158DF00));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -219,7 +219,7 @@ r_call_ordertm_typedef r_call_ordertm = (r_call_ordertm_typedef)(x(Adresses::cal
 
 
 */
-static constexpr std::uintptr_t call_ordertm_addr = 0x01553690;
+static constexpr std::uintptr_t call_ordertm_addr = 0x0158DF00;
 #define call_ordertm_CCV __cdecl
 
 /* 
@@ -233,7 +233,7 @@ static constexpr std::uintptr_t call_ordertm_addr = 0x01553690;
 * Usage (Not 100% Accurate):
 
 using r_calltmres_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4, int a5);
-r_calltmres_typedef r_calltmres = (r_calltmres_typedef)(x(0x01553490));
+r_calltmres_typedef r_calltmres = (r_calltmres_typedef)(x(0x0158DD00));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -243,7 +243,7 @@ r_calltmres_typedef r_calltmres = (r_calltmres_typedef)(x(Adresses::calltmres_ad
 
 
 */
-static constexpr std::uintptr_t calltmres_addr = 0x01553490;
+static constexpr std::uintptr_t calltmres_addr = 0x0158DD00;
 #define calltmres_CCV __cdecl
 
 /* 
@@ -257,7 +257,7 @@ static constexpr std::uintptr_t calltmres_addr = 0x01553490;
 * Usage (Not 100% Accurate):
 
 using r_close_state_typedef = int(__cdecl*)(int a1);
-r_close_state_typedef r_close_state = (r_close_state_typedef)(x(0x015451E0));
+r_close_state_typedef r_close_state = (r_close_state_typedef)(x(0x0157FE00));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -267,7 +267,7 @@ r_close_state_typedef r_close_state = (r_close_state_typedef)(x(Adresses::close_
 
 
 */
-static constexpr std::uintptr_t close_state_addr = 0x015451E0;
+static constexpr std::uintptr_t close_state_addr = 0x0157FE00;
 #define close_state_CCV __cdecl
 
 /* 
@@ -281,7 +281,7 @@ static constexpr std::uintptr_t close_state_addr = 0x015451E0;
 * Usage (Not 100% Accurate):
 
 using r_currentline_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_currentline_typedef r_currentline = (r_currentline_typedef)(x(0x01545AC0));
+r_currentline_typedef r_currentline = (r_currentline_typedef)(x(0x015806B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -291,7 +291,7 @@ r_currentline_typedef r_currentline = (r_currentline_typedef)(x(Adresses::curren
 
 
 */
-static constexpr std::uintptr_t currentline_addr = 0x01545AC0;
+static constexpr std::uintptr_t currentline_addr = 0x015806B0;
 #define currentline_CCV __cdecl
 
 /* 
@@ -305,7 +305,7 @@ static constexpr std::uintptr_t currentline_addr = 0x01545AC0;
 * Usage (Not 100% Accurate):
 
 using r_err_geterrorstring_typedef = int(__cdecl*)(int a1);
-r_err_geterrorstring_typedef r_err_geterrorstring = (r_err_geterrorstring_typedef)(x(0x0095EB50));
+r_err_geterrorstring_typedef r_err_geterrorstring = (r_err_geterrorstring_typedef)(x(0x00936CE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -315,7 +315,7 @@ r_err_geterrorstring_typedef r_err_geterrorstring = (r_err_geterrorstring_typede
 
 
 */
-static constexpr std::uintptr_t err_geterrorstring_addr = 0x0095EB50;
+static constexpr std::uintptr_t err_geterrorstring_addr = 0x00936CE0;
 #define err_geterrorstring_CCV __cdecl
 
 /* 
@@ -329,7 +329,7 @@ static constexpr std::uintptr_t err_geterrorstring_addr = 0x0095EB50;
 * Usage (Not 100% Accurate):
 
 using r_f_call_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_f_call_typedef r_f_call = (r_f_call_typedef)unprotect(x(0x01536BF0));
+r_f_call_typedef r_f_call = (r_f_call_typedef)unprotect(x(0x01571F80));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -339,7 +339,7 @@ r_f_call_typedef r_f_call = (r_f_call_typedef)unprotect(x(Adresses::f_call_addr)
 
 
 */
-static constexpr std::uintptr_t f_call_addr = 0x01536BF0;
+static constexpr std::uintptr_t f_call_addr = 0x01571F80;
 #define f_call_CCV __cdecl
 
 /* 
@@ -353,7 +353,7 @@ static constexpr std::uintptr_t f_call_addr = 0x01536BF0;
 * Usage (Not 100% Accurate):
 
 using r_f_luaopen_typedef = int(__cdecl*)(int a1);
-r_f_luaopen_typedef r_f_luaopen = (r_f_luaopen_typedef)(x(0x01545290));
+r_f_luaopen_typedef r_f_luaopen = (r_f_luaopen_typedef)(x(0x0157FEB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -363,7 +363,7 @@ r_f_luaopen_typedef r_f_luaopen = (r_f_luaopen_typedef)(x(Adresses::f_luaopen_ad
 
 
 */
-static constexpr std::uintptr_t f_luaopen_addr = 0x01545290;
+static constexpr std::uintptr_t f_luaopen_addr = 0x0157FEB0;
 #define f_luaopen_CCV __cdecl
 
 /* 
@@ -376,8 +376,8 @@ static constexpr std::uintptr_t f_luaopen_addr = 0x01545290;
 * findfirstchild_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_findfirstchild_typedef = int(__thiscall*)(int a1, int a2);
-r_findfirstchild_typedef r_findfirstchild = (r_findfirstchild_typedef)(x(0x00684780));
+using r_findfirstchild_typedef = int(__stdcall*)(int a1, int a2);
+r_findfirstchild_typedef r_findfirstchild = (r_findfirstchild_typedef)(x(0x0064A510));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -387,8 +387,8 @@ r_findfirstchild_typedef r_findfirstchild = (r_findfirstchild_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t findfirstchild_addr = 0x00684780;
-#define findfirstchild_CCV __thiscall
+static constexpr std::uintptr_t findfirstchild_addr = 0x0064A510;
+#define findfirstchild_CCV __stdcall
 
 /* 
 
@@ -401,7 +401,7 @@ static constexpr std::uintptr_t findfirstchild_addr = 0x00684780;
 * Usage (Not 100% Accurate):
 
 using r_findfirstchildofclass_typedef = int(__stdcall*)(int a1, int a2);
-r_findfirstchildofclass_typedef r_findfirstchildofclass = (r_findfirstchildofclass_typedef)(x(0x00684950));
+r_findfirstchildofclass_typedef r_findfirstchildofclass = (r_findfirstchildofclass_typedef)(x(0x0064A810));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -411,7 +411,7 @@ r_findfirstchildofclass_typedef r_findfirstchildofclass = (r_findfirstchildofcla
 
 
 */
-static constexpr std::uintptr_t findfirstchildofclass_addr = 0x00684950;
+static constexpr std::uintptr_t findfirstchildofclass_addr = 0x0064A810;
 #define findfirstchildofclass_CCV __stdcall
 
 /* 
@@ -425,7 +425,7 @@ static constexpr std::uintptr_t findfirstchildofclass_addr = 0x00684950;
 * Usage (Not 100% Accurate):
 
 using r_findlocal_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_findlocal_typedef r_findlocal = (r_findlocal_typedef)(x(0x01551830));
+r_findlocal_typedef r_findlocal = (r_findlocal_typedef)(x(0x0158C140));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -435,7 +435,7 @@ r_findlocal_typedef r_findlocal = (r_findlocal_typedef)(x(Adresses::findlocal_ad
 
 
 */
-static constexpr std::uintptr_t findlocal_addr = 0x01551830;
+static constexpr std::uintptr_t findlocal_addr = 0x0158C140;
 #define findlocal_CCV __cdecl
 
 /* 
@@ -449,7 +449,7 @@ static constexpr std::uintptr_t findlocal_addr = 0x01551830;
 * Usage (Not 100% Accurate):
 
 using r_fireclickdetector_typedef = int(__thiscall*)(std::uintptr_t a1, float a2, int a3);
-r_fireclickdetector_typedef r_fireclickdetector = (r_fireclickdetector_typedef)(x(0x00C6E450));
+r_fireclickdetector_typedef r_fireclickdetector = (r_fireclickdetector_typedef)(x(0x00C66B10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -459,7 +459,7 @@ r_fireclickdetector_typedef r_fireclickdetector = (r_fireclickdetector_typedef)(
 
 
 */
-static constexpr std::uintptr_t fireclickdetector_addr = 0x00C6E450;
+static constexpr std::uintptr_t fireclickdetector_addr = 0x00C66B10;
 #define fireclickdetector_CCV __thiscall
 
 /* 
@@ -473,7 +473,7 @@ static constexpr std::uintptr_t fireclickdetector_addr = 0x00C6E450;
 * Usage (Not 100% Accurate):
 
 using r_fireproximityprompt_typedef = int(__cdecl*)();
-r_fireproximityprompt_typedef r_fireproximityprompt = (r_fireproximityprompt_typedef)(x(0x00CBB9C0));
+r_fireproximityprompt_typedef r_fireproximityprompt = (r_fireproximityprompt_typedef)(x(0x00CB4C20));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -483,7 +483,7 @@ r_fireproximityprompt_typedef r_fireproximityprompt = (r_fireproximityprompt_typ
 
 
 */
-static constexpr std::uintptr_t fireproximityprompt_addr = 0x00CBB9C0;
+static constexpr std::uintptr_t fireproximityprompt_addr = 0x00CB4C20;
 #define fireproximityprompt_CCV __cdecl
 
 /* 
@@ -497,7 +497,7 @@ static constexpr std::uintptr_t fireproximityprompt_addr = 0x00CBB9C0;
 * Usage (Not 100% Accurate):
 
 using r_flog_getvalue_typedef = int(__cdecl*)(int a1, int a2, const char* a3);
-r_flog_getvalue_typedef r_flog_getvalue = (r_flog_getvalue_typedef)(x(0x0178B1D0));
+r_flog_getvalue_typedef r_flog_getvalue = (r_flog_getvalue_typedef)(x(0x017C9640));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -507,7 +507,7 @@ r_flog_getvalue_typedef r_flog_getvalue = (r_flog_getvalue_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t flog_getvalue_addr = 0x0178B1D0;
+static constexpr std::uintptr_t flog_getvalue_addr = 0x017C9640;
 #define flog_getvalue_CCV __cdecl
 
 /* 
@@ -521,7 +521,7 @@ static constexpr std::uintptr_t flog_getvalue_addr = 0x0178B1D0;
 * Usage (Not 100% Accurate):
 
 using r_flog_setvalue_typedef = int(__stdcall*)(int a1, int a2, int a3, const char* a4);
-r_flog_setvalue_typedef r_flog_setvalue = (r_flog_setvalue_typedef)(x(0x0178CE20));
+r_flog_setvalue_typedef r_flog_setvalue = (r_flog_setvalue_typedef)(x(0x017CB280));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -531,7 +531,7 @@ r_flog_setvalue_typedef r_flog_setvalue = (r_flog_setvalue_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t flog_setvalue_addr = 0x0178CE20;
+static constexpr std::uintptr_t flog_setvalue_addr = 0x017CB280;
 #define flog_setvalue_CCV __stdcall
 
 /* 
@@ -545,7 +545,7 @@ static constexpr std::uintptr_t flog_setvalue_addr = 0x0178CE20;
 * Usage (Not 100% Accurate):
 
 using r_getdatamodel_typedef = int(__thiscall*)(int a1, int a2);
-r_getdatamodel_typedef r_getdatamodel = (r_getdatamodel_typedef)(x(0x00FE9610));
+r_getdatamodel_typedef r_getdatamodel = (r_getdatamodel_typedef)(x(0x00FE5A60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -555,7 +555,7 @@ r_getdatamodel_typedef r_getdatamodel = (r_getdatamodel_typedef)(x(Adresses::get
 
 
 */
-static constexpr std::uintptr_t getdatamodel_addr = 0x00FE9610;
+static constexpr std::uintptr_t getdatamodel_addr = 0x00FE5A60;
 #define getdatamodel_CCV __thiscall
 
 /* 
@@ -569,7 +569,7 @@ static constexpr std::uintptr_t getdatamodel_addr = 0x00FE9610;
 * Usage (Not 100% Accurate):
 
 using r_getdatamodel2_typedef = int(__cdecl*)();
-r_getdatamodel2_typedef r_getdatamodel2 = (r_getdatamodel2_typedef)(x(0x00FE94C0));
+r_getdatamodel2_typedef r_getdatamodel2 = (r_getdatamodel2_typedef)(x(0x00FE5910));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -579,7 +579,7 @@ r_getdatamodel2_typedef r_getdatamodel2 = (r_getdatamodel2_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t getdatamodel2_addr = 0x00FE94C0;
+static constexpr std::uintptr_t getdatamodel2_addr = 0x00FE5910;
 #define getdatamodel2_CCV __cdecl
 
 /* 
@@ -593,7 +593,7 @@ static constexpr std::uintptr_t getdatamodel2_addr = 0x00FE94C0;
 * Usage (Not 100% Accurate):
 
 using r_getfunc_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_getfunc_typedef r_getfunc = (r_getfunc_typedef)(x(0x01546A30));
+r_getfunc_typedef r_getfunc = (r_getfunc_typedef)(x(0x01581600));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -603,7 +603,7 @@ r_getfunc_typedef r_getfunc = (r_getfunc_typedef)(x(Adresses::getfunc_addr));
 
 
 */
-static constexpr std::uintptr_t getfunc_addr = 0x01546A30;
+static constexpr std::uintptr_t getfunc_addr = 0x01581600;
 #define getfunc_CCV __cdecl
 
 /* 
@@ -617,7 +617,7 @@ static constexpr std::uintptr_t getfunc_addr = 0x01546A30;
 * Usage (Not 100% Accurate):
 
 using r_getjobsbyname_typedef = int(__cdecl*)(int a1, int a2);
-r_getjobsbyname_typedef r_getjobsbyname = (r_getjobsbyname_typedef)(x(0x01080180));
+r_getjobsbyname_typedef r_getjobsbyname = (r_getjobsbyname_typedef)(x(0x0108C9F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -627,7 +627,7 @@ r_getjobsbyname_typedef r_getjobsbyname = (r_getjobsbyname_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t getjobsbyname_addr = 0x01080180;
+static constexpr std::uintptr_t getjobsbyname_addr = 0x0108C9F0;
 #define getjobsbyname_CCV __cdecl
 
 /* 
@@ -641,7 +641,7 @@ static constexpr std::uintptr_t getjobsbyname_addr = 0x01080180;
 * Usage (Not 100% Accurate):
 
 using r_getnamecallmethod_typedef = int(__cdecl*)(int a1);
-r_getnamecallmethod_typedef r_getnamecallmethod = (r_getnamecallmethod_typedef)(x(0x01539580));
+r_getnamecallmethod_typedef r_getnamecallmethod = (r_getnamecallmethod_typedef)(x(0x01574710));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -651,7 +651,7 @@ r_getnamecallmethod_typedef r_getnamecallmethod = (r_getnamecallmethod_typedef)(
 
 
 */
-static constexpr std::uintptr_t getnamecallmethod_addr = 0x01539580;
+static constexpr std::uintptr_t getnamecallmethod_addr = 0x01574710;
 #define getnamecallmethod_CCV __cdecl
 
 /* 
@@ -665,7 +665,7 @@ static constexpr std::uintptr_t getnamecallmethod_addr = 0x01539580;
 * Usage (Not 100% Accurate):
 
 using r_grabscriptcontext_typedef = int(__thiscall*)(int a1, const char* a2, int a3);
-r_grabscriptcontext_typedef r_grabscriptcontext = (r_grabscriptcontext_typedef)(x(0x005EDBC0));
+r_grabscriptcontext_typedef r_grabscriptcontext = (r_grabscriptcontext_typedef)(x(0x005DA940));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -675,7 +675,7 @@ r_grabscriptcontext_typedef r_grabscriptcontext = (r_grabscriptcontext_typedef)(
 
 
 */
-static constexpr std::uintptr_t grabscriptcontext_addr = 0x005EDBC0;
+static constexpr std::uintptr_t grabscriptcontext_addr = 0x005DA940;
 #define grabscriptcontext_CCV __thiscall
 
 /* 
@@ -689,7 +689,7 @@ static constexpr std::uintptr_t grabscriptcontext_addr = 0x005EDBC0;
 * Usage (Not 100% Accurate):
 
 using r_grabglobalstateindex_typedef = int(__thiscall*)(int a1, int a2);
-r_grabglobalstateindex_typedef r_grabglobalstateindex = (r_grabglobalstateindex_typedef)(x(0x007AB270));
+r_grabglobalstateindex_typedef r_grabglobalstateindex = (r_grabglobalstateindex_typedef)(x(0x007980A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -699,7 +699,7 @@ r_grabglobalstateindex_typedef r_grabglobalstateindex = (r_grabglobalstateindex_
 
 
 */
-static constexpr std::uintptr_t grabglobalstateindex_addr = 0x007AB270;
+static constexpr std::uintptr_t grabglobalstateindex_addr = 0x007980A0;
 #define grabglobalstateindex_CCV __thiscall
 
 /* 
@@ -713,7 +713,7 @@ static constexpr std::uintptr_t grabglobalstateindex_addr = 0x007AB270;
 * Usage (Not 100% Accurate):
 
 using r_growci_typedef = int(__cdecl*)(int a1);
-r_growci_typedef r_growci = (r_growci_typedef)(x(0x0153A840));
+r_growci_typedef r_growci = (r_growci_typedef)(x(0x01575800));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -723,7 +723,7 @@ r_growci_typedef r_growci = (r_growci_typedef)(x(Adresses::growci_addr));
 
 
 */
-static constexpr std::uintptr_t growci_addr = 0x0153A840;
+static constexpr std::uintptr_t growci_addr = 0x01575800;
 #define growci_CCV __cdecl
 
 /* 
@@ -737,7 +737,7 @@ static constexpr std::uintptr_t growci_addr = 0x0153A840;
 * Usage (Not 100% Accurate):
 
 using r_hashnum_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_hashnum_typedef r_hashnum = (r_hashnum_typedef)(x(0x01552000));
+r_hashnum_typedef r_hashnum = (r_hashnum_typedef)(x(0x0158C8C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -747,7 +747,7 @@ r_hashnum_typedef r_hashnum = (r_hashnum_typedef)(x(Adresses::hashnum_addr));
 
 
 */
-static constexpr std::uintptr_t hashnum_addr = 0x01552000;
+static constexpr std::uintptr_t hashnum_addr = 0x0158C8C0;
 #define hashnum_CCV __cdecl
 
 /* 
@@ -760,8 +760,8 @@ static constexpr std::uintptr_t hashnum_addr = 0x01552000;
 * index2adr_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_index2adr_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_index2adr_typedef r_index2adr = (r_index2adr_typedef)(x(0x01536C40));
+using r_index2adr_typedef = int(__stdcall*)(std::uintptr_t a1, int a2);
+r_index2adr_typedef r_index2adr = (r_index2adr_typedef)(x(0x01571FD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -771,8 +771,8 @@ r_index2adr_typedef r_index2adr = (r_index2adr_typedef)(x(Adresses::index2adr_ad
 
 
 */
-static constexpr std::uintptr_t index2adr_addr = 0x01536C40;
-#define index2adr_CCV __cdecl
+static constexpr std::uintptr_t index2adr_addr = 0x01571FD0;
+#define index2adr_CCV __stdcall
 
 /* 
 
@@ -785,7 +785,7 @@ static constexpr std::uintptr_t index2adr_addr = 0x01536C40;
 * Usage (Not 100% Accurate):
 
 using r_report_touch_info_typedef = int(__stdcall*)(int a1, int a2, int a3);
-r_report_touch_info_typedef r_report_touch_info = (r_report_touch_info_typedef)(x(0x0093A900));
+r_report_touch_info_typedef r_report_touch_info = (r_report_touch_info_typedef)(x(0x00927560));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -795,7 +795,7 @@ r_report_touch_info_typedef r_report_touch_info = (r_report_touch_info_typedef)(
 
 
 */
-static constexpr std::uintptr_t report_touch_info_addr = 0x0093A900;
+static constexpr std::uintptr_t report_touch_info_addr = 0x00927560;
 #define report_touch_info_CCV __stdcall
 
 /* 
@@ -809,7 +809,7 @@ static constexpr std::uintptr_t report_touch_info_addr = 0x0093A900;
 * Usage (Not 100% Accurate):
 
 using r_propagateall_typedef = int(__cdecl*)(int a1);
-r_propagateall_typedef r_propagateall = (r_propagateall_typedef)(x(0x015508E0));
+r_propagateall_typedef r_propagateall = (r_propagateall_typedef)(x(0x0158B1F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -819,7 +819,7 @@ r_propagateall_typedef r_propagateall = (r_propagateall_typedef)(x(Adresses::pro
 
 
 */
-static constexpr std::uintptr_t propagateall_addr = 0x015508E0;
+static constexpr std::uintptr_t propagateall_addr = 0x0158B1F0;
 #define propagateall_CCV __cdecl
 
 /* 
@@ -833,7 +833,7 @@ static constexpr std::uintptr_t propagateall_addr = 0x015508E0;
 * Usage (Not 100% Accurate):
 
 using r_propagatemark_typedef = int(__cdecl*)(int a1);
-r_propagatemark_typedef r_propagatemark = (r_propagatemark_typedef)(x(0x01550A30));
+r_propagatemark_typedef r_propagatemark = (r_propagatemark_typedef)(x(0x0158B340));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -843,7 +843,7 @@ r_propagatemark_typedef r_propagatemark = (r_propagatemark_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t propagatemark_addr = 0x01550A30;
+static constexpr std::uintptr_t propagatemark_addr = 0x0158B340;
 #define propagatemark_CCV __cdecl
 
 /* 
@@ -857,7 +857,7 @@ static constexpr std::uintptr_t propagatemark_addr = 0x01550A30;
 * Usage (Not 100% Accurate):
 
 using r_sweeplist_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_sweeplist_typedef r_sweeplist = (r_sweeplist_typedef)(x(0x01550FE0));
+r_sweeplist_typedef r_sweeplist = (r_sweeplist_typedef)(x(0x0158B8F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -867,7 +867,7 @@ r_sweeplist_typedef r_sweeplist = (r_sweeplist_typedef)(x(Adresses::sweeplist_ad
 
 
 */
-static constexpr std::uintptr_t sweeplist_addr = 0x01550FE0;
+static constexpr std::uintptr_t sweeplist_addr = 0x0158B8F0;
 #define sweeplist_CCV __cdecl
 
 /* 
@@ -881,7 +881,7 @@ static constexpr std::uintptr_t sweeplist_addr = 0x01550FE0;
 * Usage (Not 100% Accurate):
 
 using r_luaopen_base_typedef = int(__cdecl*)(int a1);
-r_luaopen_base_typedef r_luaopen_base = (r_luaopen_base_typedef)(x(0x01546E60));
+r_luaopen_base_typedef r_luaopen_base = (r_luaopen_base_typedef)(x(0x01581A30));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -891,7 +891,7 @@ r_luaopen_base_typedef r_luaopen_base = (r_luaopen_base_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luaopen_base_addr = 0x01546E60;
+static constexpr std::uintptr_t luaopen_base_addr = 0x01581A30;
 #define luaopen_base_CCV __cdecl
 
 /* 
@@ -905,7 +905,7 @@ static constexpr std::uintptr_t luaopen_base_addr = 0x01546E60;
 * Usage (Not 100% Accurate):
 
 using r_luaopen_table_typedef = int(__cdecl*)(int a1);
-r_luaopen_table_typedef r_luaopen_table = (r_luaopen_table_typedef)(x(0x015475C0));
+r_luaopen_table_typedef r_luaopen_table = (r_luaopen_table_typedef)(x(0x01582150));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -915,7 +915,7 @@ r_luaopen_table_typedef r_luaopen_table = (r_luaopen_table_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luaopen_table_addr = 0x015475C0;
+static constexpr std::uintptr_t luaopen_table_addr = 0x01582150;
 #define luaopen_table_CCV __cdecl
 
 /* 
@@ -929,7 +929,7 @@ static constexpr std::uintptr_t luaopen_table_addr = 0x015475C0;
 * Usage (Not 100% Accurate):
 
 using r_luaopen_bit32_typedef = int(__cdecl*)(int a1);
-r_luaopen_bit32_typedef r_luaopen_bit32 = (r_luaopen_bit32_typedef)(x(0x0154D740));
+r_luaopen_bit32_typedef r_luaopen_bit32 = (r_luaopen_bit32_typedef)(x(0x01588250));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -939,7 +939,7 @@ r_luaopen_bit32_typedef r_luaopen_bit32 = (r_luaopen_bit32_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luaopen_bit32_addr = 0x0154D740;
+static constexpr std::uintptr_t luaopen_bit32_addr = 0x01588250;
 #define luaopen_bit32_CCV __cdecl
 
 /* 
@@ -953,7 +953,7 @@ static constexpr std::uintptr_t luaopen_bit32_addr = 0x0154D740;
 * Usage (Not 100% Accurate):
 
 using r_lua_call_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_call_typedef r_lua_call = (r_lua_call_typedef)unprotect(x(0x01536D60));
+r_lua_call_typedef r_lua_call = (r_lua_call_typedef)unprotect(x(0x01572100));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -963,7 +963,7 @@ r_lua_call_typedef r_lua_call = (r_lua_call_typedef)unprotect(x(Adresses::lua_ca
 
 
 */
-static constexpr std::uintptr_t lua_call_addr = 0x01536D60;
+static constexpr std::uintptr_t lua_call_addr = 0x01572100;
 #define lua_call_CCV __cdecl
 
 /* 
@@ -977,7 +977,7 @@ static constexpr std::uintptr_t lua_call_addr = 0x01536D60;
 * Usage (Not 100% Accurate):
 
 using r_lua_checkstack_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_checkstack_typedef r_lua_checkstack = (r_lua_checkstack_typedef)unprotect(x(0x01538150));
+r_lua_checkstack_typedef r_lua_checkstack = (r_lua_checkstack_typedef)unprotect(x(0x015733A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -987,7 +987,7 @@ r_lua_checkstack_typedef r_lua_checkstack = (r_lua_checkstack_typedef)unprotect(
 
 
 */
-static constexpr std::uintptr_t lua_checkstack_addr = 0x01538150;
+static constexpr std::uintptr_t lua_checkstack_addr = 0x015733A0;
 #define lua_checkstack_CCV __cdecl
 
 /* 
@@ -1001,7 +1001,7 @@ static constexpr std::uintptr_t lua_checkstack_addr = 0x01538150;
 * Usage (Not 100% Accurate):
 
 using r_lua_close_typedef = int(__cdecl*)(int a1);
-r_lua_close_typedef r_lua_close = (r_lua_close_typedef)(x(0x01545430));
+r_lua_close_typedef r_lua_close = (r_lua_close_typedef)(x(0x01580040));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1011,7 +1011,7 @@ r_lua_close_typedef r_lua_close = (r_lua_close_typedef)(x(Adresses::lua_close_ad
 
 
 */
-static constexpr std::uintptr_t lua_close_addr = 0x01545430;
+static constexpr std::uintptr_t lua_close_addr = 0x01580040;
 #define lua_close_CCV __cdecl
 
 /* 
@@ -1025,7 +1025,7 @@ static constexpr std::uintptr_t lua_close_addr = 0x01545430;
 * Usage (Not 100% Accurate):
 
 using r_lua_concat_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_concat_typedef r_lua_concat = (r_lua_concat_typedef)unprotect(x(0x01536E70));
+r_lua_concat_typedef r_lua_concat = (r_lua_concat_typedef)unprotect(x(0x01572210));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1035,7 +1035,7 @@ r_lua_concat_typedef r_lua_concat = (r_lua_concat_typedef)unprotect(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_concat_addr = 0x01536E70;
+static constexpr std::uintptr_t lua_concat_addr = 0x01572210;
 #define lua_concat_CCV __cdecl
 
 /* 
@@ -1049,7 +1049,7 @@ static constexpr std::uintptr_t lua_concat_addr = 0x01536E70;
 * Usage (Not 100% Accurate):
 
 using r_lua_createtable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_createtable_typedef r_lua_createtable = (r_lua_createtable_typedef)unprotect(x(0x01536F20));
+r_lua_createtable_typedef r_lua_createtable = (r_lua_createtable_typedef)unprotect(x(0x015722C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1059,7 +1059,7 @@ r_lua_createtable_typedef r_lua_createtable = (r_lua_createtable_typedef)unprote
 
 
 */
-static constexpr std::uintptr_t lua_createtable_addr = 0x01536F20;
+static constexpr std::uintptr_t lua_createtable_addr = 0x015722C0;
 #define lua_createtable_CCV __cdecl
 
 /* 
@@ -1073,7 +1073,7 @@ static constexpr std::uintptr_t lua_createtable_addr = 0x01536F20;
 * Usage (Not 100% Accurate):
 
 using r_lua_error_typedef = int(__thiscall*)(int a1);
-r_lua_error_typedef r_lua_error = (r_lua_error_typedef)(x(0x015370A0));
+r_lua_error_typedef r_lua_error = (r_lua_error_typedef)(x(0x01572370));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1083,7 +1083,7 @@ r_lua_error_typedef r_lua_error = (r_lua_error_typedef)(x(Adresses::lua_error_ad
 
 
 */
-static constexpr std::uintptr_t lua_error_addr = 0x015370A0;
+static constexpr std::uintptr_t lua_error_addr = 0x01572370;
 #define lua_error_CCV __thiscall
 
 /* 
@@ -1097,7 +1097,7 @@ static constexpr std::uintptr_t lua_error_addr = 0x015370A0;
 * Usage (Not 100% Accurate):
 
 using r_lua_freeobj_typedef = int(__cdecl*)(int a1);
-r_lua_freeobj_typedef r_lua_freeobj = (r_lua_freeobj_typedef)(x(0x0154FF40));
+r_lua_freeobj_typedef r_lua_freeobj = (r_lua_freeobj_typedef)(x(0x0158A8A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1107,7 +1107,7 @@ r_lua_freeobj_typedef r_lua_freeobj = (r_lua_freeobj_typedef)(x(Adresses::lua_fr
 
 
 */
-static constexpr std::uintptr_t lua_freeobj_addr = 0x0154FF40;
+static constexpr std::uintptr_t lua_freeobj_addr = 0x0158A8A0;
 #define lua_freeobj_CCV __cdecl
 
 /* 
@@ -1121,7 +1121,7 @@ static constexpr std::uintptr_t lua_freeobj_addr = 0x0154FF40;
 * Usage (Not 100% Accurate):
 
 using r_lua_gc_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_gc_typedef r_lua_gc = (r_lua_gc_typedef)(x(0x015370B0));
+r_lua_gc_typedef r_lua_gc = (r_lua_gc_typedef)(x(0x01572380));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1131,7 +1131,7 @@ r_lua_gc_typedef r_lua_gc = (r_lua_gc_typedef)(x(Adresses::lua_gc_addr));
 
 
 */
-static constexpr std::uintptr_t lua_gc_addr = 0x015370B0;
+static constexpr std::uintptr_t lua_gc_addr = 0x01572380;
 #define lua_gc_CCV __cdecl
 
 /* 
@@ -1145,7 +1145,7 @@ static constexpr std::uintptr_t lua_gc_addr = 0x015370B0;
 * Usage (Not 100% Accurate):
 
 using r_lua_getargument_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_getargument_typedef r_lua_getargument = (r_lua_getargument_typedef)unprotect(x(0x01545F80));
+r_lua_getargument_typedef r_lua_getargument = (r_lua_getargument_typedef)unprotect(x(0x01580B40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1155,7 +1155,7 @@ r_lua_getargument_typedef r_lua_getargument = (r_lua_getargument_typedef)unprote
 
 
 */
-static constexpr std::uintptr_t lua_getargument_addr = 0x01545F80;
+static constexpr std::uintptr_t lua_getargument_addr = 0x01580B40;
 #define lua_getargument_CCV __cdecl
 
 /* 
@@ -1169,7 +1169,7 @@ static constexpr std::uintptr_t lua_getargument_addr = 0x01545F80;
 * Usage (Not 100% Accurate):
 
 using r_lua_getfenv_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_getfenv_typedef r_lua_getfenv = (r_lua_getfenv_typedef)unprotect(x(0x015371D0));
+r_lua_getfenv_typedef r_lua_getfenv = (r_lua_getfenv_typedef)unprotect(x(0x015724A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1179,7 +1179,7 @@ r_lua_getfenv_typedef r_lua_getfenv = (r_lua_getfenv_typedef)unprotect(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_getfenv_addr = 0x015371D0;
+static constexpr std::uintptr_t lua_getfenv_addr = 0x015724A0;
 #define lua_getfenv_CCV __cdecl
 
 /* 
@@ -1192,8 +1192,8 @@ static constexpr std::uintptr_t lua_getfenv_addr = 0x015371D0;
 * lua_getfield_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_lua_getfield_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, const char* a3);
-r_lua_getfield_typedef r_lua_getfield = (r_lua_getfield_typedef)unprotect(x(0x01537270));
+using r_lua_getfield_typedef = int(__stdcall*)(std::uintptr_t a1, int a2, const char* a3);
+r_lua_getfield_typedef r_lua_getfield = (r_lua_getfield_typedef)unprotect(x(0x01572540));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1203,8 +1203,8 @@ r_lua_getfield_typedef r_lua_getfield = (r_lua_getfield_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_getfield_addr = 0x01537270;
-#define lua_getfield_CCV __cdecl
+static constexpr std::uintptr_t lua_getfield_addr = 0x01572540;
+#define lua_getfield_CCV __stdcall
 
 /* 
 
@@ -1217,7 +1217,7 @@ static constexpr std::uintptr_t lua_getfield_addr = 0x01537270;
 * Usage (Not 100% Accurate):
 
 using r_lua_getinfo_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_getinfo_typedef r_lua_getinfo = (r_lua_getinfo_typedef)unprotect(x(0x01546050));
+r_lua_getinfo_typedef r_lua_getinfo = (r_lua_getinfo_typedef)unprotect(x(0x01580C10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1227,7 +1227,7 @@ r_lua_getinfo_typedef r_lua_getinfo = (r_lua_getinfo_typedef)unprotect(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_getinfo_addr = 0x01546050;
+static constexpr std::uintptr_t lua_getinfo_addr = 0x01580C10;
 #define lua_getinfo_CCV __cdecl
 
 /* 
@@ -1241,7 +1241,7 @@ static constexpr std::uintptr_t lua_getinfo_addr = 0x01546050;
 * Usage (Not 100% Accurate):
 
 using r_lua_getlocal_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_getlocal_typedef r_lua_getlocal = (r_lua_getlocal_typedef)unprotect(x(0x01546130));
+r_lua_getlocal_typedef r_lua_getlocal = (r_lua_getlocal_typedef)unprotect(x(0x01580CF0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1251,7 +1251,7 @@ r_lua_getlocal_typedef r_lua_getlocal = (r_lua_getlocal_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_getlocal_addr = 0x01546130;
+static constexpr std::uintptr_t lua_getlocal_addr = 0x01580CF0;
 #define lua_getlocal_CCV __cdecl
 
 /* 
@@ -1264,8 +1264,8 @@ static constexpr std::uintptr_t lua_getlocal_addr = 0x01546130;
 * lua_getmetatable_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_lua_getmetatable_typedef = int(__fastcall*)(std::uintptr_t a1, int a2);
-r_lua_getmetatable_typedef r_lua_getmetatable = (r_lua_getmetatable_typedef)(x(0x01537320));
+using r_lua_getmetatable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
+r_lua_getmetatable_typedef r_lua_getmetatable = (r_lua_getmetatable_typedef)(x(0x015725F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1275,8 +1275,8 @@ r_lua_getmetatable_typedef r_lua_getmetatable = (r_lua_getmetatable_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t lua_getmetatable_addr = 0x01537320;
-#define lua_getmetatable_CCV __fastcall
+static constexpr std::uintptr_t lua_getmetatable_addr = 0x015725F0;
+#define lua_getmetatable_CCV __cdecl
 
 /* 
 
@@ -1289,7 +1289,7 @@ static constexpr std::uintptr_t lua_getmetatable_addr = 0x01537320;
 * Usage (Not 100% Accurate):
 
 using r_lua_gettable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_gettable_typedef r_lua_gettable = (r_lua_gettable_typedef)unprotect(x(0x015373E0));
+r_lua_gettable_typedef r_lua_gettable = (r_lua_gettable_typedef)unprotect(x(0x015726B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1299,7 +1299,7 @@ r_lua_gettable_typedef r_lua_gettable = (r_lua_gettable_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_gettable_addr = 0x015373E0;
+static constexpr std::uintptr_t lua_gettable_addr = 0x015726B0;
 #define lua_gettable_CCV __cdecl
 
 /* 
@@ -1313,7 +1313,7 @@ static constexpr std::uintptr_t lua_gettable_addr = 0x015373E0;
 * Usage (Not 100% Accurate):
 
 using r_lua_gettop_typedef = int(__cdecl*)(int a1);
-r_lua_gettop_typedef r_lua_gettop = (r_lua_gettop_typedef)(x(0x01537460));
+r_lua_gettop_typedef r_lua_gettop = (r_lua_gettop_typedef)(x(0x01572720));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1323,7 +1323,7 @@ r_lua_gettop_typedef r_lua_gettop = (r_lua_gettop_typedef)(x(Adresses::lua_getto
 
 
 */
-static constexpr std::uintptr_t lua_gettop_addr = 0x01537460;
+static constexpr std::uintptr_t lua_gettop_addr = 0x01572720;
 #define lua_gettop_CCV __cdecl
 
 /* 
@@ -1337,7 +1337,7 @@ static constexpr std::uintptr_t lua_gettop_addr = 0x01537460;
 * Usage (Not 100% Accurate):
 
 using r_lua_getupvalue_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_getupvalue_typedef r_lua_getupvalue = (r_lua_getupvalue_typedef)unprotect(x(0x01537480));
+r_lua_getupvalue_typedef r_lua_getupvalue = (r_lua_getupvalue_typedef)unprotect(x(0x01572740));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1347,7 +1347,7 @@ r_lua_getupvalue_typedef r_lua_getupvalue = (r_lua_getupvalue_typedef)unprotect(
 
 
 */
-static constexpr std::uintptr_t lua_getupvalue_addr = 0x01537480;
+static constexpr std::uintptr_t lua_getupvalue_addr = 0x01572740;
 #define lua_getupvalue_CCV __cdecl
 
 /* 
@@ -1361,7 +1361,7 @@ static constexpr std::uintptr_t lua_getupvalue_addr = 0x01537480;
 * Usage (Not 100% Accurate):
 
 using r_lua_insert_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_insert_typedef r_lua_insert = (r_lua_insert_typedef)unprotect(x(0x01537510));
+r_lua_insert_typedef r_lua_insert = (r_lua_insert_typedef)unprotect(x(0x015727D0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1371,7 +1371,7 @@ r_lua_insert_typedef r_lua_insert = (r_lua_insert_typedef)unprotect(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_insert_addr = 0x01537510;
+static constexpr std::uintptr_t lua_insert_addr = 0x015727D0;
 #define lua_insert_CCV __cdecl
 
 /* 
@@ -1385,7 +1385,7 @@ static constexpr std::uintptr_t lua_insert_addr = 0x01537510;
 * Usage (Not 100% Accurate):
 
 using r_lua_iscfunction_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_iscfunction_typedef r_lua_iscfunction = (r_lua_iscfunction_typedef)(x(0x015375F0));
+r_lua_iscfunction_typedef r_lua_iscfunction = (r_lua_iscfunction_typedef)(x(0x015728A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1395,7 +1395,7 @@ r_lua_iscfunction_typedef r_lua_iscfunction = (r_lua_iscfunction_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_iscfunction_addr = 0x015375F0;
+static constexpr std::uintptr_t lua_iscfunction_addr = 0x015728A0;
 #define lua_iscfunction_CCV __cdecl
 
 /* 
@@ -1409,7 +1409,7 @@ static constexpr std::uintptr_t lua_iscfunction_addr = 0x015375F0;
 * Usage (Not 100% Accurate):
 
 using r_lua_isnumber_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_isnumber_typedef r_lua_isnumber = (r_lua_isnumber_typedef)(x(0x01537640));
+r_lua_isnumber_typedef r_lua_isnumber = (r_lua_isnumber_typedef)(x(0x015728F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1419,7 +1419,7 @@ r_lua_isnumber_typedef r_lua_isnumber = (r_lua_isnumber_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_isnumber_addr = 0x01537640;
+static constexpr std::uintptr_t lua_isnumber_addr = 0x015728F0;
 #define lua_isnumber_CCV __cdecl
 
 /* 
@@ -1433,7 +1433,7 @@ static constexpr std::uintptr_t lua_isnumber_addr = 0x01537640;
 * Usage (Not 100% Accurate):
 
 using r_lua_isstring_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_isstring_typedef r_lua_isstring = (r_lua_isstring_typedef)(x(0x015376A0));
+r_lua_isstring_typedef r_lua_isstring = (r_lua_isstring_typedef)(x(0x01572950));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1443,7 +1443,7 @@ r_lua_isstring_typedef r_lua_isstring = (r_lua_isstring_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_isstring_addr = 0x015376A0;
+static constexpr std::uintptr_t lua_isstring_addr = 0x01572950;
 #define lua_isstring_CCV __cdecl
 
 /* 
@@ -1457,7 +1457,7 @@ static constexpr std::uintptr_t lua_isstring_addr = 0x015376A0;
 * Usage (Not 100% Accurate):
 
 using r_lua_isuserdata_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_isuserdata_typedef r_lua_isuserdata = (r_lua_isuserdata_typedef)(x(0x015375A0));
+r_lua_isuserdata_typedef r_lua_isuserdata = (r_lua_isuserdata_typedef)(x(0x01572850));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1467,7 +1467,7 @@ r_lua_isuserdata_typedef r_lua_isuserdata = (r_lua_isuserdata_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_isuserdata_addr = 0x015375A0;
+static constexpr std::uintptr_t lua_isuserdata_addr = 0x01572850;
 #define lua_isuserdata_CCV __cdecl
 
 /* 
@@ -1481,7 +1481,7 @@ static constexpr std::uintptr_t lua_isuserdata_addr = 0x015375A0;
 * Usage (Not 100% Accurate):
 
 using r_lua_lessthan_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_lessthan_typedef r_lua_lessthan = (r_lua_lessthan_typedef)unprotect(x(0x015376F0));
+r_lua_lessthan_typedef r_lua_lessthan = (r_lua_lessthan_typedef)unprotect(x(0x015729A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1491,7 +1491,7 @@ r_lua_lessthan_typedef r_lua_lessthan = (r_lua_lessthan_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_lessthan_addr = 0x015376F0;
+static constexpr std::uintptr_t lua_lessthan_addr = 0x015729A0;
 #define lua_lessthan_CCV __cdecl
 
 /* 
@@ -1505,7 +1505,7 @@ static constexpr std::uintptr_t lua_lessthan_addr = 0x015376F0;
 * Usage (Not 100% Accurate):
 
 using r_lua_newstate_typedef = int(__cdecl*)(int a1);
-r_lua_newstate_typedef r_lua_newstate = (r_lua_newstate_typedef)(x(0x01545460));
+r_lua_newstate_typedef r_lua_newstate = (r_lua_newstate_typedef)(x(0x01580070));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1515,7 +1515,7 @@ r_lua_newstate_typedef r_lua_newstate = (r_lua_newstate_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_newstate_addr = 0x01545460;
+static constexpr std::uintptr_t lua_newstate_addr = 0x01580070;
 #define lua_newstate_CCV __cdecl
 
 /* 
@@ -1529,7 +1529,7 @@ static constexpr std::uintptr_t lua_newstate_addr = 0x01545460;
 * Usage (Not 100% Accurate):
 
 using r_lua_newthread_typedef = int(__cdecl*)(int a1);
-r_lua_newthread_typedef r_lua_newthread = (r_lua_newthread_typedef)unprotect(x(0x015377A0));
+r_lua_newthread_typedef r_lua_newthread = (r_lua_newthread_typedef)unprotect(x(0x01572A50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1539,7 +1539,7 @@ r_lua_newthread_typedef r_lua_newthread = (r_lua_newthread_typedef)unprotect(x(A
 
 
 */
-static constexpr std::uintptr_t lua_newthread_addr = 0x015377A0;
+static constexpr std::uintptr_t lua_newthread_addr = 0x01572A50;
 #define lua_newthread_CCV __cdecl
 
 /* 
@@ -1553,7 +1553,7 @@ static constexpr std::uintptr_t lua_newthread_addr = 0x015377A0;
 * Usage (Not 100% Accurate):
 
 using r_lua_newuserdata_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_newuserdata_typedef r_lua_newuserdata = (r_lua_newuserdata_typedef)unprotect(x(0x01537830));
+r_lua_newuserdata_typedef r_lua_newuserdata = (r_lua_newuserdata_typedef)unprotect(x(0x01572AE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1563,7 +1563,7 @@ r_lua_newuserdata_typedef r_lua_newuserdata = (r_lua_newuserdata_typedef)unprote
 
 
 */
-static constexpr std::uintptr_t lua_newuserdata_addr = 0x01537830;
+static constexpr std::uintptr_t lua_newuserdata_addr = 0x01572AE0;
 #define lua_newuserdata_CCV __cdecl
 
 /* 
@@ -1577,7 +1577,7 @@ static constexpr std::uintptr_t lua_newuserdata_addr = 0x01537830;
 * Usage (Not 100% Accurate):
 
 using r_lua_next_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_next_typedef r_lua_next = (r_lua_next_typedef)unprotect(x(0x015378B0));
+r_lua_next_typedef r_lua_next = (r_lua_next_typedef)unprotect(x(0x01572B60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1587,7 +1587,7 @@ r_lua_next_typedef r_lua_next = (r_lua_next_typedef)unprotect(x(Adresses::lua_ne
 
 
 */
-static constexpr std::uintptr_t lua_next_addr = 0x015378B0;
+static constexpr std::uintptr_t lua_next_addr = 0x01572B60;
 #define lua_next_CCV __cdecl
 
 /* 
@@ -1601,7 +1601,7 @@ static constexpr std::uintptr_t lua_next_addr = 0x015378B0;
 * Usage (Not 100% Accurate):
 
 using r_lua_objlen_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_objlen_typedef r_lua_objlen = (r_lua_objlen_typedef)(x(0x01537940));
+r_lua_objlen_typedef r_lua_objlen = (r_lua_objlen_typedef)(x(0x01572BF0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1611,7 +1611,7 @@ r_lua_objlen_typedef r_lua_objlen = (r_lua_objlen_typedef)(x(Adresses::lua_objle
 
 
 */
-static constexpr std::uintptr_t lua_objlen_addr = 0x01537940;
+static constexpr std::uintptr_t lua_objlen_addr = 0x01572BF0;
 #define lua_objlen_CCV __cdecl
 
 /* 
@@ -1625,7 +1625,7 @@ static constexpr std::uintptr_t lua_objlen_addr = 0x01537940;
 * Usage (Not 100% Accurate):
 
 using r_lua_pcall_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_lua_pcall_typedef r_lua_pcall = (r_lua_pcall_typedef)unprotect(x(0x01537A20));
+r_lua_pcall_typedef r_lua_pcall = (r_lua_pcall_typedef)unprotect(x(0x01572CD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1635,7 +1635,7 @@ r_lua_pcall_typedef r_lua_pcall = (r_lua_pcall_typedef)unprotect(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_pcall_addr = 0x01537A20;
+static constexpr std::uintptr_t lua_pcall_addr = 0x01572CD0;
 #define lua_pcall_CCV __cdecl
 
 /* 
@@ -1649,7 +1649,7 @@ static constexpr std::uintptr_t lua_pcall_addr = 0x01537A20;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushboolean_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_pushboolean_typedef r_lua_pushboolean = (r_lua_pushboolean_typedef)unprotect(x(0x01537AE0));
+r_lua_pushboolean_typedef r_lua_pushboolean = (r_lua_pushboolean_typedef)unprotect(x(0x01572D90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1659,7 +1659,7 @@ r_lua_pushboolean_typedef r_lua_pushboolean = (r_lua_pushboolean_typedef)unprote
 
 
 */
-static constexpr std::uintptr_t lua_pushboolean_addr = 0x01537AE0;
+static constexpr std::uintptr_t lua_pushboolean_addr = 0x01572D90;
 #define lua_pushboolean_CCV __cdecl
 
 /* 
@@ -1672,8 +1672,8 @@ static constexpr std::uintptr_t lua_pushboolean_addr = 0x01537AE0;
 * lua_pushcclosure_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_lua_pushcclosure_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4, int a5);
-r_lua_pushcclosure_typedef r_lua_pushcclosure = (r_lua_pushcclosure_typedef)unprotect(x(0x01537B30));
+using r_lua_pushcclosure_typedef = int(__stdcall*)(std::uintptr_t a1, int a2, int a3, int a4, int a5);
+r_lua_pushcclosure_typedef r_lua_pushcclosure = (r_lua_pushcclosure_typedef)unprotect(x(0x01572DE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1683,8 +1683,8 @@ r_lua_pushcclosure_typedef r_lua_pushcclosure = (r_lua_pushcclosure_typedef)unpr
 
 
 */
-static constexpr std::uintptr_t lua_pushcclosure_addr = 0x01537B30;
-#define lua_pushcclosure_CCV __cdecl
+static constexpr std::uintptr_t lua_pushcclosure_addr = 0x01572DE0;
+#define lua_pushcclosure_CCV __stdcall
 
 /* 
 
@@ -1697,7 +1697,7 @@ static constexpr std::uintptr_t lua_pushcclosure_addr = 0x01537B30;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushfstring_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_pushfstring_typedef r_lua_pushfstring = (r_lua_pushfstring_typedef)(x(0x01537C10));
+r_lua_pushfstring_typedef r_lua_pushfstring = (r_lua_pushfstring_typedef)(x(0x01572EB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1707,7 +1707,7 @@ r_lua_pushfstring_typedef r_lua_pushfstring = (r_lua_pushfstring_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_pushfstring_addr = 0x01537C10;
+static constexpr std::uintptr_t lua_pushfstring_addr = 0x01572EB0;
 #define lua_pushfstring_CCV __cdecl
 
 /* 
@@ -1721,7 +1721,7 @@ static constexpr std::uintptr_t lua_pushfstring_addr = 0x01537C10;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushinteger_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_pushinteger_typedef r_lua_pushinteger = (r_lua_pushinteger_typedef)unprotect(x(0x01537C80));
+r_lua_pushinteger_typedef r_lua_pushinteger = (r_lua_pushinteger_typedef)unprotect(x(0x01572F20));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1731,7 +1731,7 @@ r_lua_pushinteger_typedef r_lua_pushinteger = (r_lua_pushinteger_typedef)unprote
 
 
 */
-static constexpr std::uintptr_t lua_pushinteger_addr = 0x01537C80;
+static constexpr std::uintptr_t lua_pushinteger_addr = 0x01572F20;
 #define lua_pushinteger_CCV __cdecl
 
 /* 
@@ -1745,7 +1745,7 @@ static constexpr std::uintptr_t lua_pushinteger_addr = 0x01537C80;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushlightuserdata_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_pushlightuserdata_typedef r_lua_pushlightuserdata = (r_lua_pushlightuserdata_typedef)unprotect(x(0x01537CE0));
+r_lua_pushlightuserdata_typedef r_lua_pushlightuserdata = (r_lua_pushlightuserdata_typedef)unprotect(x(0x01572F80));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1755,7 +1755,7 @@ r_lua_pushlightuserdata_typedef r_lua_pushlightuserdata = (r_lua_pushlightuserda
 
 
 */
-static constexpr std::uintptr_t lua_pushlightuserdata_addr = 0x01537CE0;
+static constexpr std::uintptr_t lua_pushlightuserdata_addr = 0x01572F80;
 #define lua_pushlightuserdata_CCV __cdecl
 
 /* 
@@ -1769,7 +1769,7 @@ static constexpr std::uintptr_t lua_pushlightuserdata_addr = 0x01537CE0;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushlstring_typedef = int(__cdecl*)(std::uintptr_t a1, const char* a2, int a3);
-r_lua_pushlstring_typedef r_lua_pushlstring = (r_lua_pushlstring_typedef)unprotect(x(0x01537D30));
+r_lua_pushlstring_typedef r_lua_pushlstring = (r_lua_pushlstring_typedef)unprotect(x(0x01572FD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1779,7 +1779,7 @@ r_lua_pushlstring_typedef r_lua_pushlstring = (r_lua_pushlstring_typedef)unprote
 
 
 */
-static constexpr std::uintptr_t lua_pushlstring_addr = 0x01537D30;
+static constexpr std::uintptr_t lua_pushlstring_addr = 0x01572FD0;
 #define lua_pushlstring_CCV __cdecl
 
 /* 
@@ -1793,7 +1793,7 @@ static constexpr std::uintptr_t lua_pushlstring_addr = 0x01537D30;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushnil_typedef = int(__cdecl*)(int a1);
-r_lua_pushnil_typedef r_lua_pushnil = (r_lua_pushnil_typedef)unprotect(x(0x01537DB0));
+r_lua_pushnil_typedef r_lua_pushnil = (r_lua_pushnil_typedef)unprotect(x(0x01573040));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1803,7 +1803,7 @@ r_lua_pushnil_typedef r_lua_pushnil = (r_lua_pushnil_typedef)unprotect(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_pushnil_addr = 0x01537DB0;
+static constexpr std::uintptr_t lua_pushnil_addr = 0x01573040;
 #define lua_pushnil_CCV __cdecl
 
 /* 
@@ -1816,8 +1816,8 @@ static constexpr std::uintptr_t lua_pushnil_addr = 0x01537DB0;
 * lua_pushnumber_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_lua_pushnumber_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_pushnumber_typedef r_lua_pushnumber = (r_lua_pushnumber_typedef)unprotect(x(0x01537E00));
+using r_lua_pushnumber_typedef = int(__stdcall*)(std::uintptr_t a1, int a2);
+r_lua_pushnumber_typedef r_lua_pushnumber = (r_lua_pushnumber_typedef)unprotect(x(0x01573090));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1827,8 +1827,8 @@ r_lua_pushnumber_typedef r_lua_pushnumber = (r_lua_pushnumber_typedef)unprotect(
 
 
 */
-static constexpr std::uintptr_t lua_pushnumber_addr = 0x01537E00;
-#define lua_pushnumber_CCV __cdecl
+static constexpr std::uintptr_t lua_pushnumber_addr = 0x01573090;
+#define lua_pushnumber_CCV __stdcall
 
 /* 
 
@@ -1840,8 +1840,8 @@ static constexpr std::uintptr_t lua_pushnumber_addr = 0x01537E00;
 * lua_pushstring_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_lua_pushstring_typedef = int(__cdecl*)(std::uintptr_t a1, const char* a2);
-r_lua_pushstring_typedef r_lua_pushstring = (r_lua_pushstring_typedef)unprotect(x(0x01537E60));
+using r_lua_pushstring_typedef = int(__fastcall*)(std::uintptr_t a1, const char* a2);
+r_lua_pushstring_typedef r_lua_pushstring = (r_lua_pushstring_typedef)unprotect(x(0x015730F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1851,8 +1851,8 @@ r_lua_pushstring_typedef r_lua_pushstring = (r_lua_pushstring_typedef)unprotect(
 
 
 */
-static constexpr std::uintptr_t lua_pushstring_addr = 0x01537E60;
-#define lua_pushstring_CCV __cdecl
+static constexpr std::uintptr_t lua_pushstring_addr = 0x015730F0;
+#define lua_pushstring_CCV __fastcall
 
 /* 
 
@@ -1865,7 +1865,7 @@ static constexpr std::uintptr_t lua_pushstring_addr = 0x01537E60;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushthread_typedef = int(__cdecl*)(int a1);
-r_lua_pushthread_typedef r_lua_pushthread = (r_lua_pushthread_typedef)unprotect(x(0x01537F40));
+r_lua_pushthread_typedef r_lua_pushthread = (r_lua_pushthread_typedef)unprotect(x(0x01573190));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1875,7 +1875,7 @@ r_lua_pushthread_typedef r_lua_pushthread = (r_lua_pushthread_typedef)unprotect(
 
 
 */
-static constexpr std::uintptr_t lua_pushthread_addr = 0x01537F40;
+static constexpr std::uintptr_t lua_pushthread_addr = 0x01573190;
 #define lua_pushthread_CCV __cdecl
 
 /* 
@@ -1889,7 +1889,7 @@ static constexpr std::uintptr_t lua_pushthread_addr = 0x01537F40;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushvalue_typedef = int(__fastcall*)(std::uintptr_t a1, int a2);
-r_lua_pushvalue_typedef r_lua_pushvalue = (r_lua_pushvalue_typedef)unprotect(x(0x01538010));
+r_lua_pushvalue_typedef r_lua_pushvalue = (r_lua_pushvalue_typedef)unprotect(x(0x01573260));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1899,7 +1899,7 @@ r_lua_pushvalue_typedef r_lua_pushvalue = (r_lua_pushvalue_typedef)unprotect(x(A
 
 
 */
-static constexpr std::uintptr_t lua_pushvalue_addr = 0x01538010;
+static constexpr std::uintptr_t lua_pushvalue_addr = 0x01573260;
 #define lua_pushvalue_CCV __fastcall
 
 /* 
@@ -1913,7 +1913,7 @@ static constexpr std::uintptr_t lua_pushvalue_addr = 0x01538010;
 * Usage (Not 100% Accurate):
 
 using r_lua_pushvfstring_typedef = int(__cdecl*)(std::uintptr_t a1, const char* a2, char* a3);
-r_lua_pushvfstring_typedef r_lua_pushvfstring = (r_lua_pushvfstring_typedef)(x(0x015380E0));
+r_lua_pushvfstring_typedef r_lua_pushvfstring = (r_lua_pushvfstring_typedef)(x(0x01573330));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1923,7 +1923,7 @@ r_lua_pushvfstring_typedef r_lua_pushvfstring = (r_lua_pushvfstring_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t lua_pushvfstring_addr = 0x015380E0;
+static constexpr std::uintptr_t lua_pushvfstring_addr = 0x01573330;
 #define lua_pushvfstring_CCV __cdecl
 
 /* 
@@ -1937,7 +1937,7 @@ static constexpr std::uintptr_t lua_pushvfstring_addr = 0x015380E0;
 * Usage (Not 100% Accurate):
 
 using r_lua_rawequal_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_rawequal_typedef r_lua_rawequal = (r_lua_rawequal_typedef)(x(0x015381C0));
+r_lua_rawequal_typedef r_lua_rawequal = (r_lua_rawequal_typedef)(x(0x01573410));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1947,7 +1947,7 @@ r_lua_rawequal_typedef r_lua_rawequal = (r_lua_rawequal_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_rawequal_addr = 0x015381C0;
+static constexpr std::uintptr_t lua_rawequal_addr = 0x01573410;
 #define lua_rawequal_CCV __cdecl
 
 /* 
@@ -1961,7 +1961,7 @@ static constexpr std::uintptr_t lua_rawequal_addr = 0x015381C0;
 * Usage (Not 100% Accurate):
 
 using r_lua_rawget_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_rawget_typedef r_lua_rawget = (r_lua_rawget_typedef)unprotect(x(0x01538240));
+r_lua_rawget_typedef r_lua_rawget = (r_lua_rawget_typedef)unprotect(x(0x01573490));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1971,7 +1971,7 @@ r_lua_rawget_typedef r_lua_rawget = (r_lua_rawget_typedef)unprotect(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_rawget_addr = 0x01538240;
+static constexpr std::uintptr_t lua_rawget_addr = 0x01573490;
 #define lua_rawget_CCV __cdecl
 
 /* 
@@ -1985,7 +1985,7 @@ static constexpr std::uintptr_t lua_rawget_addr = 0x01538240;
 * Usage (Not 100% Accurate):
 
 using r_lua_rawgeti_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_rawgeti_typedef r_lua_rawgeti = (r_lua_rawgeti_typedef)unprotect(x(0x01538370));
+r_lua_rawgeti_typedef r_lua_rawgeti = (r_lua_rawgeti_typedef)unprotect(x(0x015735C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -1995,7 +1995,7 @@ r_lua_rawgeti_typedef r_lua_rawgeti = (r_lua_rawgeti_typedef)unprotect(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_rawgeti_addr = 0x01538370;
+static constexpr std::uintptr_t lua_rawgeti_addr = 0x015735C0;
 #define lua_rawgeti_CCV __cdecl
 
 /* 
@@ -2009,7 +2009,7 @@ static constexpr std::uintptr_t lua_rawgeti_addr = 0x01538370;
 * Usage (Not 100% Accurate):
 
 using r_lua_rawset_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_rawset_typedef r_lua_rawset = (r_lua_rawset_typedef)unprotect(x(0x015383F0));
+r_lua_rawset_typedef r_lua_rawset = (r_lua_rawset_typedef)unprotect(x(0x01573640));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2019,7 +2019,7 @@ r_lua_rawset_typedef r_lua_rawset = (r_lua_rawset_typedef)unprotect(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_rawset_addr = 0x015383F0;
+static constexpr std::uintptr_t lua_rawset_addr = 0x01573640;
 #define lua_rawset_CCV __cdecl
 
 /* 
@@ -2033,7 +2033,7 @@ static constexpr std::uintptr_t lua_rawset_addr = 0x015383F0;
 * Usage (Not 100% Accurate):
 
 using r_lua_rawseti_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_rawseti_typedef r_lua_rawseti = (r_lua_rawseti_typedef)unprotect(x(0x015384C0));
+r_lua_rawseti_typedef r_lua_rawseti = (r_lua_rawseti_typedef)unprotect(x(0x01573710));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2043,7 +2043,7 @@ r_lua_rawseti_typedef r_lua_rawseti = (r_lua_rawseti_typedef)unprotect(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_rawseti_addr = 0x015384C0;
+static constexpr std::uintptr_t lua_rawseti_addr = 0x01573710;
 #define lua_rawseti_CCV __cdecl
 
 /* 
@@ -2057,7 +2057,7 @@ static constexpr std::uintptr_t lua_rawseti_addr = 0x015384C0;
 * Usage (Not 100% Accurate):
 
 using r_lua_rawvalue_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_rawvalue_typedef r_lua_rawvalue = (r_lua_rawvalue_typedef)(x(0x01536D10));
+r_lua_rawvalue_typedef r_lua_rawvalue = (r_lua_rawvalue_typedef)(x(0x015720B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2067,7 +2067,7 @@ r_lua_rawvalue_typedef r_lua_rawvalue = (r_lua_rawvalue_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_rawvalue_addr = 0x01536D10;
+static constexpr std::uintptr_t lua_rawvalue_addr = 0x015720B0;
 #define lua_rawvalue_CCV __cdecl
 
 /* 
@@ -2081,7 +2081,7 @@ static constexpr std::uintptr_t lua_rawvalue_addr = 0x01536D10;
 * Usage (Not 100% Accurate):
 
 using r_lua_remove_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_remove_typedef r_lua_remove = (r_lua_remove_typedef)unprotect(x(0x015386A0));
+r_lua_remove_typedef r_lua_remove = (r_lua_remove_typedef)unprotect(x(0x015738E0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2091,7 +2091,7 @@ r_lua_remove_typedef r_lua_remove = (r_lua_remove_typedef)unprotect(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_remove_addr = 0x015386A0;
+static constexpr std::uintptr_t lua_remove_addr = 0x015738E0;
 #define lua_remove_CCV __cdecl
 
 /* 
@@ -2105,7 +2105,7 @@ static constexpr std::uintptr_t lua_remove_addr = 0x015386A0;
 * Usage (Not 100% Accurate):
 
 using r_lua_replace_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_replace_typedef r_lua_replace = (r_lua_replace_typedef)unprotect(x(0x01538730));
+r_lua_replace_typedef r_lua_replace = (r_lua_replace_typedef)unprotect(x(0x01573970));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2115,7 +2115,7 @@ r_lua_replace_typedef r_lua_replace = (r_lua_replace_typedef)unprotect(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_replace_addr = 0x01538730;
+static constexpr std::uintptr_t lua_replace_addr = 0x01573970;
 #define lua_replace_CCV __cdecl
 
 /* 
@@ -2129,7 +2129,7 @@ static constexpr std::uintptr_t lua_replace_addr = 0x01538730;
 * Usage (Not 100% Accurate):
 
 using r_lua_resume_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_resume_typedef r_lua_resume = (r_lua_resume_typedef)unprotect(x(0x0153AD00));
+r_lua_resume_typedef r_lua_resume = (r_lua_resume_typedef)unprotect(x(0x01575CC0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2139,7 +2139,7 @@ r_lua_resume_typedef r_lua_resume = (r_lua_resume_typedef)unprotect(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_resume_addr = 0x0153AD00;
+static constexpr std::uintptr_t lua_resume_addr = 0x01575CC0;
 #define lua_resume_CCV __cdecl
 
 /* 
@@ -2153,7 +2153,7 @@ static constexpr std::uintptr_t lua_resume_addr = 0x0153AD00;
 * Usage (Not 100% Accurate):
 
 using r_lua_setfenv_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_setfenv_typedef r_lua_setfenv = (r_lua_setfenv_typedef)(x(0x01538830));
+r_lua_setfenv_typedef r_lua_setfenv = (r_lua_setfenv_typedef)(x(0x01573A70));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2163,7 +2163,7 @@ r_lua_setfenv_typedef r_lua_setfenv = (r_lua_setfenv_typedef)(x(Adresses::lua_se
 
 
 */
-static constexpr std::uintptr_t lua_setfenv_addr = 0x01538830;
+static constexpr std::uintptr_t lua_setfenv_addr = 0x01573A70;
 #define lua_setfenv_CCV __cdecl
 
 /* 
@@ -2176,8 +2176,8 @@ static constexpr std::uintptr_t lua_setfenv_addr = 0x01538830;
 * lua_setfield_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_lua_setfield_typedef = int(__fastcall*)(std::uintptr_t a1, int a2, const char* a3);
-r_lua_setfield_typedef r_lua_setfield = (r_lua_setfield_typedef)unprotect(x(0x015388F0));
+using r_lua_setfield_typedef = int(__stdcall*)(std::uintptr_t a1, int a2, const char* a3);
+r_lua_setfield_typedef r_lua_setfield = (r_lua_setfield_typedef)unprotect(x(0x01573B30));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2187,8 +2187,8 @@ r_lua_setfield_typedef r_lua_setfield = (r_lua_setfield_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_setfield_addr = 0x015388F0;
-#define lua_setfield_CCV __fastcall
+static constexpr std::uintptr_t lua_setfield_addr = 0x01573B30;
+#define lua_setfield_CCV __stdcall
 
 /* 
 
@@ -2201,7 +2201,7 @@ static constexpr std::uintptr_t lua_setfield_addr = 0x015388F0;
 * Usage (Not 100% Accurate):
 
 using r_lua_setlocal_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_setlocal_typedef r_lua_setlocal = (r_lua_setlocal_typedef)unprotect(x(0x01546200));
+r_lua_setlocal_typedef r_lua_setlocal = (r_lua_setlocal_typedef)unprotect(x(0x01580DC0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2211,7 +2211,7 @@ r_lua_setlocal_typedef r_lua_setlocal = (r_lua_setlocal_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_setlocal_addr = 0x01546200;
+static constexpr std::uintptr_t lua_setlocal_addr = 0x01580DC0;
 #define lua_setlocal_CCV __cdecl
 
 /* 
@@ -2225,7 +2225,7 @@ static constexpr std::uintptr_t lua_setlocal_addr = 0x01546200;
 * Usage (Not 100% Accurate):
 
 using r_lua_setmetatable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_setmetatable_typedef r_lua_setmetatable = (r_lua_setmetatable_typedef)unprotect(x(0x015389A0));
+r_lua_setmetatable_typedef r_lua_setmetatable = (r_lua_setmetatable_typedef)unprotect(x(0x01573BE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2235,7 +2235,7 @@ r_lua_setmetatable_typedef r_lua_setmetatable = (r_lua_setmetatable_typedef)unpr
 
 
 */
-static constexpr std::uintptr_t lua_setmetatable_addr = 0x015389A0;
+static constexpr std::uintptr_t lua_setmetatable_addr = 0x01573BE0;
 #define lua_setmetatable_CCV __cdecl
 
 /* 
@@ -2249,7 +2249,7 @@ static constexpr std::uintptr_t lua_setmetatable_addr = 0x015389A0;
 * Usage (Not 100% Accurate):
 
 using r_lua_setreadonly_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_setreadonly_typedef r_lua_setreadonly = (r_lua_setreadonly_typedef)unprotect(x(0x01538AB0));
+r_lua_setreadonly_typedef r_lua_setreadonly = (r_lua_setreadonly_typedef)unprotect(x(0x01573CF0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2259,7 +2259,7 @@ r_lua_setreadonly_typedef r_lua_setreadonly = (r_lua_setreadonly_typedef)unprote
 
 
 */
-static constexpr std::uintptr_t lua_setreadonly_addr = 0x01538AB0;
+static constexpr std::uintptr_t lua_setreadonly_addr = 0x01573CF0;
 #define lua_setreadonly_CCV __cdecl
 
 /* 
@@ -2273,7 +2273,7 @@ static constexpr std::uintptr_t lua_setreadonly_addr = 0x01538AB0;
 * Usage (Not 100% Accurate):
 
 using r_lua_setsafeenv_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_setsafeenv_typedef r_lua_setsafeenv = (r_lua_setsafeenv_typedef)unprotect(x(0x01538B20));
+r_lua_setsafeenv_typedef r_lua_setsafeenv = (r_lua_setsafeenv_typedef)unprotect(x(0x01573D60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2283,7 +2283,7 @@ r_lua_setsafeenv_typedef r_lua_setsafeenv = (r_lua_setsafeenv_typedef)unprotect(
 
 
 */
-static constexpr std::uintptr_t lua_setsafeenv_addr = 0x01538B20;
+static constexpr std::uintptr_t lua_setsafeenv_addr = 0x01573D60;
 #define lua_setsafeenv_CCV __cdecl
 
 /* 
@@ -2297,7 +2297,7 @@ static constexpr std::uintptr_t lua_setsafeenv_addr = 0x01538B20;
 * Usage (Not 100% Accurate):
 
 using r_lua_settable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_settable_typedef r_lua_settable = (r_lua_settable_typedef)unprotect(x(0x01538B90));
+r_lua_settable_typedef r_lua_settable = (r_lua_settable_typedef)unprotect(x(0x01573DD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2307,7 +2307,7 @@ r_lua_settable_typedef r_lua_settable = (r_lua_settable_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_settable_addr = 0x01538B90;
+static constexpr std::uintptr_t lua_settable_addr = 0x01573DD0;
 #define lua_settable_CCV __cdecl
 
 /* 
@@ -2321,7 +2321,7 @@ static constexpr std::uintptr_t lua_settable_addr = 0x01538B90;
 * Usage (Not 100% Accurate):
 
 using r_lua_settop_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_settop_typedef r_lua_settop = (r_lua_settop_typedef)unprotect(x(0x01538C10));
+r_lua_settop_typedef r_lua_settop = (r_lua_settop_typedef)unprotect(x(0x01573E50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2331,7 +2331,7 @@ r_lua_settop_typedef r_lua_settop = (r_lua_settop_typedef)unprotect(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_settop_addr = 0x01538C10;
+static constexpr std::uintptr_t lua_settop_addr = 0x01573E50;
 #define lua_settop_CCV __cdecl
 
 /* 
@@ -2345,7 +2345,7 @@ static constexpr std::uintptr_t lua_settop_addr = 0x01538C10;
 * Usage (Not 100% Accurate):
 
 using r_lua_setupvalue_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_setupvalue_typedef r_lua_setupvalue = (r_lua_setupvalue_typedef)unprotect(x(0x01538C90));
+r_lua_setupvalue_typedef r_lua_setupvalue = (r_lua_setupvalue_typedef)unprotect(x(0x01573ED0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2355,7 +2355,7 @@ r_lua_setupvalue_typedef r_lua_setupvalue = (r_lua_setupvalue_typedef)unprotect(
 
 
 */
-static constexpr std::uintptr_t lua_setupvalue_addr = 0x01538C90;
+static constexpr std::uintptr_t lua_setupvalue_addr = 0x01573ED0;
 #define lua_setupvalue_CCV __cdecl
 
 /* 
@@ -2369,7 +2369,7 @@ static constexpr std::uintptr_t lua_setupvalue_addr = 0x01538C90;
 * Usage (Not 100% Accurate):
 
 using r_lua_toboolean_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_toboolean_typedef r_lua_toboolean = (r_lua_toboolean_typedef)(x(0x01538D50));
+r_lua_toboolean_typedef r_lua_toboolean = (r_lua_toboolean_typedef)(x(0x01573F80));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2379,7 +2379,7 @@ r_lua_toboolean_typedef r_lua_toboolean = (r_lua_toboolean_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_toboolean_addr = 0x01538D50;
+static constexpr std::uintptr_t lua_toboolean_addr = 0x01573F80;
 #define lua_toboolean_CCV __cdecl
 
 /* 
@@ -2393,7 +2393,7 @@ static constexpr std::uintptr_t lua_toboolean_addr = 0x01538D50;
 * Usage (Not 100% Accurate):
 
 using r_lua_tointeger_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_tointeger_typedef r_lua_tointeger = (r_lua_tointeger_typedef)(x(0x01538DB0));
+r_lua_tointeger_typedef r_lua_tointeger = (r_lua_tointeger_typedef)(x(0x01573FD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2403,7 +2403,7 @@ r_lua_tointeger_typedef r_lua_tointeger = (r_lua_tointeger_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_tointeger_addr = 0x01538DB0;
+static constexpr std::uintptr_t lua_tointeger_addr = 0x01573FD0;
 #define lua_tointeger_CCV __cdecl
 
 /* 
@@ -2417,7 +2417,7 @@ static constexpr std::uintptr_t lua_tointeger_addr = 0x01538DB0;
 * Usage (Not 100% Accurate):
 
 using r_lua_tolstring_typedef = int(__fastcall*)(std::uintptr_t a1, int a2, int a3);
-r_lua_tolstring_typedef r_lua_tolstring = (r_lua_tolstring_typedef)unprotect(x(0x01538E30));
+r_lua_tolstring_typedef r_lua_tolstring = (r_lua_tolstring_typedef)unprotect(x(0x01574050));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2427,7 +2427,7 @@ r_lua_tolstring_typedef r_lua_tolstring = (r_lua_tolstring_typedef)unprotect(x(A
 
 
 */
-static constexpr std::uintptr_t lua_tolstring_addr = 0x01538E30;
+static constexpr std::uintptr_t lua_tolstring_addr = 0x01574050;
 #define lua_tolstring_CCV __fastcall
 
 /* 
@@ -2441,7 +2441,7 @@ static constexpr std::uintptr_t lua_tolstring_addr = 0x01538E30;
 * Usage (Not 100% Accurate):
 
 using r_lua_tonumber_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_tonumber_typedef r_lua_tonumber = (r_lua_tonumber_typedef)(x(0x01538F60));
+r_lua_tonumber_typedef r_lua_tonumber = (r_lua_tonumber_typedef)(x(0x01574170));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2451,7 +2451,7 @@ r_lua_tonumber_typedef r_lua_tonumber = (r_lua_tonumber_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_tonumber_addr = 0x01538F60;
+static constexpr std::uintptr_t lua_tonumber_addr = 0x01574170;
 #define lua_tonumber_CCV __cdecl
 
 /* 
@@ -2465,7 +2465,7 @@ static constexpr std::uintptr_t lua_tonumber_addr = 0x01538F60;
 * Usage (Not 100% Accurate):
 
 using r_lua_topointer_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_topointer_typedef r_lua_topointer = (r_lua_topointer_typedef)(x(0x01539000));
+r_lua_topointer_typedef r_lua_topointer = (r_lua_topointer_typedef)(x(0x015741F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2475,7 +2475,7 @@ r_lua_topointer_typedef r_lua_topointer = (r_lua_topointer_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lua_topointer_addr = 0x01539000;
+static constexpr std::uintptr_t lua_topointer_addr = 0x015741F0;
 #define lua_topointer_CCV __cdecl
 
 /* 
@@ -2489,7 +2489,7 @@ static constexpr std::uintptr_t lua_topointer_addr = 0x01539000;
 * Usage (Not 100% Accurate):
 
 using r_lua_tostring_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_tostring_typedef r_lua_tostring = (r_lua_tostring_typedef)(x(0x015390C0));
+r_lua_tostring_typedef r_lua_tostring = (r_lua_tostring_typedef)(x(0x015742B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2499,7 +2499,7 @@ r_lua_tostring_typedef r_lua_tostring = (r_lua_tostring_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_tostring_addr = 0x015390C0;
+static constexpr std::uintptr_t lua_tostring_addr = 0x015742B0;
 #define lua_tostring_CCV __cdecl
 
 /* 
@@ -2513,7 +2513,7 @@ static constexpr std::uintptr_t lua_tostring_addr = 0x015390C0;
 * Usage (Not 100% Accurate):
 
 using r_lua_tothread_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_tothread_typedef r_lua_tothread = (r_lua_tothread_typedef)(x(0x01539160));
+r_lua_tothread_typedef r_lua_tothread = (r_lua_tothread_typedef)(x(0x01574330));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2523,7 +2523,7 @@ r_lua_tothread_typedef r_lua_tothread = (r_lua_tothread_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_tothread_addr = 0x01539160;
+static constexpr std::uintptr_t lua_tothread_addr = 0x01574330;
 #define lua_tothread_CCV __cdecl
 
 /* 
@@ -2537,7 +2537,7 @@ static constexpr std::uintptr_t lua_tothread_addr = 0x01539160;
 * Usage (Not 100% Accurate):
 
 using r_lua_tounsignedx_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_tounsignedx_typedef r_lua_tounsignedx = (r_lua_tounsignedx_typedef)(x(0x015391B0));
+r_lua_tounsignedx_typedef r_lua_tounsignedx = (r_lua_tounsignedx_typedef)(x(0x01574370));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2547,7 +2547,7 @@ r_lua_tounsignedx_typedef r_lua_tounsignedx = (r_lua_tounsignedx_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lua_tounsignedx_addr = 0x015391B0;
+static constexpr std::uintptr_t lua_tounsignedx_addr = 0x01574370;
 #define lua_tounsignedx_CCV __cdecl
 
 /* 
@@ -2561,7 +2561,7 @@ static constexpr std::uintptr_t lua_tounsignedx_addr = 0x015391B0;
 * Usage (Not 100% Accurate):
 
 using r_lua_touserdata_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_touserdata_typedef r_lua_touserdata = (r_lua_touserdata_typedef)(x(0x01539240));
+r_lua_touserdata_typedef r_lua_touserdata = (r_lua_touserdata_typedef)(x(0x01574400));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2571,7 +2571,7 @@ r_lua_touserdata_typedef r_lua_touserdata = (r_lua_touserdata_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lua_touserdata_addr = 0x01539240;
+static constexpr std::uintptr_t lua_touserdata_addr = 0x01574400;
 #define lua_touserdata_CCV __cdecl
 
 /* 
@@ -2585,7 +2585,7 @@ static constexpr std::uintptr_t lua_touserdata_addr = 0x01539240;
 * Usage (Not 100% Accurate):
 
 using r_lua_type_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_type_typedef r_lua_type = (r_lua_type_typedef)(x(0x01539330));
+r_lua_type_typedef r_lua_type = (r_lua_type_typedef)(x(0x015744F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2595,7 +2595,7 @@ r_lua_type_typedef r_lua_type = (r_lua_type_typedef)(x(Adresses::lua_type_addr))
 
 
 */
-static constexpr std::uintptr_t lua_type_addr = 0x01539330;
+static constexpr std::uintptr_t lua_type_addr = 0x015744F0;
 #define lua_type_CCV __cdecl
 
 /* 
@@ -2609,7 +2609,7 @@ static constexpr std::uintptr_t lua_type_addr = 0x01539330;
 * Usage (Not 100% Accurate):
 
 using r_lua_typename_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_typename_typedef r_lua_typename = (r_lua_typename_typedef)(x(0x01539370));
+r_lua_typename_typedef r_lua_typename = (r_lua_typename_typedef)(x(0x01574530));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2619,7 +2619,7 @@ r_lua_typename_typedef r_lua_typename = (r_lua_typename_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_typename_addr = 0x01539370;
+static constexpr std::uintptr_t lua_typename_addr = 0x01574530;
 #define lua_typename_CCV __cdecl
 
 /* 
@@ -2633,7 +2633,7 @@ static constexpr std::uintptr_t lua_typename_addr = 0x01539370;
 * Usage (Not 100% Accurate):
 
 using r_lua_xmove_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lua_xmove_typedef r_lua_xmove = (r_lua_xmove_typedef)unprotect(x(0x01539470));
+r_lua_xmove_typedef r_lua_xmove = (r_lua_xmove_typedef)unprotect(x(0x01574620));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2643,7 +2643,7 @@ r_lua_xmove_typedef r_lua_xmove = (r_lua_xmove_typedef)unprotect(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_xmove_addr = 0x01539470;
+static constexpr std::uintptr_t lua_xmove_addr = 0x01574620;
 #define lua_xmove_CCV __cdecl
 
 /* 
@@ -2657,7 +2657,7 @@ static constexpr std::uintptr_t lua_xmove_addr = 0x01539470;
 * Usage (Not 100% Accurate):
 
 using r_lua_yeild_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lua_yeild_typedef r_lua_yeild = (r_lua_yeild_typedef)unprotect(x(0x0153AF60));
+r_lua_yeild_typedef r_lua_yeild = (r_lua_yeild_typedef)unprotect(x(0x01575F20));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2667,7 +2667,7 @@ r_lua_yeild_typedef r_lua_yeild = (r_lua_yeild_typedef)unprotect(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t lua_yeild_addr = 0x0153AF60;
+static constexpr std::uintptr_t lua_yeild_addr = 0x01575F20;
 #define lua_yeild_CCV __cdecl
 
 /* 
@@ -2681,7 +2681,7 @@ static constexpr std::uintptr_t lua_yeild_addr = 0x0153AF60;
 * Usage (Not 100% Accurate):
 
 using r_luaa_pushobject_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luaa_pushobject_typedef r_luaa_pushobject = (r_luaa_pushobject_typedef)(x(0x01536CF0));
+r_luaa_pushobject_typedef r_luaa_pushobject = (r_luaa_pushobject_typedef)(x(0x01572090));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2691,7 +2691,7 @@ r_luaa_pushobject_typedef r_luaa_pushobject = (r_luaa_pushobject_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t luaa_pushobject_addr = 0x01536CF0;
+static constexpr std::uintptr_t luaa_pushobject_addr = 0x01572090;
 #define luaa_pushobject_CCV __cdecl
 
 /* 
@@ -2705,7 +2705,7 @@ static constexpr std::uintptr_t luaa_pushobject_addr = 0x01536CF0;
 * Usage (Not 100% Accurate):
 
 using r_luab_auxwrap_typedef = int(__cdecl*)(int a1);
-r_luab_auxwrap_typedef r_luab_auxwrap = (r_luab_auxwrap_typedef)(x(0x015473C0));
+r_luab_auxwrap_typedef r_luab_auxwrap = (r_luab_auxwrap_typedef)(x(0x01581EE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2715,7 +2715,7 @@ r_luab_auxwrap_typedef r_luab_auxwrap = (r_luab_auxwrap_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luab_auxwrap_addr = 0x015473C0;
+static constexpr std::uintptr_t luab_auxwrap_addr = 0x01581EE0;
 #define luab_auxwrap_CCV __cdecl
 
 /* 
@@ -2729,7 +2729,7 @@ static constexpr std::uintptr_t luab_auxwrap_addr = 0x015473C0;
 * Usage (Not 100% Accurate):
 
 using r_luac_barrierback_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luac_barrierback_typedef r_luac_barrierback = (r_luac_barrierback_typedef)(x(0x0154FFC0));
+r_luac_barrierback_typedef r_luac_barrierback = (r_luac_barrierback_typedef)(x(0x0158A920));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2739,7 +2739,7 @@ r_luac_barrierback_typedef r_luac_barrierback = (r_luac_barrierback_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luac_barrierback_addr = 0x0154FFC0;
+static constexpr std::uintptr_t luac_barrierback_addr = 0x0158A920;
 #define luac_barrierback_CCV __cdecl
 
 /* 
@@ -2753,7 +2753,7 @@ static constexpr std::uintptr_t luac_barrierback_addr = 0x0154FFC0;
 * Usage (Not 100% Accurate):
 
 using r_luac_barrierf_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luac_barrierf_typedef r_luac_barrierf = (r_luac_barrierf_typedef)(x(0x0154FFE0));
+r_luac_barrierf_typedef r_luac_barrierf = (r_luac_barrierf_typedef)(x(0x0158A940));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2763,7 +2763,7 @@ r_luac_barrierf_typedef r_luac_barrierf = (r_luac_barrierf_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luac_barrierf_addr = 0x0154FFE0;
+static constexpr std::uintptr_t luac_barrierf_addr = 0x0158A940;
 #define luac_barrierf_CCV __cdecl
 
 /* 
@@ -2777,7 +2777,7 @@ static constexpr std::uintptr_t luac_barrierf_addr = 0x0154FFE0;
 * Usage (Not 100% Accurate):
 
 using r_luac_fullgc_typedef = int(__cdecl*)(int a1);
-r_luac_fullgc_typedef r_luac_fullgc = (r_luac_fullgc_typedef)(x(0x015502C0));
+r_luac_fullgc_typedef r_luac_fullgc = (r_luac_fullgc_typedef)(x(0x0158ABE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2787,7 +2787,7 @@ r_luac_fullgc_typedef r_luac_fullgc = (r_luac_fullgc_typedef)(x(Adresses::luac_f
 
 
 */
-static constexpr std::uintptr_t luac_fullgc_addr = 0x015502C0;
+static constexpr std::uintptr_t luac_fullgc_addr = 0x0158ABE0;
 #define luac_fullgc_CCV __cdecl
 
 /* 
@@ -2801,7 +2801,7 @@ static constexpr std::uintptr_t luac_fullgc_addr = 0x015502C0;
 * Usage (Not 100% Accurate):
 
 using r_luac_link_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luac_link_typedef r_luac_link = (r_luac_link_typedef)(x(0x015503B0));
+r_luac_link_typedef r_luac_link = (r_luac_link_typedef)(x(0x0158ACD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2811,7 +2811,7 @@ r_luac_link_typedef r_luac_link = (r_luac_link_typedef)(x(Adresses::luac_link_ad
 
 
 */
-static constexpr std::uintptr_t luac_link_addr = 0x015503B0;
+static constexpr std::uintptr_t luac_link_addr = 0x0158ACD0;
 #define luac_link_CCV __cdecl
 
 /* 
@@ -2825,7 +2825,7 @@ static constexpr std::uintptr_t luac_link_addr = 0x015503B0;
 * Usage (Not 100% Accurate):
 
 using r_luac_linkupval_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luac_linkupval_typedef r_luac_linkupval = (r_luac_linkupval_typedef)(x(0x015503F0));
+r_luac_linkupval_typedef r_luac_linkupval = (r_luac_linkupval_typedef)(x(0x0158AD10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2835,7 +2835,7 @@ r_luac_linkupval_typedef r_luac_linkupval = (r_luac_linkupval_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luac_linkupval_addr = 0x015503F0;
+static constexpr std::uintptr_t luac_linkupval_addr = 0x0158AD10;
 #define luac_linkupval_CCV __cdecl
 
 /* 
@@ -2849,7 +2849,7 @@ static constexpr std::uintptr_t luac_linkupval_addr = 0x015503F0;
 * Usage (Not 100% Accurate):
 
 using r_luac_step_typedef = int(__cdecl*)(int a1);
-r_luac_step_typedef r_luac_step = (r_luac_step_typedef)(x(0x01550470));
+r_luac_step_typedef r_luac_step = (r_luac_step_typedef)(x(0x0158AD90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2859,7 +2859,7 @@ r_luac_step_typedef r_luac_step = (r_luac_step_typedef)(x(Adresses::luac_step_ad
 
 
 */
-static constexpr std::uintptr_t luac_step_addr = 0x01550470;
+static constexpr std::uintptr_t luac_step_addr = 0x0158AD90;
 #define luac_step_CCV __cdecl
 
 /* 
@@ -2873,7 +2873,7 @@ static constexpr std::uintptr_t luac_step_addr = 0x01550470;
 * Usage (Not 100% Accurate):
 
 using r_luad_call_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luad_call_typedef r_luad_call = (r_luad_call_typedef)(x(0x0153A7A0));
+r_luad_call_typedef r_luad_call = (r_luad_call_typedef)(x(0x01575760));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2883,7 +2883,7 @@ r_luad_call_typedef r_luad_call = (r_luad_call_typedef)(x(Adresses::luad_call_ad
 
 
 */
-static constexpr std::uintptr_t luad_call_addr = 0x0153A7A0;
+static constexpr std::uintptr_t luad_call_addr = 0x01575760;
 #define luad_call_CCV __cdecl
 
 /* 
@@ -2897,7 +2897,7 @@ static constexpr std::uintptr_t luad_call_addr = 0x0153A7A0;
 * Usage (Not 100% Accurate):
 
 using r_luad_growstack_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luad_growstack_typedef r_luad_growstack = (r_luad_growstack_typedef)(x(0x0153A8A0));
+r_luad_growstack_typedef r_luad_growstack = (r_luad_growstack_typedef)(x(0x01575860));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2907,7 +2907,7 @@ r_luad_growstack_typedef r_luad_growstack = (r_luad_growstack_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luad_growstack_addr = 0x0153A8A0;
+static constexpr std::uintptr_t luad_growstack_addr = 0x01575860;
 #define luad_growstack_CCV __cdecl
 
 /* 
@@ -2921,7 +2921,7 @@ static constexpr std::uintptr_t luad_growstack_addr = 0x0153A8A0;
 * Usage (Not 100% Accurate):
 
 using r_luad_pcall_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4, int a5);
-r_luad_pcall_typedef r_luad_pcall = (r_luad_pcall_typedef)(x(0x0153A8D0));
+r_luad_pcall_typedef r_luad_pcall = (r_luad_pcall_typedef)(x(0x01575890));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2931,7 +2931,7 @@ r_luad_pcall_typedef r_luad_pcall = (r_luad_pcall_typedef)(x(Adresses::luad_pcal
 
 
 */
-static constexpr std::uintptr_t luad_pcall_addr = 0x0153A8D0;
+static constexpr std::uintptr_t luad_pcall_addr = 0x01575890;
 #define luad_pcall_CCV __cdecl
 
 /* 
@@ -2945,7 +2945,7 @@ static constexpr std::uintptr_t luad_pcall_addr = 0x0153A8D0;
 * Usage (Not 100% Accurate):
 
 using r_luad_poscall_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luad_poscall_typedef r_luad_poscall = (r_luad_poscall_typedef)(x(0x01544850));
+r_luad_poscall_typedef r_luad_poscall = (r_luad_poscall_typedef)(x(0x0157F470));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2955,7 +2955,7 @@ r_luad_poscall_typedef r_luad_poscall = (r_luad_poscall_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luad_poscall_addr = 0x01544850;
+static constexpr std::uintptr_t luad_poscall_addr = 0x0157F470;
 #define luad_poscall_CCV __cdecl
 
 /* 
@@ -2969,7 +2969,7 @@ static constexpr std::uintptr_t luad_poscall_addr = 0x01544850;
 * Usage (Not 100% Accurate):
 
 using r_luad_precall_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luad_precall_typedef r_luad_precall = (r_luad_precall_typedef)(x(0x015448E0));
+r_luad_precall_typedef r_luad_precall = (r_luad_precall_typedef)(x(0x0157F500));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -2979,7 +2979,7 @@ r_luad_precall_typedef r_luad_precall = (r_luad_precall_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luad_precall_addr = 0x015448E0;
+static constexpr std::uintptr_t luad_precall_addr = 0x0157F500;
 #define luad_precall_CCV __cdecl
 
 /* 
@@ -2993,7 +2993,7 @@ static constexpr std::uintptr_t luad_precall_addr = 0x015448E0;
 * Usage (Not 100% Accurate):
 
 using r_luad_rawrunprotected_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luad_rawrunprotected_typedef r_luad_rawrunprotected = (r_luad_rawrunprotected_typedef)(x(0x0153A9B0));
+r_luad_rawrunprotected_typedef r_luad_rawrunprotected = (r_luad_rawrunprotected_typedef)(x(0x01575970));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3003,7 +3003,7 @@ r_luad_rawrunprotected_typedef r_luad_rawrunprotected = (r_luad_rawrunprotected_
 
 
 */
-static constexpr std::uintptr_t luad_rawrunprotected_addr = 0x0153A9B0;
+static constexpr std::uintptr_t luad_rawrunprotected_addr = 0x01575970;
 #define luad_rawrunprotected_CCV __cdecl
 
 /* 
@@ -3017,7 +3017,7 @@ static constexpr std::uintptr_t luad_rawrunprotected_addr = 0x0153A9B0;
 * Usage (Not 100% Accurate):
 
 using r_luad_reallocci_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luad_reallocci_typedef r_luad_reallocci = (r_luad_reallocci_typedef)(x(0x0153AA50));
+r_luad_reallocci_typedef r_luad_reallocci = (r_luad_reallocci_typedef)(x(0x01575A10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3027,7 +3027,7 @@ r_luad_reallocci_typedef r_luad_reallocci = (r_luad_reallocci_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luad_reallocci_addr = 0x0153AA50;
+static constexpr std::uintptr_t luad_reallocci_addr = 0x01575A10;
 #define luad_reallocci_CCV __cdecl
 
 /* 
@@ -3041,7 +3041,7 @@ static constexpr std::uintptr_t luad_reallocci_addr = 0x0153AA50;
 * Usage (Not 100% Accurate):
 
 using r_luad_reallocstack_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luad_reallocstack_typedef r_luad_reallocstack = (r_luad_reallocstack_typedef)(x(0x0153AAD0));
+r_luad_reallocstack_typedef r_luad_reallocstack = (r_luad_reallocstack_typedef)(x(0x01575A90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3051,7 +3051,7 @@ r_luad_reallocstack_typedef r_luad_reallocstack = (r_luad_reallocstack_typedef)(
 
 
 */
-static constexpr std::uintptr_t luad_reallocstack_addr = 0x0153AAD0;
+static constexpr std::uintptr_t luad_reallocstack_addr = 0x01575A90;
 #define luad_reallocstack_CCV __cdecl
 
 /* 
@@ -3065,7 +3065,7 @@ static constexpr std::uintptr_t luad_reallocstack_addr = 0x0153AAD0;
 * Usage (Not 100% Accurate):
 
 using r_luad_seterrorObj_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luad_seterrorObj_typedef r_luad_seterrorObj = (r_luad_seterrorObj_typedef)(x(0x0153ABE0));
+r_luad_seterrorObj_typedef r_luad_seterrorObj = (r_luad_seterrorObj_typedef)(x(0x01575BA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3075,7 +3075,7 @@ r_luad_seterrorObj_typedef r_luad_seterrorObj = (r_luad_seterrorObj_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luad_seterrorObj_addr = 0x0153ABE0;
+static constexpr std::uintptr_t luad_seterrorObj_addr = 0x01575BA0;
 #define luad_seterrorObj_CCV __cdecl
 
 /* 
@@ -3089,7 +3089,7 @@ static constexpr std::uintptr_t luad_seterrorObj_addr = 0x0153ABE0;
 * Usage (Not 100% Accurate):
 
 using r_luad_throw_typedef = int(__fastcall*)(std::uintptr_t a1, int a2);
-r_luad_throw_typedef r_luad_throw = (r_luad_throw_typedef)(x(0x0153AC50));
+r_luad_throw_typedef r_luad_throw = (r_luad_throw_typedef)(x(0x01575C10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3099,7 +3099,7 @@ r_luad_throw_typedef r_luad_throw = (r_luad_throw_typedef)(x(Adresses::luad_thro
 
 
 */
-static constexpr std::uintptr_t luad_throw_addr = 0x0153AC50;
+static constexpr std::uintptr_t luad_throw_addr = 0x01575C10;
 #define luad_throw_CCV __fastcall
 
 /* 
@@ -3113,7 +3113,7 @@ static constexpr std::uintptr_t luad_throw_addr = 0x0153AC50;
 * Usage (Not 100% Accurate):
 
 using r_luae_freethread_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luae_freethread_typedef r_luae_freethread = (r_luae_freethread_typedef)(x(0x01545320));
+r_luae_freethread_typedef r_luae_freethread = (r_luae_freethread_typedef)(x(0x0157FF30));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3123,7 +3123,7 @@ r_luae_freethread_typedef r_luae_freethread = (r_luae_freethread_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t luae_freethread_addr = 0x01545320;
+static constexpr std::uintptr_t luae_freethread_addr = 0x0157FF30;
 #define luae_freethread_CCV __cdecl
 
 /* 
@@ -3137,7 +3137,7 @@ static constexpr std::uintptr_t luae_freethread_addr = 0x01545320;
 * Usage (Not 100% Accurate):
 
 using r_luae_newthread_typedef = int(__cdecl*)(int a1);
-r_luae_newthread_typedef r_luae_newthread = (r_luae_newthread_typedef)(x(0x015453A0));
+r_luae_newthread_typedef r_luae_newthread = (r_luae_newthread_typedef)(x(0x0157FFB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3147,7 +3147,7 @@ r_luae_newthread_typedef r_luae_newthread = (r_luae_newthread_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luae_newthread_addr = 0x015453A0;
+static constexpr std::uintptr_t luae_newthread_addr = 0x0157FFB0;
 #define luae_newthread_CCV __cdecl
 
 /* 
@@ -3161,7 +3161,7 @@ static constexpr std::uintptr_t luae_newthread_addr = 0x015453A0;
 * Usage (Not 100% Accurate):
 
 using r_luaf_close_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luaf_close_typedef r_luaf_close = (r_luaf_close_typedef)(x(0x01551570));
+r_luaf_close_typedef r_luaf_close = (r_luaf_close_typedef)(x(0x0158BE80));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3171,7 +3171,7 @@ r_luaf_close_typedef r_luaf_close = (r_luaf_close_typedef)(x(Adresses::luaf_clos
 
 
 */
-static constexpr std::uintptr_t luaf_close_addr = 0x01551570;
+static constexpr std::uintptr_t luaf_close_addr = 0x0158BE80;
 #define luaf_close_CCV __cdecl
 
 /* 
@@ -3185,7 +3185,7 @@ static constexpr std::uintptr_t luaf_close_addr = 0x01551570;
 * Usage (Not 100% Accurate):
 
 using r_luaf_findupval_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luaf_findupval_typedef r_luaf_findupval = (r_luaf_findupval_typedef)(x(0x01551610));
+r_luaf_findupval_typedef r_luaf_findupval = (r_luaf_findupval_typedef)(x(0x0158BF20));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3195,7 +3195,7 @@ r_luaf_findupval_typedef r_luaf_findupval = (r_luaf_findupval_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luaf_findupval_addr = 0x01551610;
+static constexpr std::uintptr_t luaf_findupval_addr = 0x0158BF20;
 #define luaf_findupval_CCV __cdecl
 
 /* 
@@ -3209,7 +3209,7 @@ static constexpr std::uintptr_t luaf_findupval_addr = 0x01551610;
 * Usage (Not 100% Accurate):
 
 using r_luaf_freeproto_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luaf_freeproto_typedef r_luaf_freeproto = (r_luaf_freeproto_typedef)(x(0x01551700));
+r_luaf_freeproto_typedef r_luaf_freeproto = (r_luaf_freeproto_typedef)(x(0x0158C010));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3219,7 +3219,7 @@ r_luaf_freeproto_typedef r_luaf_freeproto = (r_luaf_freeproto_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luaf_freeproto_addr = 0x01551700;
+static constexpr std::uintptr_t luaf_freeproto_addr = 0x0158C010;
 #define luaf_freeproto_CCV __cdecl
 
 /* 
@@ -3233,7 +3233,7 @@ static constexpr std::uintptr_t luaf_freeproto_addr = 0x01551700;
 * Usage (Not 100% Accurate):
 
 using r_luaf_newcclosure_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luaf_newcclosure_typedef r_luaf_newcclosure = (r_luaf_newcclosure_typedef)(x(0x01551890));
+r_luaf_newcclosure_typedef r_luaf_newcclosure = (r_luaf_newcclosure_typedef)(x(0x0158C1A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3243,7 +3243,7 @@ r_luaf_newcclosure_typedef r_luaf_newcclosure = (r_luaf_newcclosure_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luaf_newcclosure_addr = 0x01551890;
+static constexpr std::uintptr_t luaf_newcclosure_addr = 0x0158C1A0;
 #define luaf_newcclosure_CCV __cdecl
 
 /* 
@@ -3257,7 +3257,7 @@ static constexpr std::uintptr_t luaf_newcclosure_addr = 0x01551890;
 * Usage (Not 100% Accurate):
 
 using r_luaf_newlclosure_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_luaf_newlclosure_typedef r_luaf_newlclosure = (r_luaf_newlclosure_typedef)(x(0x015518F0));
+r_luaf_newlclosure_typedef r_luaf_newlclosure = (r_luaf_newlclosure_typedef)(x(0x0158C200));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3267,7 +3267,7 @@ r_luaf_newlclosure_typedef r_luaf_newlclosure = (r_luaf_newlclosure_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luaf_newlclosure_addr = 0x015518F0;
+static constexpr std::uintptr_t luaf_newlclosure_addr = 0x0158C200;
 #define luaf_newlclosure_CCV __cdecl
 
 /* 
@@ -3281,7 +3281,7 @@ static constexpr std::uintptr_t luaf_newlclosure_addr = 0x015518F0;
 * Usage (Not 100% Accurate):
 
 using r_luaf_newproto_typedef = int(__cdecl*)(int a1);
-r_luaf_newproto_typedef r_luaf_newproto = (r_luaf_newproto_typedef)(x(0x01551960));
+r_luaf_newproto_typedef r_luaf_newproto = (r_luaf_newproto_typedef)(x(0x0158C270));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3291,7 +3291,7 @@ r_luaf_newproto_typedef r_luaf_newproto = (r_luaf_newproto_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luaf_newproto_addr = 0x01551960;
+static constexpr std::uintptr_t luaf_newproto_addr = 0x0158C270;
 #define luaf_newproto_CCV __cdecl
 
 /* 
@@ -3305,7 +3305,7 @@ static constexpr std::uintptr_t luaf_newproto_addr = 0x01551960;
 * Usage (Not 100% Accurate):
 
 using r_luag_aritherror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_luag_aritherror_typedef r_luag_aritherror = (r_luag_aritherror_typedef)(x(0x01545B50));
+r_luag_aritherror_typedef r_luag_aritherror = (r_luag_aritherror_typedef)(x(0x01580740));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3315,7 +3315,7 @@ r_luag_aritherror_typedef r_luag_aritherror = (r_luag_aritherror_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t luag_aritherror_addr = 0x01545B50;
+static constexpr std::uintptr_t luag_aritherror_addr = 0x01580740;
 #define luag_aritherror_CCV __cdecl
 
 /* 
@@ -3329,7 +3329,7 @@ static constexpr std::uintptr_t luag_aritherror_addr = 0x01545B50;
 * Usage (Not 100% Accurate):
 
 using r_luag_breakpoint_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_luag_breakpoint_typedef r_luag_breakpoint = (r_luag_breakpoint_typedef)(x(0x01545BC0));
+r_luag_breakpoint_typedef r_luag_breakpoint = (r_luag_breakpoint_typedef)(x(0x015807B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3339,7 +3339,7 @@ r_luag_breakpoint_typedef r_luag_breakpoint = (r_luag_breakpoint_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t luag_breakpoint_addr = 0x01545BC0;
+static constexpr std::uintptr_t luag_breakpoint_addr = 0x015807B0;
 #define luag_breakpoint_CCV __cdecl
 
 /* 
@@ -3353,7 +3353,7 @@ static constexpr std::uintptr_t luag_breakpoint_addr = 0x01545BC0;
 * Usage (Not 100% Accurate):
 
 using r_luag_concaterror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luag_concaterror_typedef r_luag_concaterror = (r_luag_concaterror_typedef)(x(0x01545D10));
+r_luag_concaterror_typedef r_luag_concaterror = (r_luag_concaterror_typedef)(x(0x01580900));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3363,7 +3363,7 @@ r_luag_concaterror_typedef r_luag_concaterror = (r_luag_concaterror_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luag_concaterror_addr = 0x01545D10;
+static constexpr std::uintptr_t luag_concaterror_addr = 0x01580900;
 #define luag_concaterror_CCV __cdecl
 
 /* 
@@ -3377,7 +3377,7 @@ static constexpr std::uintptr_t luag_concaterror_addr = 0x01545D10;
 * Usage (Not 100% Accurate):
 
 using r_luag_forerrorl_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, const char* a3);
-r_luag_forerrorl_typedef r_luag_forerrorl = (r_luag_forerrorl_typedef)(x(0x01545D50));
+r_luag_forerrorl_typedef r_luag_forerrorl = (r_luag_forerrorl_typedef)(x(0x01580940));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3387,7 +3387,7 @@ r_luag_forerrorl_typedef r_luag_forerrorl = (r_luag_forerrorl_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luag_forerrorl_addr = 0x01545D50;
+static constexpr std::uintptr_t luag_forerrorl_addr = 0x01580940;
 #define luag_forerrorl_CCV __cdecl
 
 /* 
@@ -3401,7 +3401,7 @@ static constexpr std::uintptr_t luag_forerrorl_addr = 0x01545D50;
 * Usage (Not 100% Accurate):
 
 using r_luag_getline_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luag_getline_typedef r_luag_getline = (r_luag_getline_typedef)(x(0x01545D80));
+r_luag_getline_typedef r_luag_getline = (r_luag_getline_typedef)(x(0x01580970));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3411,7 +3411,7 @@ r_luag_getline_typedef r_luag_getline = (r_luag_getline_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luag_getline_addr = 0x01545D80;
+static constexpr std::uintptr_t luag_getline_addr = 0x01580970;
 #define luag_getline_CCV __cdecl
 
 /* 
@@ -3425,7 +3425,7 @@ static constexpr std::uintptr_t luag_getline_addr = 0x01545D80;
 * Usage (Not 100% Accurate):
 
 using r_luag_indexerror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luag_indexerror_typedef r_luag_indexerror = (r_luag_indexerror_typedef)(x(0x01545DC0));
+r_luag_indexerror_typedef r_luag_indexerror = (r_luag_indexerror_typedef)(x(0x015809B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3435,7 +3435,7 @@ r_luag_indexerror_typedef r_luag_indexerror = (r_luag_indexerror_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t luag_indexerror_addr = 0x01545DC0;
+static constexpr std::uintptr_t luag_indexerror_addr = 0x015809B0;
 #define luag_indexerror_CCV __cdecl
 
 /* 
@@ -3449,7 +3449,7 @@ static constexpr std::uintptr_t luag_indexerror_addr = 0x01545DC0;
 * Usage (Not 100% Accurate):
 
 using r_luag_ordererror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luag_ordererror_typedef r_luag_ordererror = (r_luag_ordererror_typedef)(x(0x01545E60));
+r_luag_ordererror_typedef r_luag_ordererror = (r_luag_ordererror_typedef)(x(0x01580A50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3459,7 +3459,7 @@ r_luag_ordererror_typedef r_luag_ordererror = (r_luag_ordererror_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t luag_ordererror_addr = 0x01545E60;
+static constexpr std::uintptr_t luag_ordererror_addr = 0x01580A50;
 #define luag_ordererror_CCV __cdecl
 
 /* 
@@ -3473,7 +3473,7 @@ static constexpr std::uintptr_t luag_ordererror_addr = 0x01545E60;
 * Usage (Not 100% Accurate):
 
 using r_luag_runerror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luag_runerror_typedef r_luag_runerror = (r_luag_runerror_typedef)(x(0x01545EF0));
+r_luag_runerror_typedef r_luag_runerror = (r_luag_runerror_typedef)(x(0x01580AE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3483,7 +3483,7 @@ r_luag_runerror_typedef r_luag_runerror = (r_luag_runerror_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luag_runerror_addr = 0x01545EF0;
+static constexpr std::uintptr_t luag_runerror_addr = 0x01580AE0;
 #define luag_runerror_CCV __cdecl
 
 /* 
@@ -3497,7 +3497,7 @@ static constexpr std::uintptr_t luag_runerror_addr = 0x01545EF0;
 * Usage (Not 100% Accurate):
 
 using r_luag_typeerror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luag_typeerror_typedef r_luag_typeerror = (r_luag_typeerror_typedef)(x(0x015546B0));
+r_luag_typeerror_typedef r_luag_typeerror = (r_luag_typeerror_typedef)(x(0x0158EF40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3507,7 +3507,7 @@ r_luag_typeerror_typedef r_luag_typeerror = (r_luag_typeerror_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luag_typeerror_addr = 0x015546B0;
+static constexpr std::uintptr_t luag_typeerror_addr = 0x0158EF40;
 #define luag_typeerror_CCV __cdecl
 
 /* 
@@ -3521,7 +3521,7 @@ static constexpr std::uintptr_t luag_typeerror_addr = 0x015546B0;
 * Usage (Not 100% Accurate):
 
 using r_luah_clone_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luah_clone_typedef r_luah_clone = (r_luah_clone_typedef)(x(0x015520F0));
+r_luah_clone_typedef r_luah_clone = (r_luah_clone_typedef)(x(0x0158C9B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3531,7 +3531,7 @@ r_luah_clone_typedef r_luah_clone = (r_luah_clone_typedef)(x(Adresses::luah_clon
 
 
 */
-static constexpr std::uintptr_t luah_clone_addr = 0x015520F0;
+static constexpr std::uintptr_t luah_clone_addr = 0x0158C9B0;
 #define luah_clone_CCV __cdecl
 
 /* 
@@ -3545,7 +3545,7 @@ static constexpr std::uintptr_t luah_clone_addr = 0x015520F0;
 * Usage (Not 100% Accurate):
 
 using r_luah_free_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luah_free_typedef r_luah_free = (r_luah_free_typedef)(x(0x01551C10));
+r_luah_free_typedef r_luah_free = (r_luah_free_typedef)(x(0x0158C520));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3555,7 +3555,7 @@ r_luah_free_typedef r_luah_free = (r_luah_free_typedef)(x(Adresses::luah_free_ad
 
 
 */
-static constexpr std::uintptr_t luah_free_addr = 0x01551C10;
+static constexpr std::uintptr_t luah_free_addr = 0x0158C520;
 #define luah_free_CCV __cdecl
 
 /* 
@@ -3569,7 +3569,7 @@ static constexpr std::uintptr_t luah_free_addr = 0x01551C10;
 * Usage (Not 100% Accurate):
 
 using r_luah_get_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luah_get_typedef r_luah_get = (r_luah_get_typedef)(x(0x01552290));
+r_luah_get_typedef r_luah_get = (r_luah_get_typedef)(x(0x0158CB50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3579,7 +3579,7 @@ r_luah_get_typedef r_luah_get = (r_luah_get_typedef)(x(Adresses::luah_get_addr))
 
 
 */
-static constexpr std::uintptr_t luah_get_addr = 0x01552290;
+static constexpr std::uintptr_t luah_get_addr = 0x0158CB50;
 #define luah_get_CCV __cdecl
 
 /* 
@@ -3593,7 +3593,7 @@ static constexpr std::uintptr_t luah_get_addr = 0x01552290;
 * Usage (Not 100% Accurate):
 
 using r_luah_getn_typedef = int(__cdecl*)(int a1);
-r_luah_getn_typedef r_luah_getn = (r_luah_getn_typedef)(x(0x01552340));
+r_luah_getn_typedef r_luah_getn = (r_luah_getn_typedef)(x(0x0158CC00));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3603,7 +3603,7 @@ r_luah_getn_typedef r_luah_getn = (r_luah_getn_typedef)(x(Adresses::luah_getn_ad
 
 
 */
-static constexpr std::uintptr_t luah_getn_addr = 0x01552340;
+static constexpr std::uintptr_t luah_getn_addr = 0x0158CC00;
 #define luah_getn_CCV __cdecl
 
 /* 
@@ -3617,7 +3617,7 @@ static constexpr std::uintptr_t luah_getn_addr = 0x01552340;
 * Usage (Not 100% Accurate):
 
 using r_luah_getnum_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luah_getnum_typedef r_luah_getnum = (r_luah_getnum_typedef)(x(0x015523C0));
+r_luah_getnum_typedef r_luah_getnum = (r_luah_getnum_typedef)(x(0x0158CC80));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3627,7 +3627,7 @@ r_luah_getnum_typedef r_luah_getnum = (r_luah_getnum_typedef)(x(Adresses::luah_g
 
 
 */
-static constexpr std::uintptr_t luah_getnum_addr = 0x015523C0;
+static constexpr std::uintptr_t luah_getnum_addr = 0x0158CC80;
 #define luah_getnum_CCV __cdecl
 
 /* 
@@ -3641,7 +3641,7 @@ static constexpr std::uintptr_t luah_getnum_addr = 0x015523C0;
 * Usage (Not 100% Accurate):
 
 using r_luah_getstr_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luah_getstr_typedef r_luah_getstr = (r_luah_getstr_typedef)(x(0x015524A0));
+r_luah_getstr_typedef r_luah_getstr = (r_luah_getstr_typedef)(x(0x0158CD60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3651,7 +3651,7 @@ r_luah_getstr_typedef r_luah_getstr = (r_luah_getstr_typedef)(x(Adresses::luah_g
 
 
 */
-static constexpr std::uintptr_t luah_getstr_addr = 0x015524A0;
+static constexpr std::uintptr_t luah_getstr_addr = 0x0158CD60;
 #define luah_getstr_CCV __cdecl
 
 /* 
@@ -3665,7 +3665,7 @@ static constexpr std::uintptr_t luah_getstr_addr = 0x015524A0;
 * Usage (Not 100% Accurate):
 
 using r_luah_new_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luah_new_typedef r_luah_new = (r_luah_new_typedef)(x(0x01552510));
+r_luah_new_typedef r_luah_new = (r_luah_new_typedef)(x(0x0158CDD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3675,7 +3675,7 @@ r_luah_new_typedef r_luah_new = (r_luah_new_typedef)(x(Adresses::luah_new_addr))
 
 
 */
-static constexpr std::uintptr_t luah_new_addr = 0x01552510;
+static constexpr std::uintptr_t luah_new_addr = 0x0158CDD0;
 #define luah_new_CCV __cdecl
 
 /* 
@@ -3689,7 +3689,7 @@ static constexpr std::uintptr_t luah_new_addr = 0x01552510;
 * Usage (Not 100% Accurate):
 
 using r_luah_next_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luah_next_typedef r_luah_next = (r_luah_next_typedef)(x(0x01552580));
+r_luah_next_typedef r_luah_next = (r_luah_next_typedef)(x(0x0158CE40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3699,7 +3699,7 @@ r_luah_next_typedef r_luah_next = (r_luah_next_typedef)(x(Adresses::luah_next_ad
 
 
 */
-static constexpr std::uintptr_t luah_next_addr = 0x01552580;
+static constexpr std::uintptr_t luah_next_addr = 0x0158CE40;
 #define luah_next_CCV __cdecl
 
 /* 
@@ -3713,7 +3713,7 @@ static constexpr std::uintptr_t luah_next_addr = 0x01552580;
 * Usage (Not 100% Accurate):
 
 using r_luah_resizearray_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luah_resizearray_typedef r_luah_resizearray = (r_luah_resizearray_typedef)(x(0x01552760));
+r_luah_resizearray_typedef r_luah_resizearray = (r_luah_resizearray_typedef)(x(0x0158D020));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3723,7 +3723,7 @@ r_luah_resizearray_typedef r_luah_resizearray = (r_luah_resizearray_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luah_resizearray_addr = 0x01552760;
+static constexpr std::uintptr_t luah_resizearray_addr = 0x0158D020;
 #define luah_resizearray_CCV __cdecl
 
 /* 
@@ -3737,7 +3737,7 @@ static constexpr std::uintptr_t luah_resizearray_addr = 0x01552760;
 * Usage (Not 100% Accurate):
 
 using r_luah_set_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luah_set_typedef r_luah_set = (r_luah_set_typedef)(x(0x015527B0));
+r_luah_set_typedef r_luah_set = (r_luah_set_typedef)(x(0x0158D070));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3747,7 +3747,7 @@ r_luah_set_typedef r_luah_set = (r_luah_set_typedef)(x(Adresses::luah_set_addr))
 
 
 */
-static constexpr std::uintptr_t luah_set_addr = 0x015527B0;
+static constexpr std::uintptr_t luah_set_addr = 0x0158D070;
 #define luah_set_CCV __cdecl
 
 /* 
@@ -3761,7 +3761,7 @@ static constexpr std::uintptr_t luah_set_addr = 0x015527B0;
 * Usage (Not 100% Accurate):
 
 using r_luah_setnum_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luah_setnum_typedef r_luah_setnum = (r_luah_setnum_typedef)(x(0x01552920));
+r_luah_setnum_typedef r_luah_setnum = (r_luah_setnum_typedef)(x(0x0158D1E0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3771,7 +3771,7 @@ r_luah_setnum_typedef r_luah_setnum = (r_luah_setnum_typedef)(x(Adresses::luah_s
 
 
 */
-static constexpr std::uintptr_t luah_setnum_addr = 0x01552920;
+static constexpr std::uintptr_t luah_setnum_addr = 0x0158D1E0;
 #define luah_setnum_CCV __cdecl
 
 /* 
@@ -3785,7 +3785,7 @@ static constexpr std::uintptr_t luah_setnum_addr = 0x01552920;
 * Usage (Not 100% Accurate):
 
 using r_luah_setstr_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luah_setstr_typedef r_luah_setstr = (r_luah_setstr_typedef)(x(0x01552990));
+r_luah_setstr_typedef r_luah_setstr = (r_luah_setstr_typedef)(x(0x0158D250));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3795,7 +3795,7 @@ r_luah_setstr_typedef r_luah_setstr = (r_luah_setstr_typedef)(x(Adresses::luah_s
 
 
 */
-static constexpr std::uintptr_t luah_setstr_addr = 0x01552990;
+static constexpr std::uintptr_t luah_setstr_addr = 0x0158D250;
 #define luah_setstr_CCV __cdecl
 
 /* 
@@ -3809,7 +3809,7 @@ static constexpr std::uintptr_t luah_setstr_addr = 0x01552990;
 * Usage (Not 100% Accurate):
 
 using r_lual_addlstring_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_addlstring_typedef r_lual_addlstring = (r_lual_addlstring_typedef)(x(0x01539640));
+r_lual_addlstring_typedef r_lual_addlstring = (r_lual_addlstring_typedef)(x(0x015747D0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3819,7 +3819,7 @@ r_lual_addlstring_typedef r_lual_addlstring = (r_lual_addlstring_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lual_addlstring_addr = 0x01539640;
+static constexpr std::uintptr_t lual_addlstring_addr = 0x015747D0;
 #define lual_addlstring_CCV __cdecl
 
 /* 
@@ -3833,7 +3833,7 @@ static constexpr std::uintptr_t lual_addlstring_addr = 0x01539640;
 * Usage (Not 100% Accurate):
 
 using r_lual_addvalue_typedef = int(__cdecl*)(int a1);
-r_lual_addvalue_typedef r_lual_addvalue = (r_lual_addvalue_typedef)(x(0x01539720));
+r_lual_addvalue_typedef r_lual_addvalue = (r_lual_addvalue_typedef)(x(0x015748B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3843,7 +3843,7 @@ r_lual_addvalue_typedef r_lual_addvalue = (r_lual_addvalue_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lual_addvalue_addr = 0x01539720;
+static constexpr std::uintptr_t lual_addvalue_addr = 0x015748B0;
 #define lual_addvalue_CCV __cdecl
 
 /* 
@@ -3857,7 +3857,7 @@ static constexpr std::uintptr_t lual_addvalue_addr = 0x01539720;
 * Usage (Not 100% Accurate):
 
 using r_lual_argerror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_argerror_typedef r_lual_argerror = (r_lual_argerror_typedef)(x(0x015397A0));
+r_lual_argerror_typedef r_lual_argerror = (r_lual_argerror_typedef)(x(0x01574930));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3867,7 +3867,7 @@ r_lual_argerror_typedef r_lual_argerror = (r_lual_argerror_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lual_argerror_addr = 0x015397A0;
+static constexpr std::uintptr_t lual_argerror_addr = 0x01574930;
 #define lual_argerror_CCV __cdecl
 
 /* 
@@ -3881,7 +3881,7 @@ static constexpr std::uintptr_t lual_argerror_addr = 0x015397A0;
 * Usage (Not 100% Accurate):
 
 using r_lual_buffinit_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_buffinit_typedef r_lual_buffinit = (r_lual_buffinit_typedef)(x(0x01539820));
+r_lual_buffinit_typedef r_lual_buffinit = (r_lual_buffinit_typedef)(x(0x015749B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3891,7 +3891,7 @@ r_lual_buffinit_typedef r_lual_buffinit = (r_lual_buffinit_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lual_buffinit_addr = 0x01539820;
+static constexpr std::uintptr_t lual_buffinit_addr = 0x015749B0;
 #define lual_buffinit_CCV __cdecl
 
 /* 
@@ -3905,7 +3905,7 @@ static constexpr std::uintptr_t lual_buffinit_addr = 0x01539820;
 * Usage (Not 100% Accurate):
 
 using r_lual_checkany_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_checkany_typedef r_lual_checkany = (r_lual_checkany_typedef)(x(0x01539890));
+r_lual_checkany_typedef r_lual_checkany = (r_lual_checkany_typedef)(x(0x01574A20));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3915,7 +3915,7 @@ r_lual_checkany_typedef r_lual_checkany = (r_lual_checkany_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lual_checkany_addr = 0x01539890;
+static constexpr std::uintptr_t lual_checkany_addr = 0x01574A20;
 #define lual_checkany_CCV __cdecl
 
 /* 
@@ -3929,7 +3929,7 @@ static constexpr std::uintptr_t lual_checkany_addr = 0x01539890;
 * Usage (Not 100% Accurate):
 
 using r_lual_checkinteger_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_checkinteger_typedef r_lual_checkinteger = (r_lual_checkinteger_typedef)(x(0x015398D0));
+r_lual_checkinteger_typedef r_lual_checkinteger = (r_lual_checkinteger_typedef)(x(0x01574A60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3939,7 +3939,7 @@ r_lual_checkinteger_typedef r_lual_checkinteger = (r_lual_checkinteger_typedef)(
 
 
 */
-static constexpr std::uintptr_t lual_checkinteger_addr = 0x015398D0;
+static constexpr std::uintptr_t lual_checkinteger_addr = 0x01574A60;
 #define lual_checkinteger_CCV __cdecl
 
 /* 
@@ -3953,7 +3953,7 @@ static constexpr std::uintptr_t lual_checkinteger_addr = 0x015398D0;
 * Usage (Not 100% Accurate):
 
 using r_lual_checklstring_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_checklstring_typedef r_lual_checklstring = (r_lual_checklstring_typedef)(x(0x01539900));
+r_lual_checklstring_typedef r_lual_checklstring = (r_lual_checklstring_typedef)(x(0x01574A90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3963,7 +3963,7 @@ r_lual_checklstring_typedef r_lual_checklstring = (r_lual_checklstring_typedef)(
 
 
 */
-static constexpr std::uintptr_t lual_checklstring_addr = 0x01539900;
+static constexpr std::uintptr_t lual_checklstring_addr = 0x01574A90;
 #define lual_checklstring_CCV __cdecl
 
 /* 
@@ -3977,7 +3977,7 @@ static constexpr std::uintptr_t lual_checklstring_addr = 0x01539900;
 * Usage (Not 100% Accurate):
 
 using r_lual_checknumber_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_checknumber_typedef r_lual_checknumber = (r_lual_checknumber_typedef)(x(0x01539930));
+r_lual_checknumber_typedef r_lual_checknumber = (r_lual_checknumber_typedef)(x(0x01574AC0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -3987,7 +3987,7 @@ r_lual_checknumber_typedef r_lual_checknumber = (r_lual_checknumber_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t lual_checknumber_addr = 0x01539930;
+static constexpr std::uintptr_t lual_checknumber_addr = 0x01574AC0;
 #define lual_checknumber_CCV __cdecl
 
 /* 
@@ -4001,7 +4001,7 @@ static constexpr std::uintptr_t lual_checknumber_addr = 0x01539930;
 * Usage (Not 100% Accurate):
 
 using r_lual_checkstack_typedef = int(__thiscall*)(std::uintptr_t a1, int a2, int a3);
-r_lual_checkstack_typedef r_lual_checkstack = (r_lual_checkstack_typedef)(x(0x01539960));
+r_lual_checkstack_typedef r_lual_checkstack = (r_lual_checkstack_typedef)(x(0x01574AF0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4011,7 +4011,7 @@ r_lual_checkstack_typedef r_lual_checkstack = (r_lual_checkstack_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lual_checkstack_addr = 0x01539960;
+static constexpr std::uintptr_t lual_checkstack_addr = 0x01574AF0;
 #define lual_checkstack_CCV __thiscall
 
 /* 
@@ -4025,7 +4025,7 @@ static constexpr std::uintptr_t lual_checkstack_addr = 0x01539960;
 * Usage (Not 100% Accurate):
 
 using r_lual_checktype_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_checktype_typedef r_lual_checktype = (r_lual_checktype_typedef)(x(0x015399A0));
+r_lual_checktype_typedef r_lual_checktype = (r_lual_checktype_typedef)(x(0x01574B30));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4035,7 +4035,7 @@ r_lual_checktype_typedef r_lual_checktype = (r_lual_checktype_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lual_checktype_addr = 0x015399A0;
+static constexpr std::uintptr_t lual_checktype_addr = 0x01574B30;
 #define lual_checktype_CCV __cdecl
 
 /* 
@@ -4049,7 +4049,7 @@ static constexpr std::uintptr_t lual_checktype_addr = 0x015399A0;
 * Usage (Not 100% Accurate):
 
 using r_lual_checkunsigned_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_checkunsigned_typedef r_lual_checkunsigned = (r_lual_checkunsigned_typedef)(x(0x015399D0));
+r_lual_checkunsigned_typedef r_lual_checkunsigned = (r_lual_checkunsigned_typedef)(x(0x01574B60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4059,7 +4059,7 @@ r_lual_checkunsigned_typedef r_lual_checkunsigned = (r_lual_checkunsigned_typede
 
 
 */
-static constexpr std::uintptr_t lual_checkunsigned_addr = 0x015399D0;
+static constexpr std::uintptr_t lual_checkunsigned_addr = 0x01574B60;
 #define lual_checkunsigned_CCV __cdecl
 
 /* 
@@ -4073,7 +4073,7 @@ static constexpr std::uintptr_t lual_checkunsigned_addr = 0x015399D0;
 * Usage (Not 100% Accurate):
 
 using r_lual_error_typedef = int(__cdecl*)(int a1,  const char *a2, ...);
-r_lual_error_typedef r_lual_error = (r_lual_error_typedef)(x(0x01539A00));
+r_lual_error_typedef r_lual_error = (r_lual_error_typedef)(x(0x01574B90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4083,7 +4083,7 @@ r_lual_error_typedef r_lual_error = (r_lual_error_typedef)(x(Adresses::lual_erro
 
 
 */
-static constexpr std::uintptr_t lual_error_addr = 0x01539A00;
+static constexpr std::uintptr_t lual_error_addr = 0x01574B90;
 #define lual_error_CCV __cdecl
 
 /* 
@@ -4097,7 +4097,7 @@ static constexpr std::uintptr_t lual_error_addr = 0x01539A00;
 * Usage (Not 100% Accurate):
 
 using r_lual_findtable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_lual_findtable_typedef r_lual_findtable = (r_lual_findtable_typedef)(x(0x01539B00));
+r_lual_findtable_typedef r_lual_findtable = (r_lual_findtable_typedef)(x(0x01574C90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4107,7 +4107,7 @@ r_lual_findtable_typedef r_lual_findtable = (r_lual_findtable_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lual_findtable_addr = 0x01539B00;
+static constexpr std::uintptr_t lual_findtable_addr = 0x01574C90;
 #define lual_findtable_CCV __cdecl
 
 /* 
@@ -4121,7 +4121,7 @@ static constexpr std::uintptr_t lual_findtable_addr = 0x01539B00;
 * Usage (Not 100% Accurate):
 
 using r_lual_getmetafield_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_getmetafield_typedef r_lual_getmetafield = (r_lual_getmetafield_typedef)(x(0x0153A180));
+r_lual_getmetafield_typedef r_lual_getmetafield = (r_lual_getmetafield_typedef)(x(0x01575230));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4131,7 +4131,7 @@ r_lual_getmetafield_typedef r_lual_getmetafield = (r_lual_getmetafield_typedef)(
 
 
 */
-static constexpr std::uintptr_t lual_getmetafield_addr = 0x0153A180;
+static constexpr std::uintptr_t lual_getmetafield_addr = 0x01575230;
 #define lual_getmetafield_CCV __cdecl
 
 /* 
@@ -4145,7 +4145,7 @@ static constexpr std::uintptr_t lual_getmetafield_addr = 0x0153A180;
 * Usage (Not 100% Accurate):
 
 using r_lual_newmetatable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_newmetatable_typedef r_lual_newmetatable = (r_lual_newmetatable_typedef)(x(0x01539C50));
+r_lual_newmetatable_typedef r_lual_newmetatable = (r_lual_newmetatable_typedef)(x(0x01574DE0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4155,7 +4155,7 @@ r_lual_newmetatable_typedef r_lual_newmetatable = (r_lual_newmetatable_typedef)(
 
 
 */
-static constexpr std::uintptr_t lual_newmetatable_addr = 0x01539C50;
+static constexpr std::uintptr_t lual_newmetatable_addr = 0x01574DE0;
 #define lual_newmetatable_CCV __cdecl
 
 /* 
@@ -4169,7 +4169,7 @@ static constexpr std::uintptr_t lual_newmetatable_addr = 0x01539C50;
 * Usage (Not 100% Accurate):
 
 using r_lual_optinteger_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_optinteger_typedef r_lual_optinteger = (r_lual_optinteger_typedef)(x(0x01539CB0));
+r_lual_optinteger_typedef r_lual_optinteger = (r_lual_optinteger_typedef)(x(0x01574E40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4179,7 +4179,7 @@ r_lual_optinteger_typedef r_lual_optinteger = (r_lual_optinteger_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lual_optinteger_addr = 0x01539CB0;
+static constexpr std::uintptr_t lual_optinteger_addr = 0x01574E40;
 #define lual_optinteger_CCV __cdecl
 
 /* 
@@ -4193,7 +4193,7 @@ static constexpr std::uintptr_t lual_optinteger_addr = 0x01539CB0;
 * Usage (Not 100% Accurate):
 
 using r_lual_optlstring_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, const char* a3, int a4);
-r_lual_optlstring_typedef r_lual_optlstring = (r_lual_optlstring_typedef)(x(0x01539D00));
+r_lual_optlstring_typedef r_lual_optlstring = (r_lual_optlstring_typedef)(x(0x01574E90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4203,7 +4203,7 @@ r_lual_optlstring_typedef r_lual_optlstring = (r_lual_optlstring_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lual_optlstring_addr = 0x01539D00;
+static constexpr std::uintptr_t lual_optlstring_addr = 0x01574E90;
 #define lual_optlstring_CCV __cdecl
 
 /* 
@@ -4217,7 +4217,7 @@ static constexpr std::uintptr_t lual_optlstring_addr = 0x01539D00;
 * Usage (Not 100% Accurate):
 
 using r_lual_prepbuffer_typedef = int(__cdecl*)(int a1);
-r_lual_prepbuffer_typedef r_lual_prepbuffer = (r_lual_prepbuffer_typedef)(x(0x01539DE0));
+r_lual_prepbuffer_typedef r_lual_prepbuffer = (r_lual_prepbuffer_typedef)(x(0x01574F70));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4227,7 +4227,7 @@ r_lual_prepbuffer_typedef r_lual_prepbuffer = (r_lual_prepbuffer_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lual_prepbuffer_addr = 0x01539DE0;
+static constexpr std::uintptr_t lual_prepbuffer_addr = 0x01574F70;
 #define lual_prepbuffer_CCV __cdecl
 
 /* 
@@ -4241,7 +4241,7 @@ static constexpr std::uintptr_t lual_prepbuffer_addr = 0x01539DE0;
 * Usage (Not 100% Accurate):
 
 using r_lual_pushresult_typedef = int(__cdecl*)(int a1);
-r_lual_pushresult_typedef r_lual_pushresult = (r_lual_pushresult_typedef)(x(0x01539EC0));
+r_lual_pushresult_typedef r_lual_pushresult = (r_lual_pushresult_typedef)(x(0x01575040));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4251,32 +4251,8 @@ r_lual_pushresult_typedef r_lual_pushresult = (r_lual_pushresult_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t lual_pushresult_addr = 0x01539EC0;
+static constexpr std::uintptr_t lual_pushresult_addr = 0x01575040;
 #define lual_pushresult_CCV __cdecl
-
-/* 
-
-* lual_ref_Decompiled_Args: std::uintptr_t a1, int a2
-* lual_ref_TypeDef: int
-* lual_ref_Aob: Unable to generate aob.
-* lual_ref_ProtectedByRetcheck: false
-* lual_ref_IsApartOfLua: true
-* lual_ref_Mask: ....
-* Usage (Not 100% Accurate):
-
-using r_lual_ref_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_ref_typedef r_lual_ref = (r_lual_ref_typedef)(x(0x01539FB0));
-
-* (Compatable Format) Usage (Not 100% Accurate):
-
-using r_lual_ref_typedef = int(lual_ref_CCV*)(std::uintptr_t a1, int a2);
-r_lual_ref_typedef r_lual_ref = (r_lual_ref_typedef)(x(Adresses::lual_ref_addr));
-
-
-
-*/
-static constexpr std::uintptr_t lual_ref_addr = 0x01539FB0;
-#define lual_ref_CCV __cdecl
 
 /* 
 
@@ -4289,7 +4265,7 @@ static constexpr std::uintptr_t lual_ref_addr = 0x01539FB0;
 * Usage (Not 100% Accurate):
 
 using r_lual_register_typedef = int(__cdecl*)(int a1, const char* a2, int a3);
-r_lual_register_typedef r_lual_register = (r_lual_register_typedef)(x(0x0153A060));
+r_lual_register_typedef r_lual_register = (r_lual_register_typedef)(x(0x01575120));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4299,7 +4275,7 @@ r_lual_register_typedef r_lual_register = (r_lual_register_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t lual_register_addr = 0x0153A060;
+static constexpr std::uintptr_t lual_register_addr = 0x01575120;
 #define lual_register_CCV __cdecl
 
 /* 
@@ -4313,7 +4289,7 @@ static constexpr std::uintptr_t lual_register_addr = 0x0153A060;
 * Usage (Not 100% Accurate):
 
 using r_lual_typeerror_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_typeerror_typedef r_lual_typeerror = (r_lual_typeerror_typedef)(x(0x0153A430));
+r_lual_typeerror_typedef r_lual_typeerror = (r_lual_typeerror_typedef)(x(0x01575460));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4323,7 +4299,7 @@ r_lual_typeerror_typedef r_lual_typeerror = (r_lual_typeerror_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t lual_typeerror_addr = 0x0153A430;
+static constexpr std::uintptr_t lual_typeerror_addr = 0x01575460;
 #define lual_typeerror_CCV __cdecl
 
 /* 
@@ -4336,8 +4312,8 @@ static constexpr std::uintptr_t lual_typeerror_addr = 0x0153A430;
 * lual_unref_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_lual_unref_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_lual_unref_typedef r_lual_unref = (r_lual_unref_typedef)(x(0x0153A4D0));
+using r_lual_unref_typedef = int(__fastcall*)(std::uintptr_t a1, int a2, int a3);
+r_lual_unref_typedef r_lual_unref = (r_lual_unref_typedef)(x(0x015813B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4347,8 +4323,8 @@ r_lual_unref_typedef r_lual_unref = (r_lual_unref_typedef)(x(Adresses::lual_unre
 
 
 */
-static constexpr std::uintptr_t lual_unref_addr = 0x0153A4D0;
-#define lual_unref_CCV __cdecl
+static constexpr std::uintptr_t lual_unref_addr = 0x015813B0;
+#define lual_unref_CCV __fastcall
 
 /* 
 
@@ -4361,7 +4337,7 @@ static constexpr std::uintptr_t lual_unref_addr = 0x0153A4D0;
 * Usage (Not 100% Accurate):
 
 using r_lual_where_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_lual_where_typedef r_lual_where = (r_lual_where_typedef)(x(0x0153A530));
+r_lual_where_typedef r_lual_where = (r_lual_where_typedef)(x(0x01575500));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4371,7 +4347,7 @@ r_lual_where_typedef r_lual_where = (r_lual_where_typedef)(x(Adresses::lual_wher
 
 
 */
-static constexpr std::uintptr_t lual_where_addr = 0x0153A530;
+static constexpr std::uintptr_t lual_where_addr = 0x01575500;
 #define lual_where_CCV __cdecl
 
 /* 
@@ -4385,7 +4361,7 @@ static constexpr std::uintptr_t lual_where_addr = 0x0153A530;
 * Usage (Not 100% Accurate):
 
 using r_luam_realloc_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_luam_realloc_typedef r_luam_realloc = (r_luam_realloc_typedef)(x(0x01554CC3));
+r_luam_realloc_typedef r_luam_realloc = (r_luam_realloc_typedef)(x(0x0158F543));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4395,7 +4371,7 @@ r_luam_realloc_typedef r_luam_realloc = (r_luam_realloc_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luam_realloc_addr = 0x01554CC3;
+static constexpr std::uintptr_t luam_realloc_addr = 0x0158F543;
 #define luam_realloc_CCV __cdecl
 
 /* 
@@ -4409,7 +4385,7 @@ static constexpr std::uintptr_t luam_realloc_addr = 0x01554CC3;
 * Usage (Not 100% Accurate):
 
 using r_luam_realloc__typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luam_realloc__typedef r_luam_realloc_ = (r_luam_realloc__typedef)(x(0x01554A70));
+r_luam_realloc__typedef r_luam_realloc_ = (r_luam_realloc__typedef)(x(0x0158F2E0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4419,7 +4395,7 @@ r_luam_realloc__typedef r_luam_realloc_ = (r_luam_realloc__typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luam_realloc__addr = 0x01554A70;
+static constexpr std::uintptr_t luam_realloc__addr = 0x0158F2E0;
 #define luam_realloc__CCV __cdecl
 
 /* 
@@ -4433,7 +4409,7 @@ static constexpr std::uintptr_t luam_realloc__addr = 0x01554A70;
 * Usage (Not 100% Accurate):
 
 using r_luam_toobig_typedef = int(__thiscall*)(int a1);
-r_luam_toobig_typedef r_luam_toobig = (r_luam_toobig_typedef)(x(0x01554CD0));
+r_luam_toobig_typedef r_luam_toobig = (r_luam_toobig_typedef)(x(0x0158F550));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4443,7 +4419,7 @@ r_luam_toobig_typedef r_luam_toobig = (r_luam_toobig_typedef)(x(Adresses::luam_t
 
 
 */
-static constexpr std::uintptr_t luam_toobig_addr = 0x01554CD0;
+static constexpr std::uintptr_t luam_toobig_addr = 0x0158F550;
 #define luam_toobig_CCV __thiscall
 
 /* 
@@ -4457,7 +4433,7 @@ static constexpr std::uintptr_t luam_toobig_addr = 0x01554CD0;
 * Usage (Not 100% Accurate):
 
 using r_luao_chunkid_typedef = int(__cdecl*)(char* a1, const char* a2, int a3);
-r_luao_chunkid_typedef r_luao_chunkid = (r_luao_chunkid_typedef)(x(0x01544D70));
+r_luao_chunkid_typedef r_luao_chunkid = (r_luao_chunkid_typedef)(x(0x0157F990));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4467,7 +4443,7 @@ r_luao_chunkid_typedef r_luao_chunkid = (r_luao_chunkid_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luao_chunkid_addr = 0x01544D70;
+static constexpr std::uintptr_t luao_chunkid_addr = 0x0157F990;
 #define luao_chunkid_CCV __cdecl
 
 /* 
@@ -4481,7 +4457,7 @@ static constexpr std::uintptr_t luao_chunkid_addr = 0x01544D70;
 * Usage (Not 100% Accurate):
 
 using r_luao_pushfstring_typedef = int(__cdecl*)(std::uintptr_t a1, const char* a2, ...);
-r_luao_pushfstring_typedef r_luao_pushfstring = (r_luao_pushfstring_typedef)(x(0x01544EF0));
+r_luao_pushfstring_typedef r_luao_pushfstring = (r_luao_pushfstring_typedef)(x(0x0157FB10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4491,7 +4467,7 @@ r_luao_pushfstring_typedef r_luao_pushfstring = (r_luao_pushfstring_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luao_pushfstring_addr = 0x01544EF0;
+static constexpr std::uintptr_t luao_pushfstring_addr = 0x0157FB10;
 #define luao_pushfstring_CCV __cdecl
 
 /* 
@@ -4505,7 +4481,7 @@ static constexpr std::uintptr_t luao_pushfstring_addr = 0x01544EF0;
 * Usage (Not 100% Accurate):
 
 using r_luao_pushvfstring_typedef = int(__cdecl*)(std::uintptr_t a1, const char* a2, char* a3);
-r_luao_pushvfstring_typedef r_luao_pushvfstring = (r_luao_pushvfstring_typedef)(x(0x01544F90));
+r_luao_pushvfstring_typedef r_luao_pushvfstring = (r_luao_pushvfstring_typedef)(x(0x0157FBB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4515,7 +4491,7 @@ r_luao_pushvfstring_typedef r_luao_pushvfstring = (r_luao_pushvfstring_typedef)(
 
 
 */
-static constexpr std::uintptr_t luao_pushvfstring_addr = 0x01544F90;
+static constexpr std::uintptr_t luao_pushvfstring_addr = 0x0157FBB0;
 #define luao_pushvfstring_CCV __cdecl
 
 /* 
@@ -4529,7 +4505,7 @@ static constexpr std::uintptr_t luao_pushvfstring_addr = 0x01544F90;
 * Usage (Not 100% Accurate):
 
 using r_luao_rawequalKey_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luao_rawequalKey_typedef r_luao_rawequalKey = (r_luao_rawequalKey_typedef)(x(0x01545030));
+r_luao_rawequalKey_typedef r_luao_rawequalKey = (r_luao_rawequalKey_typedef)(x(0x0157FC50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4539,7 +4515,7 @@ r_luao_rawequalKey_typedef r_luao_rawequalKey = (r_luao_rawequalKey_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luao_rawequalKey_addr = 0x01545030;
+static constexpr std::uintptr_t luao_rawequalKey_addr = 0x0157FC50;
 #define luao_rawequalKey_CCV __cdecl
 
 /* 
@@ -4553,7 +4529,7 @@ static constexpr std::uintptr_t luao_rawequalKey_addr = 0x01545030;
 * Usage (Not 100% Accurate):
 
 using r_luao_rawequalobj_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luao_rawequalobj_typedef r_luao_rawequalobj = (r_luao_rawequalobj_typedef)(x(0x015450B0));
+r_luao_rawequalobj_typedef r_luao_rawequalobj = (r_luao_rawequalobj_typedef)(x(0x0157FCD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4563,7 +4539,7 @@ r_luao_rawequalobj_typedef r_luao_rawequalobj = (r_luao_rawequalobj_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luao_rawequalobj_addr = 0x015450B0;
+static constexpr std::uintptr_t luao_rawequalobj_addr = 0x0157FCD0;
 #define luao_rawequalobj_CCV __cdecl
 
 /* 
@@ -4577,7 +4553,7 @@ static constexpr std::uintptr_t luao_rawequalobj_addr = 0x015450B0;
 * Usage (Not 100% Accurate):
 
 using r_luao_str2d_typedef = int(__cdecl*)(const char* a1, double* a2);
-r_luao_str2d_typedef r_luao_str2d = (r_luao_str2d_typedef)(x(0x01545130));
+r_luao_str2d_typedef r_luao_str2d = (r_luao_str2d_typedef)(x(0x0157FD50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4587,7 +4563,7 @@ r_luao_str2d_typedef r_luao_str2d = (r_luao_str2d_typedef)(x(Adresses::luao_str2
 
 
 */
-static constexpr std::uintptr_t luao_str2d_addr = 0x01545130;
+static constexpr std::uintptr_t luao_str2d_addr = 0x0157FD50;
 #define luao_str2d_CCV __cdecl
 
 /* 
@@ -4600,8 +4576,8 @@ static constexpr std::uintptr_t luao_str2d_addr = 0x01545130;
 * luas_newlstr_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_luas_newlstr_typedef = int(__fastcall*)(std::uintptr_t a1, int a2, int a3);
-r_luas_newlstr_typedef r_luas_newlstr = (r_luas_newlstr_typedef)(x(0x01551C90));
+using r_luas_newlstr_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
+r_luas_newlstr_typedef r_luas_newlstr = (r_luas_newlstr_typedef)(x(0x0158C5A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4611,8 +4587,8 @@ r_luas_newlstr_typedef r_luas_newlstr = (r_luas_newlstr_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luas_newlstr_addr = 0x01551C90;
-#define luas_newlstr_CCV __fastcall
+static constexpr std::uintptr_t luas_newlstr_addr = 0x0158C5A0;
+#define luas_newlstr_CCV __cdecl
 
 /* 
 
@@ -4625,7 +4601,7 @@ static constexpr std::uintptr_t luas_newlstr_addr = 0x01551C90;
 * Usage (Not 100% Accurate):
 
 using r_luas_newudata_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luas_newudata_typedef r_luas_newudata = (r_luas_newudata_typedef)(x(0x01551E70));
+r_luas_newudata_typedef r_luas_newudata = (r_luas_newudata_typedef)(x(0x0158C770));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4635,7 +4611,7 @@ r_luas_newudata_typedef r_luas_newudata = (r_luas_newudata_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luas_newudata_addr = 0x01551E70;
+static constexpr std::uintptr_t luas_newudata_addr = 0x0158C770;
 #define luas_newudata_CCV __cdecl
 
 /* 
@@ -4649,7 +4625,7 @@ static constexpr std::uintptr_t luas_newudata_addr = 0x01551E70;
 * Usage (Not 100% Accurate):
 
 using r_luas_resize_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luas_resize_typedef r_luas_resize = (r_luas_resize_typedef)(x(0x01551EC0));
+r_luas_resize_typedef r_luas_resize = (r_luas_resize_typedef)(x(0x0158C7C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4659,7 +4635,7 @@ r_luas_resize_typedef r_luas_resize = (r_luas_resize_typedef)(x(Adresses::luas_r
 
 
 */
-static constexpr std::uintptr_t luas_resize_addr = 0x01551EC0;
+static constexpr std::uintptr_t luas_resize_addr = 0x0158C7C0;
 #define luas_resize_CCV __cdecl
 
 /* 
@@ -4673,7 +4649,7 @@ static constexpr std::uintptr_t luas_resize_addr = 0x01551EC0;
 * Usage (Not 100% Accurate):
 
 using r_luat_gettm_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luat_gettm_typedef r_luat_gettm = (r_luat_gettm_typedef)(x(0x01554680));
+r_luat_gettm_typedef r_luat_gettm = (r_luat_gettm_typedef)(x(0x0158EF10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4683,7 +4659,7 @@ r_luat_gettm_typedef r_luat_gettm = (r_luat_gettm_typedef)(x(Adresses::luat_gett
 
 
 */
-static constexpr std::uintptr_t luat_gettm_addr = 0x01554680;
+static constexpr std::uintptr_t luat_gettm_addr = 0x0158EF10;
 #define luat_gettm_CCV __cdecl
 
 /* 
@@ -4697,7 +4673,7 @@ static constexpr std::uintptr_t luat_gettm_addr = 0x01554680;
 * Usage (Not 100% Accurate):
 
 using r_luat_objtypename_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luat_objtypename_typedef r_luat_objtypename = (r_luat_objtypename_typedef)(x(0x015547D0));
+r_luat_objtypename_typedef r_luat_objtypename = (r_luat_objtypename_typedef)(x(0x0158F060));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4707,7 +4683,7 @@ r_luat_objtypename_typedef r_luat_objtypename = (r_luat_objtypename_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luat_objtypename_addr = 0x015547D0;
+static constexpr std::uintptr_t luat_objtypename_addr = 0x0158F060;
 #define luat_objtypename_CCV __cdecl
 
 /* 
@@ -4721,7 +4697,7 @@ static constexpr std::uintptr_t luat_objtypename_addr = 0x015547D0;
 * Usage (Not 100% Accurate):
 
 using r_luau_backtrace_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luau_backtrace_typedef r_luau_backtrace = (r_luau_backtrace_typedef)(x(0x01543650));
+r_luau_backtrace_typedef r_luau_backtrace = (r_luau_backtrace_typedef)(x(0x0157E280));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4731,7 +4707,7 @@ r_luau_backtrace_typedef r_luau_backtrace = (r_luau_backtrace_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luau_backtrace_addr = 0x01543650;
+static constexpr std::uintptr_t luau_backtrace_addr = 0x0157E280;
 #define luau_backtrace_CCV __cdecl
 
 /* 
@@ -4745,7 +4721,7 @@ static constexpr std::uintptr_t luau_backtrace_addr = 0x01543650;
 * Usage (Not 100% Accurate):
 
 using r_luau_betavm_typedef = int(__cdecl*)(int a1);
-r_luau_betavm_typedef r_luau_betavm = (r_luau_betavm_typedef)(x(0x0153F4E0));
+r_luau_betavm_typedef r_luau_betavm = (r_luau_betavm_typedef)(x(0x0157A240));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4755,7 +4731,7 @@ r_luau_betavm_typedef r_luau_betavm = (r_luau_betavm_typedef)(x(Adresses::luau_b
 
 
 */
-static constexpr std::uintptr_t luau_betavm_addr = 0x0153F4E0;
+static constexpr std::uintptr_t luau_betavm_addr = 0x0157A240;
 #define luau_betavm_CCV __cdecl
 
 /* 
@@ -4769,7 +4745,7 @@ static constexpr std::uintptr_t luau_betavm_addr = 0x0153F4E0;
 * Usage (Not 100% Accurate):
 
 using r_luau_callhook_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luau_callhook_typedef r_luau_callhook = (r_luau_callhook_typedef)unprotect(x(0x01543BF0));
+r_luau_callhook_typedef r_luau_callhook = (r_luau_callhook_typedef)unprotect(x(0x0157E820));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4779,7 +4755,7 @@ r_luau_callhook_typedef r_luau_callhook = (r_luau_callhook_typedef)unprotect(x(A
 
 
 */
-static constexpr std::uintptr_t luau_callhook_addr = 0x01543BF0;
+static constexpr std::uintptr_t luau_callhook_addr = 0x0157E820;
 #define luau_callhook_CCV __cdecl
 
 /* 
@@ -4793,7 +4769,7 @@ static constexpr std::uintptr_t luau_callhook_addr = 0x01543BF0;
 * Usage (Not 100% Accurate):
 
 using r_luau_calltm_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luau_calltm_typedef r_luau_calltm = (r_luau_calltm_typedef)(x(0x01543AD0));
+r_luau_calltm_typedef r_luau_calltm = (r_luau_calltm_typedef)(x(0x0157E700));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4803,7 +4779,7 @@ r_luau_calltm_typedef r_luau_calltm = (r_luau_calltm_typedef)(x(Adresses::luau_c
 
 
 */
-static constexpr std::uintptr_t luau_calltm_addr = 0x01543AD0;
+static constexpr std::uintptr_t luau_calltm_addr = 0x0157E700;
 #define luau_calltm_CCV __cdecl
 
 /* 
@@ -4817,7 +4793,7 @@ static constexpr std::uintptr_t luau_calltm_addr = 0x01543AD0;
 * Usage (Not 100% Accurate):
 
 using r_luau_deserialize_typedef = int(__cdecl*)(std::uintptr_t a1, const char* a2, const char* a3, int a4, int a5);
-r_luau_deserialize_typedef r_luau_deserialize = (r_luau_deserialize_typedef)(x(0x01543D70));
+r_luau_deserialize_typedef r_luau_deserialize = (r_luau_deserialize_typedef)(x(0x0157E9A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4827,7 +4803,7 @@ r_luau_deserialize_typedef r_luau_deserialize = (r_luau_deserialize_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luau_deserialize_addr = 0x01543D70;
+static constexpr std::uintptr_t luau_deserialize_addr = 0x0157E9A0;
 #define luau_deserialize_CCV __cdecl
 
 /* 
@@ -4841,7 +4817,7 @@ static constexpr std::uintptr_t luau_deserialize_addr = 0x01543D70;
 * Usage (Not 100% Accurate):
 
 using r_luau_execute_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4, int a5, int a6);
-r_luau_execute_typedef r_luau_execute = (r_luau_execute_typedef)(x(0x0156F1D0));
+r_luau_execute_typedef r_luau_execute = (r_luau_execute_typedef)(x(0x015A9830));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4851,7 +4827,7 @@ r_luau_execute_typedef r_luau_execute = (r_luau_execute_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luau_execute_addr = 0x0156F1D0;
+static constexpr std::uintptr_t luau_execute_addr = 0x015A9830;
 #define luau_execute_CCV __cdecl
 
 /* 
@@ -4865,7 +4841,7 @@ static constexpr std::uintptr_t luau_execute_addr = 0x0156F1D0;
 * Usage (Not 100% Accurate):
 
 using r_luau_loopforg_typedef = int(__thiscall*)(std::uintptr_t a1, int a2, int a3);
-r_luau_loopforg_typedef r_luau_loopforg = (r_luau_loopforg_typedef)(x(0x01546C20));
+r_luau_loopforg_typedef r_luau_loopforg = (r_luau_loopforg_typedef)(x(0x015817F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4875,7 +4851,7 @@ r_luau_loopforg_typedef r_luau_loopforg = (r_luau_loopforg_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luau_loopforg_addr = 0x01546C20;
+static constexpr std::uintptr_t luau_loopforg_addr = 0x015817F0;
 #define luau_loopforg_CCV __thiscall
 
 /* 
@@ -4889,7 +4865,7 @@ static constexpr std::uintptr_t luau_loopforg_addr = 0x01546C20;
 * Usage (Not 100% Accurate):
 
 using r_luau_prepareforn_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_luau_prepareforn_typedef r_luau_prepareforn = (r_luau_prepareforn_typedef)(x(0x01544A60));
+r_luau_prepareforn_typedef r_luau_prepareforn = (r_luau_prepareforn_typedef)(x(0x0157F680));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4899,7 +4875,7 @@ r_luau_prepareforn_typedef r_luau_prepareforn = (r_luau_prepareforn_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t luau_prepareforn_addr = 0x01544A60;
+static constexpr std::uintptr_t luau_prepareforn_addr = 0x0157F680;
 #define luau_prepareforn_CCV __cdecl
 
 /* 
@@ -4913,7 +4889,7 @@ static constexpr std::uintptr_t luau_prepareforn_addr = 0x01544A60;
 * Usage (Not 100% Accurate):
 
 using r_luau_resolveimport_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4, int a5);
-r_luau_resolveimport_typedef r_luau_resolveimport = (r_luau_resolveimport_typedef)(x(0x01544B00));
+r_luau_resolveimport_typedef r_luau_resolveimport = (r_luau_resolveimport_typedef)(x(0x0157F720));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4923,7 +4899,7 @@ r_luau_resolveimport_typedef r_luau_resolveimport = (r_luau_resolveimport_typede
 
 
 */
-static constexpr std::uintptr_t luau_resolveimport_addr = 0x01544B00;
+static constexpr std::uintptr_t luau_resolveimport_addr = 0x0157F720;
 #define luau_resolveimport_CCV __cdecl
 
 /* 
@@ -4937,7 +4913,7 @@ static constexpr std::uintptr_t luau_resolveimport_addr = 0x01544B00;
 * Usage (Not 100% Accurate):
 
 using r_luau_tryfunctm_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luau_tryfunctm_typedef r_luau_tryfunctm = (r_luau_tryfunctm_typedef)(x(0x01544CA0));
+r_luau_tryfunctm_typedef r_luau_tryfunctm = (r_luau_tryfunctm_typedef)(x(0x0157F8C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4947,7 +4923,7 @@ r_luau_tryfunctm_typedef r_luau_tryfunctm = (r_luau_tryfunctm_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luau_tryfunctm_addr = 0x01544CA0;
+static constexpr std::uintptr_t luau_tryfunctm_addr = 0x0157F8C0;
 #define luau_tryfunctm_CCV __cdecl
 
 /* 
@@ -4961,7 +4937,7 @@ static constexpr std::uintptr_t luau_tryfunctm_addr = 0x01544CA0;
 * Usage (Not 100% Accurate):
 
 using r_luav_concat_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luav_concat_typedef r_luav_concat = (r_luav_concat_typedef)(x(0x01553710));
+r_luav_concat_typedef r_luav_concat = (r_luav_concat_typedef)(x(0x0158DF80));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4971,7 +4947,7 @@ r_luav_concat_typedef r_luav_concat = (r_luav_concat_typedef)(x(Adresses::luav_c
 
 
 */
-static constexpr std::uintptr_t luav_concat_addr = 0x01553710;
+static constexpr std::uintptr_t luav_concat_addr = 0x0158DF80;
 #define luav_concat_CCV __cdecl
 
 /* 
@@ -4985,7 +4961,7 @@ static constexpr std::uintptr_t luav_concat_addr = 0x01553710;
 * Usage (Not 100% Accurate):
 
 using r_luav_doarith_typedef = int(__thiscall*)(std::uintptr_t a1, int a2, int a3, int a4, int a5, int a6);
-r_luav_doarith_typedef r_luav_doarith = (r_luav_doarith_typedef)(x(0x01553B30));
+r_luav_doarith_typedef r_luav_doarith = (r_luav_doarith_typedef)(x(0x0158E3B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -4995,7 +4971,7 @@ r_luav_doarith_typedef r_luav_doarith = (r_luav_doarith_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luav_doarith_addr = 0x01553B30;
+static constexpr std::uintptr_t luav_doarith_addr = 0x0158E3B0;
 #define luav_doarith_CCV __thiscall
 
 /* 
@@ -5009,7 +4985,7 @@ static constexpr std::uintptr_t luav_doarith_addr = 0x01553B30;
 * Usage (Not 100% Accurate):
 
 using r_luav_dolen_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luav_dolen_typedef r_luav_dolen = (r_luav_dolen_typedef)(x(0x01556870));
+r_luav_dolen_typedef r_luav_dolen = (r_luav_dolen_typedef)(x(0x01591100));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5019,7 +4995,7 @@ r_luav_dolen_typedef r_luav_dolen = (r_luav_dolen_typedef)(x(Adresses::luav_dole
 
 
 */
-static constexpr std::uintptr_t luav_dolen_addr = 0x01556870;
+static constexpr std::uintptr_t luav_dolen_addr = 0x01591100;
 #define luav_dolen_CCV __cdecl
 
 /* 
@@ -5033,7 +5009,7 @@ static constexpr std::uintptr_t luav_dolen_addr = 0x01556870;
 * Usage (Not 100% Accurate):
 
 using r_luav_execute_typedef = int(__cdecl*)(int a1);
-r_luav_execute_typedef r_luav_execute = (r_luav_execute_typedef)(x(0x0153B2B0));
+r_luav_execute_typedef r_luav_execute = (r_luav_execute_typedef)(x(0x01576250));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5043,7 +5019,7 @@ r_luav_execute_typedef r_luav_execute = (r_luav_execute_typedef)(x(Adresses::lua
 
 
 */
-static constexpr std::uintptr_t luav_execute_addr = 0x0153B2B0;
+static constexpr std::uintptr_t luav_execute_addr = 0x01576250;
 #define luav_execute_CCV __cdecl
 
 /* 
@@ -5057,7 +5033,7 @@ static constexpr std::uintptr_t luav_execute_addr = 0x0153B2B0;
 * Usage (Not 100% Accurate):
 
 using r_luav_gettable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4, int a5);
-r_luav_gettable_typedef r_luav_gettable = (r_luav_gettable_typedef)(x(0x015541D0));
+r_luav_gettable_typedef r_luav_gettable = (r_luav_gettable_typedef)(x(0x0158EA60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5067,7 +5043,7 @@ r_luav_gettable_typedef r_luav_gettable = (r_luav_gettable_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luav_gettable_addr = 0x015541D0;
+static constexpr std::uintptr_t luav_gettable_addr = 0x0158EA60;
 #define luav_gettable_CCV __cdecl
 
 /* 
@@ -5081,7 +5057,7 @@ static constexpr std::uintptr_t luav_gettable_addr = 0x015541D0;
 * Usage (Not 100% Accurate):
 
 using r_luav_gettable_opt_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_luav_gettable_opt_typedef r_luav_gettable_opt = (r_luav_gettable_opt_typedef)(x(0x015541B0));
+r_luav_gettable_opt_typedef r_luav_gettable_opt = (r_luav_gettable_opt_typedef)(x(0x0158EA40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5091,7 +5067,7 @@ r_luav_gettable_opt_typedef r_luav_gettable_opt = (r_luav_gettable_opt_typedef)(
 
 
 */
-static constexpr std::uintptr_t luav_gettable_opt_addr = 0x015541B0;
+static constexpr std::uintptr_t luav_gettable_opt_addr = 0x0158EA40;
 #define luav_gettable_opt_CCV __cdecl
 
 /* 
@@ -5105,7 +5081,7 @@ static constexpr std::uintptr_t luav_gettable_opt_addr = 0x015541B0;
 * Usage (Not 100% Accurate):
 
 using r_luav_lessequal_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luav_lessequal_typedef r_luav_lessequal = (r_luav_lessequal_typedef)(x(0x015542E0));
+r_luav_lessequal_typedef r_luav_lessequal = (r_luav_lessequal_typedef)(x(0x0158EB70));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5115,7 +5091,7 @@ r_luav_lessequal_typedef r_luav_lessequal = (r_luav_lessequal_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luav_lessequal_addr = 0x015542E0;
+static constexpr std::uintptr_t luav_lessequal_addr = 0x0158EB70;
 #define luav_lessequal_CCV __cdecl
 
 /* 
@@ -5129,7 +5105,7 @@ static constexpr std::uintptr_t luav_lessequal_addr = 0x015542E0;
 * Usage (Not 100% Accurate):
 
 using r_luav_lessthan_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luav_lessthan_typedef r_luav_lessthan = (r_luav_lessthan_typedef)(x(0x01554380));
+r_luav_lessthan_typedef r_luav_lessthan = (r_luav_lessthan_typedef)(x(0x0158EC10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5139,7 +5115,7 @@ r_luav_lessthan_typedef r_luav_lessthan = (r_luav_lessthan_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luav_lessthan_addr = 0x01554380;
+static constexpr std::uintptr_t luav_lessthan_addr = 0x0158EC10;
 #define luav_lessthan_CCV __cdecl
 
 /* 
@@ -5153,7 +5129,7 @@ static constexpr std::uintptr_t luav_lessthan_addr = 0x01554380;
 * Usage (Not 100% Accurate):
 
 using r_luav_settable_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_luav_settable_typedef r_luav_settable = (r_luav_settable_typedef)(x(0x01554420));
+r_luav_settable_typedef r_luav_settable = (r_luav_settable_typedef)(x(0x0158ECB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5163,7 +5139,7 @@ r_luav_settable_typedef r_luav_settable = (r_luav_settable_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luav_settable_addr = 0x01554420;
+static constexpr std::uintptr_t luav_settable_addr = 0x0158ECB0;
 #define luav_settable_CCV __cdecl
 
 /* 
@@ -5177,7 +5153,7 @@ static constexpr std::uintptr_t luav_settable_addr = 0x01554420;
 * Usage (Not 100% Accurate):
 
 using r_luav_tonumber_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luav_tonumber_typedef r_luav_tonumber = (r_luav_tonumber_typedef)(x(0x015545B0));
+r_luav_tonumber_typedef r_luav_tonumber = (r_luav_tonumber_typedef)(x(0x0158EE40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5187,7 +5163,7 @@ r_luav_tonumber_typedef r_luav_tonumber = (r_luav_tonumber_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luav_tonumber_addr = 0x015545B0;
+static constexpr std::uintptr_t luav_tonumber_addr = 0x0158EE40;
 #define luav_tonumber_CCV __cdecl
 
 /* 
@@ -5201,7 +5177,7 @@ static constexpr std::uintptr_t luav_tonumber_addr = 0x015545B0;
 * Usage (Not 100% Accurate):
 
 using r_luav_tostring_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_luav_tostring_typedef r_luav_tostring = (r_luav_tostring_typedef)(x(0x01554610));
+r_luav_tostring_typedef r_luav_tostring = (r_luav_tostring_typedef)(x(0x0158EEA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5211,7 +5187,7 @@ r_luav_tostring_typedef r_luav_tostring = (r_luav_tostring_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luav_tostring_addr = 0x01554610;
+static constexpr std::uintptr_t luav_tostring_addr = 0x0158EEA0;
 #define luav_tostring_CCV __cdecl
 
 /* 
@@ -5225,7 +5201,7 @@ static constexpr std::uintptr_t luav_tostring_addr = 0x01554610;
 * Usage (Not 100% Accurate):
 
 using r_luavm_compile_typedef = int(__cdecl*)(int a1);
-r_luavm_compile_typedef r_luavm_compile = (r_luavm_compile_typedef)(x(0x006E46B0));
+r_luavm_compile_typedef r_luavm_compile = (r_luavm_compile_typedef)(x(0x006C37B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5235,7 +5211,7 @@ r_luavm_compile_typedef r_luavm_compile = (r_luavm_compile_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t luavm_compile_addr = 0x006E46B0;
+static constexpr std::uintptr_t luavm_compile_addr = 0x006C37B0;
 #define luavm_compile_CCV __cdecl
 
 /* 
@@ -5249,7 +5225,7 @@ static constexpr std::uintptr_t luavm_compile_addr = 0x006E46B0;
 * Usage (Not 100% Accurate):
 
 using r_luavm_load_typedef = int(__cdecl*)(int a1, int a2, int a3);
-r_luavm_load_typedef r_luavm_load = (r_luavm_load_typedef)(x(0x006E4BF0));
+r_luavm_load_typedef r_luavm_load = (r_luavm_load_typedef)(x(0x006C3CF0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5259,7 +5235,7 @@ r_luavm_load_typedef r_luavm_load = (r_luavm_load_typedef)(x(Adresses::luavm_loa
 
 
 */
-static constexpr std::uintptr_t luavm_load_addr = 0x006E4BF0;
+static constexpr std::uintptr_t luavm_load_addr = 0x006C3CF0;
 #define luavm_load_CCV __cdecl
 
 /* 
@@ -5273,7 +5249,7 @@ static constexpr std::uintptr_t luavm_load_addr = 0x006E4BF0;
 * Usage (Not 100% Accurate):
 
 using r_luax_init_typedef = int(__cdecl*)(int a1);
-r_luax_init_typedef r_luax_init = (r_luax_init_typedef)(x(0x01554720));
+r_luax_init_typedef r_luax_init = (r_luax_init_typedef)(x(0x0158EFB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5283,7 +5259,7 @@ r_luax_init_typedef r_luax_init = (r_luax_init_typedef)(x(Adresses::luax_init_ad
 
 
 */
-static constexpr std::uintptr_t luax_init_addr = 0x01554720;
+static constexpr std::uintptr_t luax_init_addr = 0x0158EFB0;
 #define luax_init_CCV __cdecl
 
 /* 
@@ -5297,7 +5273,7 @@ static constexpr std::uintptr_t luax_init_addr = 0x01554720;
 * Usage (Not 100% Accurate):
 
 using r_luaz_openspace_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_luaz_openspace_typedef r_luaz_openspace = (r_luaz_openspace_typedef)(x(0x015568E0));
+r_luaz_openspace_typedef r_luaz_openspace = (r_luaz_openspace_typedef)(x(0x01591170));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5307,7 +5283,7 @@ r_luaz_openspace_typedef r_luaz_openspace = (r_luaz_openspace_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t luaz_openspace_addr = 0x015568E0;
+static constexpr std::uintptr_t luaz_openspace_addr = 0x01591170;
 #define luaz_openspace_CCV __cdecl
 
 /* 
@@ -5321,7 +5297,7 @@ static constexpr std::uintptr_t luaz_openspace_addr = 0x015568E0;
 * Usage (Not 100% Accurate):
 
 using r_mainposition_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_mainposition_typedef r_mainposition = (r_mainposition_typedef)(x(0x015529E0));
+r_mainposition_typedef r_mainposition = (r_mainposition_typedef)(x(0x0158D2A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5331,7 +5307,7 @@ r_mainposition_typedef r_mainposition = (r_mainposition_typedef)(x(Adresses::mai
 
 
 */
-static constexpr std::uintptr_t mainposition_addr = 0x015529E0;
+static constexpr std::uintptr_t mainposition_addr = 0x0158D2A0;
 #define mainposition_CCV __cdecl
 
 /* 
@@ -5345,7 +5321,7 @@ static constexpr std::uintptr_t mainposition_addr = 0x015529E0;
 * Usage (Not 100% Accurate):
 
 using r_markmt_typedef = int(__cdecl*)(int a1);
-r_markmt_typedef r_markmt = (r_markmt_typedef)(x(0x01550760));
+r_markmt_typedef r_markmt = (r_markmt_typedef)(x(0x0158B080));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5355,7 +5331,7 @@ r_markmt_typedef r_markmt = (r_markmt_typedef)(x(Adresses::markmt_addr));
 
 
 */
-static constexpr std::uintptr_t markmt_addr = 0x01550760;
+static constexpr std::uintptr_t markmt_addr = 0x0158B080;
 #define markmt_CCV __cdecl
 
 /* 
@@ -5369,7 +5345,7 @@ static constexpr std::uintptr_t markmt_addr = 0x01550760;
 * Usage (Not 100% Accurate):
 
 using r_markroot_typedef = int(__cdecl*)(int a1);
-r_markroot_typedef r_markroot = (r_markroot_typedef)(x(0x01550840));
+r_markroot_typedef r_markroot = (r_markroot_typedef)(x(0x0158B160));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5379,7 +5355,7 @@ r_markroot_typedef r_markroot = (r_markroot_typedef)(x(Adresses::markroot_addr))
 
 
 */
-static constexpr std::uintptr_t markroot_addr = 0x01550840;
+static constexpr std::uintptr_t markroot_addr = 0x0158B160;
 #define markroot_CCV __cdecl
 
 /* 
@@ -5393,7 +5369,7 @@ static constexpr std::uintptr_t markroot_addr = 0x01550840;
 * Usage (Not 100% Accurate):
 
 using r_match_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_match_typedef r_match = (r_match_typedef)(x(0x0154B230));
+r_match_typedef r_match = (r_match_typedef)(x(0x01585D40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5403,7 +5379,7 @@ r_match_typedef r_match = (r_match_typedef)(x(Adresses::match_addr));
 
 
 */
-static constexpr std::uintptr_t match_addr = 0x0154B230;
+static constexpr std::uintptr_t match_addr = 0x01585D40;
 #define match_CCV __cdecl
 
 /* 
@@ -5417,7 +5393,7 @@ static constexpr std::uintptr_t match_addr = 0x0154B230;
 * Usage (Not 100% Accurate):
 
 using r_newkey_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_newkey_typedef r_newkey = (r_newkey_typedef)(x(0x01552B50));
+r_newkey_typedef r_newkey = (r_newkey_typedef)(x(0x0158D410));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5427,7 +5403,7 @@ r_newkey_typedef r_newkey = (r_newkey_typedef)(x(Adresses::newkey_addr));
 
 
 */
-static constexpr std::uintptr_t newkey_addr = 0x01552B50;
+static constexpr std::uintptr_t newkey_addr = 0x0158D410;
 #define newkey_CCV __cdecl
 
 /* 
@@ -5441,7 +5417,7 @@ static constexpr std::uintptr_t newkey_addr = 0x01552B50;
 * Usage (Not 100% Accurate):
 
 using r_print_typedef = int(__cdecl*)(int a1, int a2, int a3);
-r_print_typedef r_print = (r_print_typedef)(x(0x00672A90));
+r_print_typedef r_print = (r_print_typedef)(x(0x006387B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5451,7 +5427,7 @@ r_print_typedef r_print = (r_print_typedef)(x(Adresses::print_addr));
 
 
 */
-static constexpr std::uintptr_t print_addr = 0x00672A90;
+static constexpr std::uintptr_t print_addr = 0x006387B0;
 #define print_CCV __cdecl
 
 /* 
@@ -5465,7 +5441,7 @@ static constexpr std::uintptr_t print_addr = 0x00672A90;
 * Usage (Not 100% Accurate):
 
 using r_push_captures_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_push_captures_typedef r_push_captures = (r_push_captures_typedef)(x(0x0154BC80));
+r_push_captures_typedef r_push_captures = (r_push_captures_typedef)(x(0x01586790));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5475,7 +5451,7 @@ r_push_captures_typedef r_push_captures = (r_push_captures_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t push_captures_addr = 0x0154BC80;
+static constexpr std::uintptr_t push_captures_addr = 0x01586790;
 #define push_captures_CCV __cdecl
 
 /* 
@@ -5489,7 +5465,7 @@ static constexpr std::uintptr_t push_captures_addr = 0x0154BC80;
 * Usage (Not 100% Accurate):
 
 using r_push_instance_typedef = int(__cdecl*)(int a1, int a2);
-r_push_instance_typedef r_push_instance = (r_push_instance_typedef)(x(0x0087AC10));
+r_push_instance_typedef r_push_instance = (r_push_instance_typedef)(x(0x0084B480));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5499,7 +5475,7 @@ r_push_instance_typedef r_push_instance = (r_push_instance_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t push_instance_addr = 0x0087AC10;
+static constexpr std::uintptr_t push_instance_addr = 0x0084B480;
 #define push_instance_CCV __cdecl
 
 /* 
@@ -5513,7 +5489,7 @@ static constexpr std::uintptr_t push_instance_addr = 0x0087AC10;
 * Usage (Not 100% Accurate):
 
 using r_rbx_get_property_typedef = int(__thiscall*)(int a1, int a2);
-r_rbx_get_property_typedef r_rbx_get_property = (r_rbx_get_property_typedef)(x(0x00878BC0));
+r_rbx_get_property_typedef r_rbx_get_property = (r_rbx_get_property_typedef)(x(0x00849520));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5523,7 +5499,7 @@ r_rbx_get_property_typedef r_rbx_get_property = (r_rbx_get_property_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t rbx_get_property_addr = 0x00878BC0;
+static constexpr std::uintptr_t rbx_get_property_addr = 0x00849520;
 #define rbx_get_property_CCV __thiscall
 
 /* 
@@ -5537,7 +5513,7 @@ static constexpr std::uintptr_t rbx_get_property_addr = 0x00878BC0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_network_replicator_onreceive_typedef = int(__fastcall*)(int a1, int a2, int a3);
-r_rbx_network_replicator_onreceive_typedef r_rbx_network_replicator_onreceive = (r_rbx_network_replicator_onreceive_typedef)(x(0x013A0070));
+r_rbx_network_replicator_onreceive_typedef r_rbx_network_replicator_onreceive = (r_rbx_network_replicator_onreceive_typedef)(x(0x013D4D40));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5547,7 +5523,7 @@ r_rbx_network_replicator_onreceive_typedef r_rbx_network_replicator_onreceive = 
 
 
 */
-static constexpr std::uintptr_t rbx_network_replicator_onreceive_addr = 0x013A0070;
+static constexpr std::uintptr_t rbx_network_replicator_onreceive_addr = 0x013D4D40;
 #define rbx_network_replicator_onreceive_CCV __fastcall
 
 /* 
@@ -5561,7 +5537,7 @@ static constexpr std::uintptr_t rbx_network_replicator_onreceive_addr = 0x013A00
 * Usage (Not 100% Accurate):
 
 using r_rbx_network_physicssenders2_sendpacket_typedef = int(__thiscall*)(int a1, int a2, int a3);
-r_rbx_network_physicssenders2_sendpacket_typedef r_rbx_network_physicssenders2_sendpacket = (r_rbx_network_physicssenders2_sendpacket_typedef)(x(0x0145D490));
+r_rbx_network_physicssenders2_sendpacket_typedef r_rbx_network_physicssenders2_sendpacket = (r_rbx_network_physicssenders2_sendpacket_typedef)(x(0x01495940));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5571,7 +5547,7 @@ r_rbx_network_physicssenders2_sendpacket_typedef r_rbx_network_physicssenders2_s
 
 
 */
-static constexpr std::uintptr_t rbx_network_physicssenders2_sendpacket_addr = 0x0145D490;
+static constexpr std::uintptr_t rbx_network_physicssenders2_sendpacket_addr = 0x01495940;
 #define rbx_network_physicssenders2_sendpacket_CCV __thiscall
 
 /* 
@@ -5585,7 +5561,7 @@ static constexpr std::uintptr_t rbx_network_physicssenders2_sendpacket_addr = 0x
 * Usage (Not 100% Accurate):
 
 using r_rbx_disable_report_screenshot_gl2_typedef = int(__cdecl*)();
-r_rbx_disable_report_screenshot_gl2_typedef r_rbx_disable_report_screenshot_gl2 = (r_rbx_disable_report_screenshot_gl2_typedef)(x(0x01191D10));
+r_rbx_disable_report_screenshot_gl2_typedef r_rbx_disable_report_screenshot_gl2 = (r_rbx_disable_report_screenshot_gl2_typedef)(x(0x011C1210));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5595,7 +5571,7 @@ r_rbx_disable_report_screenshot_gl2_typedef r_rbx_disable_report_screenshot_gl2 
 
 
 */
-static constexpr std::uintptr_t rbx_disable_report_screenshot_gl2_addr = 0x01191D10;
+static constexpr std::uintptr_t rbx_disable_report_screenshot_gl2_addr = 0x011C1210;
 #define rbx_disable_report_screenshot_gl2_CCV __cdecl
 
 /* 
@@ -5609,7 +5585,7 @@ static constexpr std::uintptr_t rbx_disable_report_screenshot_gl2_addr = 0x01191
 * Usage (Not 100% Accurate):
 
 using r_rbx_disable_report_screenshot_gl_typedef = int(__cdecl*)();
-r_rbx_disable_report_screenshot_gl_typedef r_rbx_disable_report_screenshot_gl = (r_rbx_disable_report_screenshot_gl_typedef)(x(0x01191CF0));
+r_rbx_disable_report_screenshot_gl_typedef r_rbx_disable_report_screenshot_gl = (r_rbx_disable_report_screenshot_gl_typedef)(x(0x011C11F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5619,7 +5595,7 @@ r_rbx_disable_report_screenshot_gl_typedef r_rbx_disable_report_screenshot_gl = 
 
 
 */
-static constexpr std::uintptr_t rbx_disable_report_screenshot_gl_addr = 0x01191CF0;
+static constexpr std::uintptr_t rbx_disable_report_screenshot_gl_addr = 0x011C11F0;
 #define rbx_disable_report_screenshot_gl_CCV __cdecl
 
 /* 
@@ -5633,7 +5609,7 @@ static constexpr std::uintptr_t rbx_disable_report_screenshot_gl_addr = 0x01191C
 * Usage (Not 100% Accurate):
 
 using r_rbx_disable_report_screenshot_metal_typedef = int(__cdecl*)();
-r_rbx_disable_report_screenshot_metal_typedef r_rbx_disable_report_screenshot_metal = (r_rbx_disable_report_screenshot_metal_typedef)(x(0x01191D30));
+r_rbx_disable_report_screenshot_metal_typedef r_rbx_disable_report_screenshot_metal = (r_rbx_disable_report_screenshot_metal_typedef)(x(0x011C1234));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5643,7 +5619,7 @@ r_rbx_disable_report_screenshot_metal_typedef r_rbx_disable_report_screenshot_me
 
 
 */
-static constexpr std::uintptr_t rbx_disable_report_screenshot_metal_addr = 0x01191D30;
+static constexpr std::uintptr_t rbx_disable_report_screenshot_metal_addr = 0x011C1234;
 #define rbx_disable_report_screenshot_metal_CCV __cdecl
 
 /* 
@@ -5657,7 +5633,7 @@ static constexpr std::uintptr_t rbx_disable_report_screenshot_metal_addr = 0x011
 * Usage (Not 100% Accurate):
 
 using r_rbx_disable_report_screenshot_vulkan_typedef = int(__cdecl*)();
-r_rbx_disable_report_screenshot_vulkan_typedef r_rbx_disable_report_screenshot_vulkan = (r_rbx_disable_report_screenshot_vulkan_typedef)(x(0x01191D50));
+r_rbx_disable_report_screenshot_vulkan_typedef r_rbx_disable_report_screenshot_vulkan = (r_rbx_disable_report_screenshot_vulkan_typedef)(x(0x011C1250));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5667,7 +5643,7 @@ r_rbx_disable_report_screenshot_vulkan_typedef r_rbx_disable_report_screenshot_v
 
 
 */
-static constexpr std::uintptr_t rbx_disable_report_screenshot_vulkan_addr = 0x01191D50;
+static constexpr std::uintptr_t rbx_disable_report_screenshot_vulkan_addr = 0x011C1250;
 #define rbx_disable_report_screenshot_vulkan_CCV __cdecl
 
 /* 
@@ -5681,7 +5657,7 @@ static constexpr std::uintptr_t rbx_disable_report_screenshot_vulkan_addr = 0x01
 * Usage (Not 100% Accurate):
 
 using r_rbx_disable_report_screenshot_d3d_typedef = int(__cdecl*)();
-r_rbx_disable_report_screenshot_d3d_typedef r_rbx_disable_report_screenshot_d3d = (r_rbx_disable_report_screenshot_d3d_typedef)(x(0x01191CD0));
+r_rbx_disable_report_screenshot_d3d_typedef r_rbx_disable_report_screenshot_d3d = (r_rbx_disable_report_screenshot_d3d_typedef)(x(0x011C11D0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5691,7 +5667,7 @@ r_rbx_disable_report_screenshot_d3d_typedef r_rbx_disable_report_screenshot_d3d 
 
 
 */
-static constexpr std::uintptr_t rbx_disable_report_screenshot_d3d_addr = 0x01191CD0;
+static constexpr std::uintptr_t rbx_disable_report_screenshot_d3d_addr = 0x011C11D0;
 #define rbx_disable_report_screenshot_d3d_CCV __cdecl
 
 /* 
@@ -5705,7 +5681,7 @@ static constexpr std::uintptr_t rbx_disable_report_screenshot_d3d_addr = 0x01191
 * Usage (Not 100% Accurate):
 
 using r_rbx_setsimulationradius_typedef = int(__thiscall*)(int a1, int a2);
-r_rbx_setsimulationradius_typedef r_rbx_setsimulationradius = (r_rbx_setsimulationradius_typedef)(x(0x0145C780));
+r_rbx_setsimulationradius_typedef r_rbx_setsimulationradius = (r_rbx_setsimulationradius_typedef)(x(0x01494C20));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5715,7 +5691,7 @@ r_rbx_setsimulationradius_typedef r_rbx_setsimulationradius = (r_rbx_setsimulati
 
 
 */
-static constexpr std::uintptr_t rbx_setsimulationradius_addr = 0x0145C780;
+static constexpr std::uintptr_t rbx_setsimulationradius_addr = 0x01494C20;
 #define rbx_setsimulationradius_CCV __thiscall
 
 /* 
@@ -5729,7 +5705,7 @@ static constexpr std::uintptr_t rbx_setsimulationradius_addr = 0x0145C780;
 * Usage (Not 100% Accurate):
 
 using r_rbx_network_clientreplicator_processtag_typedef = int(__stdcall*)(int a1, int a2, int a3, int a4);
-r_rbx_network_clientreplicator_processtag_typedef r_rbx_network_clientreplicator_processtag = (r_rbx_network_clientreplicator_processtag_typedef)(x(0x013F25E0));
+r_rbx_network_clientreplicator_processtag_typedef r_rbx_network_clientreplicator_processtag = (r_rbx_network_clientreplicator_processtag_typedef)(x(0x014293A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5739,7 +5715,7 @@ r_rbx_network_clientreplicator_processtag_typedef r_rbx_network_clientreplicator
 
 
 */
-static constexpr std::uintptr_t rbx_network_clientreplicator_processtag_addr = 0x013F25E0;
+static constexpr std::uintptr_t rbx_network_clientreplicator_processtag_addr = 0x014293A0;
 #define rbx_network_clientreplicator_processtag_CCV __stdcall
 
 /* 
@@ -5753,7 +5729,7 @@ static constexpr std::uintptr_t rbx_network_clientreplicator_processtag_addr = 0
 * Usage (Not 100% Accurate):
 
 using r_rbx_corescript_getluavmcorescriptfilepath_typedef = int(__cdecl*)(int a1, int a2, const char* a3);
-r_rbx_corescript_getluavmcorescriptfilepath_typedef r_rbx_corescript_getluavmcorescriptfilepath = (r_rbx_corescript_getluavmcorescriptfilepath_typedef)(x(0x00AFF9D0));
+r_rbx_corescript_getluavmcorescriptfilepath_typedef r_rbx_corescript_getluavmcorescriptfilepath = (r_rbx_corescript_getluavmcorescriptfilepath_typedef)(x(0x00AF5E50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5763,7 +5739,7 @@ r_rbx_corescript_getluavmcorescriptfilepath_typedef r_rbx_corescript_getluavmcor
 
 
 */
-static constexpr std::uintptr_t rbx_corescript_getluavmcorescriptfilepath_addr = 0x00AFF9D0;
+static constexpr std::uintptr_t rbx_corescript_getluavmcorescriptfilepath_addr = 0x00AF5E50;
 #define rbx_corescript_getluavmcorescriptfilepath_CCV __cdecl
 
 /* 
@@ -5777,7 +5753,7 @@ static constexpr std::uintptr_t rbx_corescript_getluavmcorescriptfilepath_addr =
 * Usage (Not 100% Accurate):
 
 using r_rbx_datastore_runtransformfunction_typedef = int(__stdcall*)();
-r_rbx_datastore_runtransformfunction_typedef r_rbx_datastore_runtransformfunction = (r_rbx_datastore_runtransformfunction_typedef)(x(0x00CFC490));
+r_rbx_datastore_runtransformfunction_typedef r_rbx_datastore_runtransformfunction = (r_rbx_datastore_runtransformfunction_typedef)(x(0x00CF5910));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5787,7 +5763,7 @@ r_rbx_datastore_runtransformfunction_typedef r_rbx_datastore_runtransformfunctio
 
 
 */
-static constexpr std::uintptr_t rbx_datastore_runtransformfunction_addr = 0x00CFC490;
+static constexpr std::uintptr_t rbx_datastore_runtransformfunction_addr = 0x00CF5910;
 #define rbx_datastore_runtransformfunction_CCV __stdcall
 
 /* 
@@ -5801,7 +5777,7 @@ static constexpr std::uintptr_t rbx_datastore_runtransformfunction_addr = 0x00CF
 * Usage (Not 100% Accurate):
 
 using r_rbx_datamodel_dodatamodelsetup_typedef = int(__cdecl*)(int a1, int a2, int a3, int a4, int a5);
-r_rbx_datamodel_dodatamodelsetup_typedef r_rbx_datamodel_dodatamodelsetup = (r_rbx_datamodel_dodatamodelsetup_typedef)(x(0x00707490));
+r_rbx_datamodel_dodatamodelsetup_typedef r_rbx_datamodel_dodatamodelsetup = (r_rbx_datamodel_dodatamodelsetup_typedef)(x(0x006F2FA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5811,7 +5787,7 @@ r_rbx_datamodel_dodatamodelsetup_typedef r_rbx_datamodel_dodatamodelsetup = (r_r
 
 
 */
-static constexpr std::uintptr_t rbx_datamodel_dodatamodelsetup_addr = 0x00707490;
+static constexpr std::uintptr_t rbx_datamodel_dodatamodelsetup_addr = 0x006F2FA0;
 #define rbx_datamodel_dodatamodelsetup_CCV __cdecl
 
 /* 
@@ -5825,7 +5801,7 @@ static constexpr std::uintptr_t rbx_datamodel_dodatamodelsetup_addr = 0x00707490
 * Usage (Not 100% Accurate):
 
 using r_rbx_debugvalueconverte_userdatatostring_typedef = int(__cdecl*)(int a1, int a2, int a3);
-r_rbx_debugvalueconverte_userdatatostring_typedef r_rbx_debugvalueconverte_userdatatostring = (r_rbx_debugvalueconverte_userdatatostring_typedef)(x(0x00C38280));
+r_rbx_debugvalueconverte_userdatatostring_typedef r_rbx_debugvalueconverte_userdatatostring = (r_rbx_debugvalueconverte_userdatatostring_typedef)(x(0x00C30140));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5835,7 +5811,7 @@ r_rbx_debugvalueconverte_userdatatostring_typedef r_rbx_debugvalueconverte_userd
 
 
 */
-static constexpr std::uintptr_t rbx_debugvalueconverte_userdatatostring_addr = 0x00C38280;
+static constexpr std::uintptr_t rbx_debugvalueconverte_userdatatostring_addr = 0x00C30140;
 #define rbx_debugvalueconverte_userdatatostring_CCV __cdecl
 
 /* 
@@ -5849,7 +5825,7 @@ static constexpr std::uintptr_t rbx_debugvalueconverte_userdatatostring_addr = 0
 * Usage (Not 100% Accurate):
 
 using r_rbx_deu_uploadcrasheventfile_typedef = int(__cdecl*)(int a1);
-r_rbx_deu_uploadcrasheventfile_typedef r_rbx_deu_uploadcrasheventfile = (r_rbx_deu_uploadcrasheventfile_typedef)(x(0x006325E0));
+r_rbx_deu_uploadcrasheventfile_typedef r_rbx_deu_uploadcrasheventfile = (r_rbx_deu_uploadcrasheventfile_typedef)(x(0x0061DB70));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5859,7 +5835,7 @@ r_rbx_deu_uploadcrasheventfile_typedef r_rbx_deu_uploadcrasheventfile = (r_rbx_d
 
 
 */
-static constexpr std::uintptr_t rbx_deu_uploadcrasheventfile_addr = 0x006325E0;
+static constexpr std::uintptr_t rbx_deu_uploadcrasheventfile_addr = 0x0061DB70;
 #define rbx_deu_uploadcrasheventfile_CCV __cdecl
 
 /* 
@@ -5873,7 +5849,7 @@ static constexpr std::uintptr_t rbx_deu_uploadcrasheventfile_addr = 0x006325E0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_lm_reporterror_typedef = int(__cdecl*)(int a1, int a2);
-r_rbx_lm_reporterror_typedef r_rbx_lm_reporterror = (r_rbx_lm_reporterror_typedef)(x(0x00636EC0));
+r_rbx_lm_reporterror_typedef r_rbx_lm_reporterror = (r_rbx_lm_reporterror_typedef)(x(0x006224C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5883,7 +5859,7 @@ r_rbx_lm_reporterror_typedef r_rbx_lm_reporterror = (r_rbx_lm_reporterror_typede
 
 
 */
-static constexpr std::uintptr_t rbx_lm_reporterror_addr = 0x00636EC0;
+static constexpr std::uintptr_t rbx_lm_reporterror_addr = 0x006224C0;
 #define rbx_lm_reporterror_CCV __cdecl
 
 /* 
@@ -5897,7 +5873,7 @@ static constexpr std::uintptr_t rbx_lm_reporterror_addr = 0x00636EC0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_lua_dumpthreadrefcounts_typedef = int(__cdecl*)();
-r_rbx_lua_dumpthreadrefcounts_typedef r_rbx_lua_dumpthreadrefcounts = (r_rbx_lua_dumpthreadrefcounts_typedef)(x(0x0084C4D0));
+r_rbx_lua_dumpthreadrefcounts_typedef r_rbx_lua_dumpthreadrefcounts = (r_rbx_lua_dumpthreadrefcounts_typedef)(x(0x008184E0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5907,7 +5883,7 @@ r_rbx_lua_dumpthreadrefcounts_typedef r_rbx_lua_dumpthreadrefcounts = (r_rbx_lua
 
 
 */
-static constexpr std::uintptr_t rbx_lua_dumpthreadrefcounts_addr = 0x0084C4D0;
+static constexpr std::uintptr_t rbx_lua_dumpthreadrefcounts_addr = 0x008184E0;
 #define rbx_lua_dumpthreadrefcounts_CCV __cdecl
 
 /* 
@@ -5921,7 +5897,7 @@ static constexpr std::uintptr_t rbx_lua_dumpthreadrefcounts_addr = 0x0084C4D0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_network_replicator_processdeserializedpacket_typedef = int(__thiscall*)(int a1, int a2);
-r_rbx_network_replicator_processdeserializedpacket_typedef r_rbx_network_replicator_processdeserializedpacket = (r_rbx_network_replicator_processdeserializedpacket_typedef)(x(0x013A3FC0));
+r_rbx_network_replicator_processdeserializedpacket_typedef r_rbx_network_replicator_processdeserializedpacket = (r_rbx_network_replicator_processdeserializedpacket_typedef)(x(0x013D8F50));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5931,7 +5907,7 @@ r_rbx_network_replicator_processdeserializedpacket_typedef r_rbx_network_replica
 
 
 */
-static constexpr std::uintptr_t rbx_network_replicator_processdeserializedpacket_addr = 0x013A3FC0;
+static constexpr std::uintptr_t rbx_network_replicator_processdeserializedpacket_addr = 0x013D8F50;
 #define rbx_network_replicator_processdeserializedpacket_CCV __thiscall
 
 /* 
@@ -5945,7 +5921,7 @@ static constexpr std::uintptr_t rbx_network_replicator_processdeserializedpacket
 * Usage (Not 100% Accurate):
 
 using r_rbx_network_server_registerlegalscript_typedef = int(__thiscall*)(int a1, int a2);
-r_rbx_network_server_registerlegalscript_typedef r_rbx_network_server_registerlegalscript = (r_rbx_network_server_registerlegalscript_typedef)(x(0x013CEBE0));
+r_rbx_network_server_registerlegalscript_typedef r_rbx_network_server_registerlegalscript = (r_rbx_network_server_registerlegalscript_typedef)(x(0x01404610));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5955,7 +5931,7 @@ r_rbx_network_server_registerlegalscript_typedef r_rbx_network_server_registerle
 
 
 */
-static constexpr std::uintptr_t rbx_network_server_registerlegalscript_addr = 0x013CEBE0;
+static constexpr std::uintptr_t rbx_network_server_registerlegalscript_addr = 0x01404610;
 #define rbx_network_server_registerlegalscript_CCV __thiscall
 
 /* 
@@ -5969,7 +5945,7 @@ static constexpr std::uintptr_t rbx_network_server_registerlegalscript_addr = 0x
 * Usage (Not 100% Accurate):
 
 using r_rbx_rcr_processexception_typedef = int(__stdcall*)();
-r_rbx_rcr_processexception_typedef r_rbx_rcr_processexception = (r_rbx_rcr_processexception_typedef)(x(0x00636D60));
+r_rbx_rcr_processexception_typedef r_rbx_rcr_processexception = (r_rbx_rcr_processexception_typedef)(x(0x00622360));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -5979,7 +5955,7 @@ r_rbx_rcr_processexception_typedef r_rbx_rcr_processexception = (r_rbx_rcr_proce
 
 
 */
-static constexpr std::uintptr_t rbx_rcr_processexception_addr = 0x00636D60;
+static constexpr std::uintptr_t rbx_rcr_processexception_addr = 0x00622360;
 #define rbx_rcr_processexception_CCV __stdcall
 
 /* 
@@ -5993,7 +5969,7 @@ static constexpr std::uintptr_t rbx_rcr_processexception_addr = 0x00636D60;
 * Usage (Not 100% Accurate):
 
 using r_raknet_rakpeer_runupdatecycle_typedef = int(__thiscall*)(int a1, int a2, int a3, int a4);
-r_raknet_rakpeer_runupdatecycle_typedef r_raknet_rakpeer_runupdatecycle = (r_raknet_rakpeer_runupdatecycle_typedef)(x(0x013D5B20));
+r_raknet_rakpeer_runupdatecycle_typedef r_raknet_rakpeer_runupdatecycle = (r_raknet_rakpeer_runupdatecycle_typedef)(x(0x0140B680));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6003,7 +5979,7 @@ r_raknet_rakpeer_runupdatecycle_typedef r_raknet_rakpeer_runupdatecycle = (r_rak
 
 
 */
-static constexpr std::uintptr_t raknet_rakpeer_runupdatecycle_addr = 0x013D5B20;
+static constexpr std::uintptr_t raknet_rakpeer_runupdatecycle_addr = 0x0140B680;
 #define raknet_rakpeer_runupdatecycle_CCV __thiscall
 
 /* 
@@ -6017,7 +5993,7 @@ static constexpr std::uintptr_t raknet_rakpeer_runupdatecycle_addr = 0x013D5B20;
 * Usage (Not 100% Accurate):
 
 using r_rbx_sc_closestate_typedef = int(__stdcall*)(int a1);
-r_rbx_sc_closestate_typedef r_rbx_sc_closestate = (r_rbx_sc_closestate_typedef)(x(0x007A65B0));
+r_rbx_sc_closestate_typedef r_rbx_sc_closestate = (r_rbx_sc_closestate_typedef)(x(0x00793470));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6027,7 +6003,7 @@ r_rbx_sc_closestate_typedef r_rbx_sc_closestate = (r_rbx_sc_closestate_typedef)(
 
 
 */
-static constexpr std::uintptr_t rbx_sc_closestate_addr = 0x007A65B0;
+static constexpr std::uintptr_t rbx_sc_closestate_addr = 0x00793470;
 #define rbx_sc_closestate_CCV __stdcall
 
 /* 
@@ -6041,7 +6017,7 @@ static constexpr std::uintptr_t rbx_sc_closestate_addr = 0x007A65B0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_taskscheduler_getlastcycletimestamp_typedef = int(__cdecl*)(int a1);
-r_rbx_taskscheduler_getlastcycletimestamp_typedef r_rbx_taskscheduler_getlastcycletimestamp = (r_rbx_taskscheduler_getlastcycletimestamp_typedef)(x(0x0105B5B0));
+r_rbx_taskscheduler_getlastcycletimestamp_typedef r_rbx_taskscheduler_getlastcycletimestamp = (r_rbx_taskscheduler_getlastcycletimestamp_typedef)(x(0x01061DB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6051,7 +6027,7 @@ r_rbx_taskscheduler_getlastcycletimestamp_typedef r_rbx_taskscheduler_getlastcyc
 
 
 */
-static constexpr std::uintptr_t rbx_taskscheduler_getlastcycletimestamp_addr = 0x0105B5B0;
+static constexpr std::uintptr_t rbx_taskscheduler_getlastcycletimestamp_addr = 0x01061DB0;
 #define rbx_taskscheduler_getlastcycletimestamp_CCV __cdecl
 
 /* 
@@ -6065,7 +6041,7 @@ static constexpr std::uintptr_t rbx_taskscheduler_getlastcycletimestamp_addr = 0
 * Usage (Not 100% Accurate):
 
 using r_rbx_lua_bridge_on_index_typedef = int(__cdecl*)(int a1);
-r_rbx_lua_bridge_on_index_typedef r_rbx_lua_bridge_on_index = (r_rbx_lua_bridge_on_index_typedef)(x(0x0087A710));
+r_rbx_lua_bridge_on_index_typedef r_rbx_lua_bridge_on_index = (r_rbx_lua_bridge_on_index_typedef)(x(0x0084AF80));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6075,7 +6051,7 @@ r_rbx_lua_bridge_on_index_typedef r_rbx_lua_bridge_on_index = (r_rbx_lua_bridge_
 
 
 */
-static constexpr std::uintptr_t rbx_lua_bridge_on_index_addr = 0x0087A710;
+static constexpr std::uintptr_t rbx_lua_bridge_on_index_addr = 0x0084AF80;
 #define rbx_lua_bridge_on_index_CCV __cdecl
 
 /* 
@@ -6089,7 +6065,7 @@ static constexpr std::uintptr_t rbx_lua_bridge_on_index_addr = 0x0087A710;
 * Usage (Not 100% Accurate):
 
 using r_rbx_security_context_current_typedef = int(__thiscall*)(int a1);
-r_rbx_security_context_current_typedef r_rbx_security_context_current = (r_rbx_security_context_current_typedef)(x(0x015353F0));
+r_rbx_security_context_current_typedef r_rbx_security_context_current = (r_rbx_security_context_current_typedef)(x(0x015707A0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6099,7 +6075,7 @@ r_rbx_security_context_current_typedef r_rbx_security_context_current = (r_rbx_s
 
 
 */
-static constexpr std::uintptr_t rbx_security_context_current_addr = 0x015353F0;
+static constexpr std::uintptr_t rbx_security_context_current_addr = 0x015707A0;
 #define rbx_security_context_current_CCV __thiscall
 
 /* 
@@ -6113,7 +6089,7 @@ static constexpr std::uintptr_t rbx_security_context_current_addr = 0x015353F0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_security_impersonator_impersonator_typedef = int(__stdcall*)();
-r_rbx_security_impersonator_impersonator_typedef r_rbx_security_impersonator_impersonator = (r_rbx_security_impersonator_impersonator_typedef)(x(0x01535320));
+r_rbx_security_impersonator_impersonator_typedef r_rbx_security_impersonator_impersonator = (r_rbx_security_impersonator_impersonator_typedef)(x(0x015706D0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6123,7 +6099,7 @@ r_rbx_security_impersonator_impersonator_typedef r_rbx_security_impersonator_imp
 
 
 */
-static constexpr std::uintptr_t rbx_security_impersonator_impersonator_addr = 0x01535320;
+static constexpr std::uintptr_t rbx_security_impersonator_impersonator_addr = 0x015706D0;
 #define rbx_security_impersonator_impersonator_CCV __stdcall
 
 /* 
@@ -6137,7 +6113,7 @@ static constexpr std::uintptr_t rbx_security_impersonator_impersonator_addr = 0x
 * Usage (Not 100% Accurate):
 
 using r_rbx_datamodel_getjobsinfo_typedef = int(__thiscall*)(int a1, int a2);
-r_rbx_datamodel_getjobsinfo_typedef r_rbx_datamodel_getjobsinfo = (r_rbx_datamodel_getjobsinfo_typedef)(x(0x0070AF00));
+r_rbx_datamodel_getjobsinfo_typedef r_rbx_datamodel_getjobsinfo = (r_rbx_datamodel_getjobsinfo_typedef)(x(0x006F6A10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6147,7 +6123,7 @@ r_rbx_datamodel_getjobsinfo_typedef r_rbx_datamodel_getjobsinfo = (r_rbx_datamod
 
 
 */
-static constexpr std::uintptr_t rbx_datamodel_getjobsinfo_addr = 0x0070AF00;
+static constexpr std::uintptr_t rbx_datamodel_getjobsinfo_addr = 0x006F6A10;
 #define rbx_datamodel_getjobsinfo_CCV __thiscall
 
 /* 
@@ -6161,7 +6137,7 @@ static constexpr std::uintptr_t rbx_datamodel_getjobsinfo_addr = 0x0070AF00;
 * Usage (Not 100% Accurate):
 
 using r_rbx_sc_crash_typedef = int(__cdecl*)(int a1);
-r_rbx_sc_crash_typedef r_rbx_sc_crash = (r_rbx_sc_crash_typedef)(x(0x007A7190));
+r_rbx_sc_crash_typedef r_rbx_sc_crash = (r_rbx_sc_crash_typedef)(x(0x00794040));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6171,7 +6147,7 @@ r_rbx_sc_crash_typedef r_rbx_sc_crash = (r_rbx_sc_crash_typedef)(x(Adresses::rbx
 
 
 */
-static constexpr std::uintptr_t rbx_sc_crash_addr = 0x007A7190;
+static constexpr std::uintptr_t rbx_sc_crash_addr = 0x00794040;
 #define rbx_sc_crash_CCV __cdecl
 
 /* 
@@ -6185,7 +6161,7 @@ static constexpr std::uintptr_t rbx_sc_crash_addr = 0x007A7190;
 * Usage (Not 100% Accurate):
 
 using r_rbx_sc_interrupt_typedef = int(__cdecl*)(int a1);
-r_rbx_sc_interrupt_typedef r_rbx_sc_interrupt = (r_rbx_sc_interrupt_typedef)(x(0x007AD410));
+r_rbx_sc_interrupt_typedef r_rbx_sc_interrupt = (r_rbx_sc_interrupt_typedef)(x(0x0079A160));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6195,7 +6171,7 @@ r_rbx_sc_interrupt_typedef r_rbx_sc_interrupt = (r_rbx_sc_interrupt_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t rbx_sc_interrupt_addr = 0x007AD410;
+static constexpr std::uintptr_t rbx_sc_interrupt_addr = 0x0079A160;
 #define rbx_sc_interrupt_CCV __cdecl
 
 /* 
@@ -6209,7 +6185,7 @@ static constexpr std::uintptr_t rbx_sc_interrupt_addr = 0x007AD410;
 * Usage (Not 100% Accurate):
 
 using r_rbx_sc_loadstring_typedef = int(__cdecl*)(int a1);
-r_rbx_sc_loadstring_typedef r_rbx_sc_loadstring = (r_rbx_sc_loadstring_typedef)(x(0x007ADE20));
+r_rbx_sc_loadstring_typedef r_rbx_sc_loadstring = (r_rbx_sc_loadstring_typedef)(x(0x0079AE60));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6219,7 +6195,7 @@ r_rbx_sc_loadstring_typedef r_rbx_sc_loadstring = (r_rbx_sc_loadstring_typedef)(
 
 
 */
-static constexpr std::uintptr_t rbx_sc_loadstring_addr = 0x007ADE20;
+static constexpr std::uintptr_t rbx_sc_loadstring_addr = 0x0079AE60;
 #define rbx_sc_loadstring_CCV __cdecl
 
 /* 
@@ -6233,7 +6209,7 @@ static constexpr std::uintptr_t rbx_sc_loadstring_addr = 0x007ADE20;
 * Usage (Not 100% Accurate):
 
 using r_rbx_sc_scriptcontext_typedef = int(__thiscall*)(int a1);
-r_rbx_sc_scriptcontext_typedef r_rbx_sc_scriptcontext = (r_rbx_sc_scriptcontext_typedef)(x(0x0079FF60));
+r_rbx_sc_scriptcontext_typedef r_rbx_sc_scriptcontext = (r_rbx_sc_scriptcontext_typedef)(x(0x0078CBA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6243,7 +6219,7 @@ r_rbx_sc_scriptcontext_typedef r_rbx_sc_scriptcontext = (r_rbx_sc_scriptcontext_
 
 
 */
-static constexpr std::uintptr_t rbx_sc_scriptcontext_addr = 0x0079FF60;
+static constexpr std::uintptr_t rbx_sc_scriptcontext_addr = 0x0078CBA0;
 #define rbx_sc_scriptcontext_CCV __thiscall
 
 /* 
@@ -6257,7 +6233,7 @@ static constexpr std::uintptr_t rbx_sc_scriptcontext_addr = 0x0079FF60;
 * Usage (Not 100% Accurate):
 
 using r_rbx_sc_startscript_typedef = int(__stdcall*)();
-r_rbx_sc_startscript_typedef r_rbx_sc_startscript = (r_rbx_sc_startscript_typedef)(x(0x007BAFE0));
+r_rbx_sc_startscript_typedef r_rbx_sc_startscript = (r_rbx_sc_startscript_typedef)(x(0x007A81B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6267,7 +6243,7 @@ r_rbx_sc_startscript_typedef r_rbx_sc_startscript = (r_rbx_sc_startscript_typede
 
 
 */
-static constexpr std::uintptr_t rbx_sc_startscript_addr = 0x007BAFE0;
+static constexpr std::uintptr_t rbx_sc_startscript_addr = 0x007A81B0;
 #define rbx_sc_startscript_CCV __stdcall
 
 /* 
@@ -6281,7 +6257,7 @@ static constexpr std::uintptr_t rbx_sc_startscript_addr = 0x007BAFE0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_sc_watchdog_typedef = int(__thiscall*)(int a1);
-r_rbx_sc_watchdog_typedef r_rbx_sc_watchdog = (r_rbx_sc_watchdog_typedef)(x(0x007BCD20));
+r_rbx_sc_watchdog_typedef r_rbx_sc_watchdog = (r_rbx_sc_watchdog_typedef)(x(0x007A9F20));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6291,7 +6267,7 @@ r_rbx_sc_watchdog_typedef r_rbx_sc_watchdog = (r_rbx_sc_watchdog_typedef)(x(Adre
 
 
 */
-static constexpr std::uintptr_t rbx_sc_watchdog_addr = 0x007BCD20;
+static constexpr std::uintptr_t rbx_sc_watchdog_addr = 0x007A9F20;
 #define rbx_sc_watchdog_CCV __thiscall
 
 /* 
@@ -6305,7 +6281,7 @@ static constexpr std::uintptr_t rbx_sc_watchdog_addr = 0x007BCD20;
 * Usage (Not 100% Accurate):
 
 using r_rbx_scriptcontext_getcontext_typedef = int(__cdecl*)(int a1);
-r_rbx_scriptcontext_getcontext_typedef r_rbx_scriptcontext_getcontext = (r_rbx_scriptcontext_getcontext_typedef)(x(0x007C6990));
+r_rbx_scriptcontext_getcontext_typedef r_rbx_scriptcontext_getcontext = (r_rbx_scriptcontext_getcontext_typedef)(x(0x007B3BA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6315,7 +6291,7 @@ r_rbx_scriptcontext_getcontext_typedef r_rbx_scriptcontext_getcontext = (r_rbx_s
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_getcontext_addr = 0x007C6990;
+static constexpr std::uintptr_t rbx_scriptcontext_getcontext_addr = 0x007B3BA0;
 #define rbx_scriptcontext_getcontext_CCV __cdecl
 
 /* 
@@ -6329,7 +6305,7 @@ static constexpr std::uintptr_t rbx_scriptcontext_getcontext_addr = 0x007C6990;
 * Usage (Not 100% Accurate):
 
 using r_rbx_scriptcontext_debuggermanager_typedef = int(__cdecl*)(int a1);
-r_rbx_scriptcontext_debuggermanager_typedef r_rbx_scriptcontext_debuggermanager = (r_rbx_scriptcontext_debuggermanager_typedef)(x(0x007A7970));
+r_rbx_scriptcontext_debuggermanager_typedef r_rbx_scriptcontext_debuggermanager = (r_rbx_scriptcontext_debuggermanager_typedef)(x(0x00794810));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6339,7 +6315,7 @@ r_rbx_scriptcontext_debuggermanager_typedef r_rbx_scriptcontext_debuggermanager 
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_debuggermanager_addr = 0x007A7970;
+static constexpr std::uintptr_t rbx_scriptcontext_debuggermanager_addr = 0x00794810;
 #define rbx_scriptcontext_debuggermanager_CCV __cdecl
 
 /* 
@@ -6353,7 +6329,7 @@ static constexpr std::uintptr_t rbx_scriptcontext_debuggermanager_addr = 0x007A7
 * Usage (Not 100% Accurate):
 
 using r_rbx_scriptcontext_pluginmanager_typedef = int(__cdecl*)(int a1);
-r_rbx_scriptcontext_pluginmanager_typedef r_rbx_scriptcontext_pluginmanager = (r_rbx_scriptcontext_pluginmanager_typedef)(x(0x007B1050));
+r_rbx_scriptcontext_pluginmanager_typedef r_rbx_scriptcontext_pluginmanager = (r_rbx_scriptcontext_pluginmanager_typedef)(x(0x0079E1D0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6363,7 +6339,7 @@ r_rbx_scriptcontext_pluginmanager_typedef r_rbx_scriptcontext_pluginmanager = (r
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_pluginmanager_addr = 0x007B1050;
+static constexpr std::uintptr_t rbx_scriptcontext_pluginmanager_addr = 0x0079E1D0;
 #define rbx_scriptcontext_pluginmanager_CCV __cdecl
 
 /* 
@@ -6377,7 +6353,7 @@ static constexpr std::uintptr_t rbx_scriptcontext_pluginmanager_addr = 0x007B105
 * Usage (Not 100% Accurate):
 
 using r_rbx_scriptcontext_usersettings_typedef = int(__cdecl*)(int a1);
-r_rbx_scriptcontext_usersettings_typedef r_rbx_scriptcontext_usersettings = (r_rbx_scriptcontext_usersettings_typedef)(x(0x007BC8B0));
+r_rbx_scriptcontext_usersettings_typedef r_rbx_scriptcontext_usersettings = (r_rbx_scriptcontext_usersettings_typedef)(x(0x007A9AB0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6387,7 +6363,7 @@ r_rbx_scriptcontext_usersettings_typedef r_rbx_scriptcontext_usersettings = (r_r
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_usersettings_addr = 0x007BC8B0;
+static constexpr std::uintptr_t rbx_scriptcontext_usersettings_addr = 0x007A9AB0;
 #define rbx_scriptcontext_usersettings_CCV __cdecl
 
 /* 
@@ -6401,7 +6377,7 @@ static constexpr std::uintptr_t rbx_scriptcontext_usersettings_addr = 0x007BC8B0
 * Usage (Not 100% Accurate):
 
 using r_rbx_scriptcontext_settings_typedef = int(__cdecl*)(int a1);
-r_rbx_scriptcontext_settings_typedef r_rbx_scriptcontext_settings = (r_rbx_scriptcontext_settings_typedef)(x(0x007BA2D0));
+r_rbx_scriptcontext_settings_typedef r_rbx_scriptcontext_settings = (r_rbx_scriptcontext_settings_typedef)(x(0x007A74F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6411,7 +6387,7 @@ r_rbx_scriptcontext_settings_typedef r_rbx_scriptcontext_settings = (r_rbx_scrip
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_settings_addr = 0x007BA2D0;
+static constexpr std::uintptr_t rbx_scriptcontext_settings_addr = 0x007A74F0;
 #define rbx_scriptcontext_settings_CCV __cdecl
 
 /* 
@@ -6424,8 +6400,8 @@ static constexpr std::uintptr_t rbx_scriptcontext_settings_addr = 0x007BA2D0;
 * rbx_scriptcontext_getglobalstate_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_rbx_scriptcontext_getglobalstate_typedef = int(__cdecl*)(int a1);
-r_rbx_scriptcontext_getglobalstate_typedef r_rbx_scriptcontext_getglobalstate = (r_rbx_scriptcontext_getglobalstate_typedef)(x(0x007AB2B0));
+using r_rbx_scriptcontext_getglobalstate_typedef = int(__stdcall*)(int a1);
+r_rbx_scriptcontext_getglobalstate_typedef r_rbx_scriptcontext_getglobalstate = (r_rbx_scriptcontext_getglobalstate_typedef)(x(0x00C445B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6435,8 +6411,8 @@ r_rbx_scriptcontext_getglobalstate_typedef r_rbx_scriptcontext_getglobalstate = 
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_getglobalstate_addr = 0x007AB2B0;
-#define rbx_scriptcontext_getglobalstate_CCV __cdecl
+static constexpr std::uintptr_t rbx_scriptcontext_getglobalstate_addr = 0x00C445B0;
+#define rbx_scriptcontext_getglobalstate_CCV __stdcall
 
 /* 
 
@@ -6449,7 +6425,7 @@ static constexpr std::uintptr_t rbx_scriptcontext_getglobalstate_addr = 0x007AB2
 * Usage (Not 100% Accurate):
 
 using r_rbx_modulescript_vmstate_typedef = int(__stdcall*)(int a1);
-r_rbx_modulescript_vmstate_typedef r_rbx_modulescript_vmstate = (r_rbx_modulescript_vmstate_typedef)(x(0x00C4C0A0));
+r_rbx_modulescript_vmstate_typedef r_rbx_modulescript_vmstate = (r_rbx_modulescript_vmstate_typedef)(x(0x00C44290));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6459,7 +6435,7 @@ r_rbx_modulescript_vmstate_typedef r_rbx_modulescript_vmstate = (r_rbx_modulescr
 
 
 */
-static constexpr std::uintptr_t rbx_modulescript_vmstate_addr = 0x00C4C0A0;
+static constexpr std::uintptr_t rbx_modulescript_vmstate_addr = 0x00C44290;
 #define rbx_modulescript_vmstate_CCV __stdcall
 
 /* 
@@ -6472,8 +6448,8 @@ static constexpr std::uintptr_t rbx_modulescript_vmstate_addr = 0x00C4C0A0;
 * rbx_modulescript_pervmstate_setcompletedsuccess_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_rbx_modulescript_pervmstate_setcompletedsuccess_typedef = int(__thiscall*)(int a1, int a2, int a3);
-r_rbx_modulescript_pervmstate_setcompletedsuccess_typedef r_rbx_modulescript_pervmstate_setcompletedsuccess = (r_rbx_modulescript_pervmstate_setcompletedsuccess_typedef)(x(0x00C4BD80));
+using r_rbx_modulescript_pervmstate_setcompletedsuccess_typedef = int(__fastcall*)(int a1, int a2, int a3);
+r_rbx_modulescript_pervmstate_setcompletedsuccess_typedef r_rbx_modulescript_pervmstate_setcompletedsuccess = (r_rbx_modulescript_pervmstate_setcompletedsuccess_typedef)(x(0x00C44000));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6483,8 +6459,8 @@ r_rbx_modulescript_pervmstate_setcompletedsuccess_typedef r_rbx_modulescript_per
 
 
 */
-static constexpr std::uintptr_t rbx_modulescript_pervmstate_setcompletedsuccess_addr = 0x00C4BD80;
-#define rbx_modulescript_pervmstate_setcompletedsuccess_CCV __thiscall
+static constexpr std::uintptr_t rbx_modulescript_pervmstate_setcompletedsuccess_addr = 0x00C44000;
+#define rbx_modulescript_pervmstate_setcompletedsuccess_CCV __fastcall
 
 /* 
 
@@ -6496,8 +6472,8 @@ static constexpr std::uintptr_t rbx_modulescript_pervmstate_setcompletedsuccess_
 * rbx_modulescript_pervmstate_getandclearyieldedimporters_Mask: ....
 * Usage (Not 100% Accurate):
 
-using r_rbx_modulescript_pervmstate_getandclearyieldedimporters_typedef = int(__thiscall*)(int a1, int a2);
-r_rbx_modulescript_pervmstate_getandclearyieldedimporters_typedef r_rbx_modulescript_pervmstate_getandclearyieldedimporters = (r_rbx_modulescript_pervmstate_getandclearyieldedimporters_typedef)(x(0x00C4BA70));
+using r_rbx_modulescript_pervmstate_getandclearyieldedimporters_typedef = int(__cdecl*)(int a1, int a2);
+r_rbx_modulescript_pervmstate_getandclearyieldedimporters_typedef r_rbx_modulescript_pervmstate_getandclearyieldedimporters = (r_rbx_modulescript_pervmstate_getandclearyieldedimporters_typedef)(x(0x007A6600));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6507,8 +6483,8 @@ r_rbx_modulescript_pervmstate_getandclearyieldedimporters_typedef r_rbx_modulesc
 
 
 */
-static constexpr std::uintptr_t rbx_modulescript_pervmstate_getandclearyieldedimporters_addr = 0x00C4BA70;
-#define rbx_modulescript_pervmstate_getandclearyieldedimporters_CCV __thiscall
+static constexpr std::uintptr_t rbx_modulescript_pervmstate_getandclearyieldedimporters_addr = 0x007A6600;
+#define rbx_modulescript_pervmstate_getandclearyieldedimporters_CCV __cdecl
 
 /* 
 
@@ -6521,7 +6497,7 @@ static constexpr std::uintptr_t rbx_modulescript_pervmstate_getandclearyieldedim
 * Usage (Not 100% Accurate):
 
 using r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation_typedef = int(__cdecl*)(int a1, int a2, int a3);
-r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation_typedef r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation = (r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation_typedef)(x(0x007B7A70));
+r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation_typedef r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation = (r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation_typedef)(x(0x007A4CA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6531,7 +6507,7 @@ r_rbx_scriptcontext_requiremodulescriptsuccesscontinuation_typedef r_rbx_scriptc
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_requiremodulescriptsuccesscontinuation_addr = 0x007B7A70;
+static constexpr std::uintptr_t rbx_scriptcontext_requiremodulescriptsuccesscontinuation_addr = 0x007A4CA0;
 #define rbx_scriptcontext_requiremodulescriptsuccesscontinuation_CCV __cdecl
 
 /* 
@@ -6545,7 +6521,7 @@ static constexpr std::uintptr_t rbx_scriptcontext_requiremodulescriptsuccesscont
 * Usage (Not 100% Accurate):
 
 using r_rbx_setthreadname_typedef = int(__cdecl*)(int a1);
-r_rbx_setthreadname_typedef r_rbx_setthreadname = (r_rbx_setthreadname_typedef)(x(0x0105AFA0));
+r_rbx_setthreadname_typedef r_rbx_setthreadname = (r_rbx_setthreadname_typedef)(x(0x01061780));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6555,7 +6531,7 @@ r_rbx_setthreadname_typedef r_rbx_setthreadname = (r_rbx_setthreadname_typedef)(
 
 
 */
-static constexpr std::uintptr_t rbx_setthreadname_addr = 0x0105AFA0;
+static constexpr std::uintptr_t rbx_setthreadname_addr = 0x01061780;
 #define rbx_setthreadname_CCV __cdecl
 
 /* 
@@ -6569,7 +6545,7 @@ static constexpr std::uintptr_t rbx_setthreadname_addr = 0x0105AFA0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_serializer_loadinstances_typedef = int(__cdecl*)(int a1, int a2);
-r_rbx_serializer_loadinstances_typedef r_rbx_serializer_loadinstances = (r_rbx_serializer_loadinstances_typedef)(x(0x0088B600));
+r_rbx_serializer_loadinstances_typedef r_rbx_serializer_loadinstances = (r_rbx_serializer_loadinstances_typedef)(x(0x00874BA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6579,7 +6555,7 @@ r_rbx_serializer_loadinstances_typedef r_rbx_serializer_loadinstances = (r_rbx_s
 
 
 */
-static constexpr std::uintptr_t rbx_serializer_loadinstances_addr = 0x0088B600;
+static constexpr std::uintptr_t rbx_serializer_loadinstances_addr = 0x00874BA0;
 #define rbx_serializer_loadinstances_CCV __cdecl
 
 /* 
@@ -6593,7 +6569,7 @@ static constexpr std::uintptr_t rbx_serializer_loadinstances_addr = 0x0088B600;
 * Usage (Not 100% Accurate):
 
 using r_rbx_scriptcontext_printcallstack_typedef = int(__cdecl*)(int a1, int a2, const char* a3, int a4);
-r_rbx_scriptcontext_printcallstack_typedef r_rbx_scriptcontext_printcallstack = (r_rbx_scriptcontext_printcallstack_typedef)(x(0x007B12B0));
+r_rbx_scriptcontext_printcallstack_typedef r_rbx_scriptcontext_printcallstack = (r_rbx_scriptcontext_printcallstack_typedef)(x(0x0079E430));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6603,7 +6579,7 @@ r_rbx_scriptcontext_printcallstack_typedef r_rbx_scriptcontext_printcallstack = 
 
 
 */
-static constexpr std::uintptr_t rbx_scriptcontext_printcallstack_addr = 0x007B12B0;
+static constexpr std::uintptr_t rbx_scriptcontext_printcallstack_addr = 0x0079E430;
 #define rbx_scriptcontext_printcallstack_CCV __cdecl
 
 /* 
@@ -6617,7 +6593,7 @@ static constexpr std::uintptr_t rbx_scriptcontext_printcallstack_addr = 0x007B12
 * Usage (Not 100% Accurate):
 
 using r_rbx_serializer_loadinstances_long_typedef = int(__cdecl*)(int a1, int a2, int a3);
-r_rbx_serializer_loadinstances_long_typedef r_rbx_serializer_loadinstances_long = (r_rbx_serializer_loadinstances_long_typedef)(x(0x0088B620));
+r_rbx_serializer_loadinstances_long_typedef r_rbx_serializer_loadinstances_long = (r_rbx_serializer_loadinstances_long_typedef)(x(0x00874BC0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6627,7 +6603,7 @@ r_rbx_serializer_loadinstances_long_typedef r_rbx_serializer_loadinstances_long 
 
 
 */
-static constexpr std::uintptr_t rbx_serializer_loadinstances_long_addr = 0x0088B620;
+static constexpr std::uintptr_t rbx_serializer_loadinstances_long_addr = 0x00874BC0;
 #define rbx_serializer_loadinstances_long_CCV __cdecl
 
 /* 
@@ -6641,7 +6617,7 @@ static constexpr std::uintptr_t rbx_serializer_loadinstances_long_addr = 0x0088B
 * Usage (Not 100% Accurate):
 
 using r_rbx_standardout_printwithlink_typedef = int(__cdecl*)(int a1, int a2, int a3, int a4);
-r_rbx_standardout_printwithlink_typedef r_rbx_standardout_printwithlink = (r_rbx_standardout_printwithlink_typedef)(x(0x00672790));
+r_rbx_standardout_printwithlink_typedef r_rbx_standardout_printwithlink = (r_rbx_standardout_printwithlink_typedef)(x(0x006384B0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6651,7 +6627,7 @@ r_rbx_standardout_printwithlink_typedef r_rbx_standardout_printwithlink = (r_rbx
 
 
 */
-static constexpr std::uintptr_t rbx_standardout_printwithlink_addr = 0x00672790;
+static constexpr std::uintptr_t rbx_standardout_printwithlink_addr = 0x006384B0;
 #define rbx_standardout_printwithlink_CCV __cdecl
 
 /* 
@@ -6665,7 +6641,7 @@ static constexpr std::uintptr_t rbx_standardout_printwithlink_addr = 0x00672790;
 * Usage (Not 100% Accurate):
 
 using r_rbx_ts_startscript_typedef = int(__thiscall*)(int a1, int a2);
-r_rbx_ts_startscript_typedef r_rbx_ts_startscript = (r_rbx_ts_startscript_typedef)(x(0x00B4A0A0));
+r_rbx_ts_startscript_typedef r_rbx_ts_startscript = (r_rbx_ts_startscript_typedef)(x(0x00B40520));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6675,7 +6651,7 @@ r_rbx_ts_startscript_typedef r_rbx_ts_startscript = (r_rbx_ts_startscript_typede
 
 
 */
-static constexpr std::uintptr_t rbx_ts_startscript_addr = 0x00B4A0A0;
+static constexpr std::uintptr_t rbx_ts_startscript_addr = 0x00B40520;
 #define rbx_ts_startscript_CCV __thiscall
 
 /* 
@@ -6689,7 +6665,7 @@ static constexpr std::uintptr_t rbx_ts_startscript_addr = 0x00B4A0A0;
 * Usage (Not 100% Accurate):
 
 using r_rbx_ws_getrealphysicsfps_typedef = int(__thiscall*)(int a1);
-r_rbx_ws_getrealphysicsfps_typedef r_rbx_ws_getrealphysicsfps = (r_rbx_ws_getrealphysicsfps_typedef)(x(0x0094A680));
+r_rbx_ws_getrealphysicsfps_typedef r_rbx_ws_getrealphysicsfps = (r_rbx_ws_getrealphysicsfps_typedef)(x(0x00951AD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6699,7 +6675,7 @@ r_rbx_ws_getrealphysicsfps_typedef r_rbx_ws_getrealphysicsfps = (r_rbx_ws_getrea
 
 
 */
-static constexpr std::uintptr_t rbx_ws_getrealphysicsfps_addr = 0x0094A680;
+static constexpr std::uintptr_t rbx_ws_getrealphysicsfps_addr = 0x00951AD0;
 #define rbx_ws_getrealphysicsfps_CCV __thiscall
 
 /* 
@@ -6713,7 +6689,7 @@ static constexpr std::uintptr_t rbx_ws_getrealphysicsfps_addr = 0x0094A680;
 * Usage (Not 100% Accurate):
 
 using r_rbxcrash_typedef = int(__cdecl*)(int a1, int a2);
-r_rbxcrash_typedef r_rbxcrash = (r_rbxcrash_typedef)(x(0x01796EB0));
+r_rbxcrash_typedef r_rbxcrash = (r_rbxcrash_typedef)(x(0x017D5310));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6723,8 +6699,34 @@ r_rbxcrash_typedef r_rbxcrash = (r_rbxcrash_typedef)(x(Adresses::rbxcrash_addr))
 
 
 */
-static constexpr std::uintptr_t rbxcrash_addr = 0x01796EB0;
+static constexpr std::uintptr_t rbxcrash_addr = 0x017D5310;
 #define rbxcrash_CCV __cdecl
+
+
+/* 
+ 
+* lual_ref_Decompiled_Args: std::uintptr_t a1, int a2
+* lual_ref_TypeDef: int
+* lual_ref_Aob: Unable to generate aob.
+* lual_ref_ProtectedByRetcheck: false
+* lual_ref_IsApartOfLua: true
+* lual_ref_Mask: ....
+* Usage (Not 100% Accurate):
+ 
+using r_lual_ref_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
+r_lual_ref_typedef r_lual_ref = (r_lual_ref_typedef)(x(0x015737E0));
+ 
+* (Compatable Format) Usage (Not 100% Accurate):
+ 
+using r_lual_ref_typedef = int(lual_ref_CCV*)(std::uintptr_t a1, int a2);
+r_lual_ref_typedef r_lual_ref = (r_lual_ref_typedef)(x(Adresses::lual_ref_addr));
+ 
+ 
+ 
+*/
+static constexpr std::uintptr_t lual_ref_addr = 0x015737E0;
+#define lual_ref_CCV __cdecl
+
 
 /* 
 
@@ -6737,7 +6739,7 @@ static constexpr std::uintptr_t rbxcrash_addr = 0x01796EB0;
 * Usage (Not 100% Accurate):
 
 using r_reallymarkobject_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_reallymarkobject_typedef r_reallymarkobject = (r_reallymarkobject_typedef)(x(0x01550BD0));
+r_reallymarkobject_typedef r_reallymarkobject = (r_reallymarkobject_typedef)(x(0x0158B4E0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6747,7 +6749,7 @@ r_reallymarkobject_typedef r_reallymarkobject = (r_reallymarkobject_typedef)(x(A
 
 
 */
-static constexpr std::uintptr_t reallymarkobject_addr = 0x01550BD0;
+static constexpr std::uintptr_t reallymarkobject_addr = 0x0158B4E0;
 #define reallymarkobject_CCV __cdecl
 
 /* 
@@ -6761,7 +6763,7 @@ static constexpr std::uintptr_t reallymarkobject_addr = 0x01550BD0;
 * Usage (Not 100% Accurate):
 
 using r_rehash_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_rehash_typedef r_rehash = (r_rehash_typedef)(x(0x01552D00));
+r_rehash_typedef r_rehash = (r_rehash_typedef)(x(0x0158D5C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6771,7 +6773,7 @@ r_rehash_typedef r_rehash = (r_rehash_typedef)(x(Adresses::rehash_addr));
 
 
 */
-static constexpr std::uintptr_t rehash_addr = 0x01552D00;
+static constexpr std::uintptr_t rehash_addr = 0x0158D5C0;
 #define rehash_CCV __cdecl
 
 /* 
@@ -6785,7 +6787,7 @@ static constexpr std::uintptr_t rehash_addr = 0x01552D00;
 * Usage (Not 100% Accurate):
 
 using r_reportError_typedef = int(__stdcall*)(int a1, int a2);
-r_reportError_typedef r_reportError = (r_reportError_typedef)(x(0x007ACBF0));
+r_reportError_typedef r_reportError = (r_reportError_typedef)(x(0x00799A10));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6795,7 +6797,7 @@ r_reportError_typedef r_reportError = (r_reportError_typedef)(x(Adresses::report
 
 
 */
-static constexpr std::uintptr_t reportError_addr = 0x007ACBF0;
+static constexpr std::uintptr_t reportError_addr = 0x00799A10;
 #define reportError_CCV __stdcall
 
 /* 
@@ -6809,7 +6811,7 @@ static constexpr std::uintptr_t reportError_addr = 0x007ACBF0;
 * Usage (Not 100% Accurate):
 
 using r_resize_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3, int a4);
-r_resize_typedef r_resize = (r_resize_typedef)(x(0x01552F70));
+r_resize_typedef r_resize = (r_resize_typedef)(x(0x0158D830));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6819,7 +6821,7 @@ r_resize_typedef r_resize = (r_resize_typedef)(x(Adresses::resize_addr));
 
 
 */
-static constexpr std::uintptr_t resize_addr = 0x01552F70;
+static constexpr std::uintptr_t resize_addr = 0x0158D830;
 #define resize_CCV __cdecl
 
 /* 
@@ -6833,7 +6835,7 @@ static constexpr std::uintptr_t resize_addr = 0x01552F70;
 * Usage (Not 100% Accurate):
 
 using r_resume_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_resume_typedef r_resume = (r_resume_typedef)(x(0x0153AFD0));
+r_resume_typedef r_resume = (r_resume_typedef)(x(0x01575F90));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6843,7 +6845,7 @@ r_resume_typedef r_resume = (r_resume_typedef)(x(Adresses::resume_addr));
 
 
 */
-static constexpr std::uintptr_t resume_addr = 0x0153AFD0;
+static constexpr std::uintptr_t resume_addr = 0x01575F90;
 #define resume_CCV __cdecl
 
 /* 
@@ -6857,7 +6859,7 @@ static constexpr std::uintptr_t resume_addr = 0x0153AFD0;
 * Usage (Not 100% Accurate):
 
 using r_resume_error_typedef = int(__cdecl*)(int a1, const char* a2);
-r_resume_error_typedef r_resume_error = (r_resume_error_typedef)unprotect(x(0x0153B0B0));
+r_resume_error_typedef r_resume_error = (r_resume_error_typedef)unprotect(x(0x01576070));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6867,7 +6869,7 @@ r_resume_error_typedef r_resume_error = (r_resume_error_typedef)unprotect(x(Adre
 
 
 */
-static constexpr std::uintptr_t resume_error_addr = 0x0153B0B0;
+static constexpr std::uintptr_t resume_error_addr = 0x01576070;
 #define resume_error_CCV __cdecl
 
 /* 
@@ -6881,7 +6883,7 @@ static constexpr std::uintptr_t resume_error_addr = 0x0153B0B0;
 * Usage (Not 100% Accurate):
 
 using r_retcheck_typedef = int(__fastcall*)(int a1, int a2);
-r_retcheck_typedef r_retcheck = (r_retcheck_typedef)(x(0x006E5000));
+r_retcheck_typedef r_retcheck = (r_retcheck_typedef)(x(0x006C40F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6891,7 +6893,7 @@ r_retcheck_typedef r_retcheck = (r_retcheck_typedef)(x(Adresses::retcheck_addr))
 
 
 */
-static constexpr std::uintptr_t retcheck_addr = 0x006E5000;
+static constexpr std::uintptr_t retcheck_addr = 0x006C40F0;
 #define retcheck_CCV __fastcall
 
 /* 
@@ -6905,7 +6907,7 @@ static constexpr std::uintptr_t retcheck_addr = 0x006E5000;
 * Usage (Not 100% Accurate):
 
 using r_robloxextraspace__robloxextraspace_typedef = int(__thiscall*)(int a1, int a2);
-r_robloxextraspace__robloxextraspace_typedef r_robloxextraspace__robloxextraspace = (r_robloxextraspace__robloxextraspace_typedef)(x(0x007A4040));
+r_robloxextraspace__robloxextraspace_typedef r_robloxextraspace__robloxextraspace = (r_robloxextraspace__robloxextraspace_typedef)(x(0x00790E70));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6915,7 +6917,7 @@ r_robloxextraspace__robloxextraspace_typedef r_robloxextraspace__robloxextraspac
 
 
 */
-static constexpr std::uintptr_t robloxextraspace__robloxextraspace_addr = 0x007A4040;
+static constexpr std::uintptr_t robloxextraspace__robloxextraspace_addr = 0x00790E70;
 #define robloxextraspace__robloxextraspace_CCV __thiscall
 
 /* 
@@ -6929,7 +6931,7 @@ static constexpr std::uintptr_t robloxextraspace__robloxextraspace_addr = 0x007A
 * Usage (Not 100% Accurate):
 
 using r_sandboxthread_typedef = int(__cdecl*)(int a1, int a2, int a3);
-r_sandboxthread_typedef r_sandboxthread = (r_sandboxthread_typedef)(x(0x007ADAD0));
+r_sandboxthread_typedef r_sandboxthread = (r_sandboxthread_typedef)(x(0x0079A8C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6939,7 +6941,7 @@ r_sandboxthread_typedef r_sandboxthread = (r_sandboxthread_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t sandboxthread_addr = 0x007ADAD0;
+static constexpr std::uintptr_t sandboxthread_addr = 0x0079A8C0;
 #define sandboxthread_CCV __cdecl
 
 /* 
@@ -6953,7 +6955,7 @@ static constexpr std::uintptr_t sandboxthread_addr = 0x007ADAD0;
 * Usage (Not 100% Accurate):
 
 using r_setarrayvector_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_setarrayvector_typedef r_setarrayvector = (r_setarrayvector_typedef)(x(0x015531C0));
+r_setarrayvector_typedef r_setarrayvector = (r_setarrayvector_typedef)(x(0x0158DA30));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6963,7 +6965,7 @@ r_setarrayvector_typedef r_setarrayvector = (r_setarrayvector_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t setarrayvector_addr = 0x015531C0;
+static constexpr std::uintptr_t setarrayvector_addr = 0x0158DA30;
 #define setarrayvector_CCV __cdecl
 
 /* 
@@ -6977,7 +6979,7 @@ static constexpr std::uintptr_t setarrayvector_addr = 0x015531C0;
 * Usage (Not 100% Accurate):
 
 using r_setnodevector_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_setnodevector_typedef r_setnodevector = (r_setnodevector_typedef)(x(0x01553260));
+r_setnodevector_typedef r_setnodevector = (r_setnodevector_typedef)(x(0x0158DAD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -6987,7 +6989,7 @@ r_setnodevector_typedef r_setnodevector = (r_setnodevector_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t setnodevector_addr = 0x01553260;
+static constexpr std::uintptr_t setnodevector_addr = 0x0158DAD0;
 #define setnodevector_CCV __cdecl
 
 /* 
@@ -7001,7 +7003,7 @@ static constexpr std::uintptr_t setnodevector_addr = 0x01553260;
 * Usage (Not 100% Accurate):
 
 using r_singlestep_typedef = int(__cdecl*)(int a1);
-r_singlestep_typedef r_singlestep = (r_singlestep_typedef)(x(0x01550D70));
+r_singlestep_typedef r_singlestep = (r_singlestep_typedef)(x(0x0158B680));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7011,7 +7013,7 @@ r_singlestep_typedef r_singlestep = (r_singlestep_typedef)(x(Adresses::singleste
 
 
 */
-static constexpr std::uintptr_t singlestep_addr = 0x01550D70;
+static constexpr std::uintptr_t singlestep_addr = 0x0158B680;
 #define singlestep_CCV __cdecl
 
 /* 
@@ -7025,7 +7027,7 @@ static constexpr std::uintptr_t singlestep_addr = 0x01550D70;
 * Usage (Not 100% Accurate):
 
 using r_spawn_typedef = int(__cdecl*)(int a1);
-r_spawn_typedef r_spawn = (r_spawn_typedef)(x(0x007BA4A0));
+r_spawn_typedef r_spawn = (r_spawn_typedef)(x(0x007A76C0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7035,7 +7037,7 @@ r_spawn_typedef r_spawn = (r_spawn_typedef)(x(Adresses::spawn_addr));
 
 
 */
-static constexpr std::uintptr_t spawn_addr = 0x007BA4A0;
+static constexpr std::uintptr_t spawn_addr = 0x007A76C0;
 #define spawn_CCV __cdecl
 
 /* 
@@ -7049,7 +7051,7 @@ static constexpr std::uintptr_t spawn_addr = 0x007BA4A0;
 * Usage (Not 100% Accurate):
 
 using r_stack_init_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_stack_init_typedef r_stack_init = (r_stack_init_typedef)(x(0x01545800));
+r_stack_init_typedef r_stack_init = (r_stack_init_typedef)(x(0x015803F0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7059,7 +7061,7 @@ r_stack_init_typedef r_stack_init = (r_stack_init_typedef)(x(Adresses::stack_ini
 
 
 */
-static constexpr std::uintptr_t stack_init_addr = 0x01545800;
+static constexpr std::uintptr_t stack_init_addr = 0x015803F0;
 #define stack_init_CCV __cdecl
 
 /* 
@@ -7073,7 +7075,7 @@ static constexpr std::uintptr_t stack_init_addr = 0x01545800;
 * Usage (Not 100% Accurate):
 
 using r_str_find_aux_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_str_find_aux_typedef r_str_find_aux = (r_str_find_aux_typedef)(x(0x0154BFC0));
+r_str_find_aux_typedef r_str_find_aux = (r_str_find_aux_typedef)(x(0x01586AD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7083,7 +7085,7 @@ r_str_find_aux_typedef r_str_find_aux = (r_str_find_aux_typedef)(x(Adresses::str
 
 
 */
-static constexpr std::uintptr_t str_find_aux_addr = 0x0154BFC0;
+static constexpr std::uintptr_t str_find_aux_addr = 0x01586AD0;
 #define str_find_aux_CCV __cdecl
 
 /* 
@@ -7097,7 +7099,7 @@ static constexpr std::uintptr_t str_find_aux_addr = 0x0154BFC0;
 * Usage (Not 100% Accurate):
 
 using r_tag_error_typedef = int(__cdecl*)(std::uintptr_t a1, int a2, int a3);
-r_tag_error_typedef r_tag_error = (r_tag_error_typedef)(x(0x0153A5A0));
+r_tag_error_typedef r_tag_error = (r_tag_error_typedef)(x(0x01575570));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7107,7 +7109,7 @@ r_tag_error_typedef r_tag_error = (r_tag_error_typedef)(x(Adresses::tag_error_ad
 
 
 */
-static constexpr std::uintptr_t tag_error_addr = 0x0153A5A0;
+static constexpr std::uintptr_t tag_error_addr = 0x01575570;
 #define tag_error_CCV __cdecl
 
 /* 
@@ -7121,7 +7123,7 @@ static constexpr std::uintptr_t tag_error_addr = 0x0153A5A0;
 * Usage (Not 100% Accurate):
 
 using r_trustCheck_typedef = int(__cdecl*)(const char* a1, char* a2,  int a3);
-r_trustCheck_typedef r_trustCheck = (r_trustCheck_typedef)(x(0x0170C7A0));
+r_trustCheck_typedef r_trustCheck = (r_trustCheck_typedef)(x(0x0174A580));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7131,7 +7133,7 @@ r_trustCheck_typedef r_trustCheck = (r_trustCheck_typedef)(x(Adresses::trustChec
 
 
 */
-static constexpr std::uintptr_t trustCheck_addr = 0x0170C7A0;
+static constexpr std::uintptr_t trustCheck_addr = 0x0174A580;
 #define trustCheck_CCV __cdecl
 
 /* 
@@ -7145,7 +7147,7 @@ static constexpr std::uintptr_t trustCheck_addr = 0x0170C7A0;
 * Usage (Not 100% Accurate):
 
 using r_taskscheduler_typedef = int(__cdecl*)();
-r_taskscheduler_typedef r_taskscheduler = (r_taskscheduler_typedef)(x(0x0105B7D0));
+r_taskscheduler_typedef r_taskscheduler = (r_taskscheduler_typedef)(x(0x01061FD0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7155,7 +7157,7 @@ r_taskscheduler_typedef r_taskscheduler = (r_taskscheduler_typedef)(x(Adresses::
 
 
 */
-static constexpr std::uintptr_t taskscheduler_addr = 0x0105B7D0;
+static constexpr std::uintptr_t taskscheduler_addr = 0x01061FD0;
 #define taskscheduler_CCV __cdecl
 
 /* 
@@ -7169,7 +7171,7 @@ static constexpr std::uintptr_t taskscheduler_addr = 0x0105B7D0;
 * Usage (Not 100% Accurate):
 
 using r_unbound_search_typedef = int(__cdecl*)(std::uintptr_t a1, int a2);
-r_unbound_search_typedef r_unbound_search = (r_unbound_search_typedef)(x(0x01553330));
+r_unbound_search_typedef r_unbound_search = (r_unbound_search_typedef)(x(0x0158DBA0));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7179,7 +7181,7 @@ r_unbound_search_typedef r_unbound_search = (r_unbound_search_typedef)(x(Adresse
 
 
 */
-static constexpr std::uintptr_t unbound_search_addr = 0x01553330;
+static constexpr std::uintptr_t unbound_search_addr = 0x0158DBA0;
 #define unbound_search_CCV __cdecl
 
 /* 
@@ -7193,7 +7195,7 @@ static constexpr std::uintptr_t unbound_search_addr = 0x01553330;
 * Usage (Not 100% Accurate):
 
 using r_vm_invoker_typedef = int(__thiscall*)(int a1);
-r_vm_invoker_typedef r_vm_invoker = (r_vm_invoker_typedef)(x(0x01543D50));
+r_vm_invoker_typedef r_vm_invoker = (r_vm_invoker_typedef)(x(0x0157E980));
 
 * (Compatable Format) Usage (Not 100% Accurate):
 
@@ -7203,104 +7205,104 @@ r_vm_invoker_typedef r_vm_invoker = (r_vm_invoker_typedef)(x(Adresses::vm_invoke
 
 
 */
-static constexpr std::uintptr_t vm_invoker_addr = 0x01543D50;
+static constexpr std::uintptr_t vm_invoker_addr = 0x0157E980;
 #define vm_invoker_CCV __thiscall
 
-static constexpr std::uintptr_t cum_check_bypass = 0x0170B717;
+static constexpr std::uintptr_t cum_check_bypass = 0x01749507;
 
-static constexpr std::uintptr_t callcheck = 0x005FE8A0;
+static constexpr std::uintptr_t callcheck = 0x005EB520;
 
-static constexpr std::uintptr_t retcheckflag1 = 0x02A9714C;
+static constexpr std::uintptr_t retcheckflag1 = 0x02A5F14C;
 
-static constexpr std::uintptr_t retcheckflag2 = 0x02A9723C;
+static constexpr std::uintptr_t retcheckflag2 = 0x02A5F23C;
 
-static constexpr std::uintptr_t xorconst = 0x02A1CC60;
+static constexpr std::uintptr_t xorconst = 0x029E52D0;
 
-static constexpr std::uintptr_t luao_nilobject = 0x02279C98;
+static constexpr std::uintptr_t luao_nilobject = 0x02239990;
 
-static constexpr std::uintptr_t luat_typenames = 0x0227B628;
+static constexpr std::uintptr_t luat_typenames = 0x0223B1C0;
 
-static constexpr std::uintptr_t kname = 0x027CE9F0;
+static constexpr std::uintptr_t kname = 0x02797978;
 
-static constexpr std::uintptr_t op_index = 0x0153F360;
+static constexpr std::uintptr_t op_index = 0x0157A0C0;
 
-static constexpr std::uintptr_t op_case_table = 0x0153F234;
+static constexpr std::uintptr_t op_case_table = 0x01579F94;
 
-static constexpr std::uintptr_t retcheck_jmp = 0x006E5020;
+static constexpr std::uintptr_t retcheck_jmp = 0x006C4110;
 
-static constexpr std::uintptr_t trustcheck_bypass1 = 0x026980C4;
+static constexpr std::uintptr_t trustcheck_bypass1 = 0x0265FB60;
 
-static constexpr std::uintptr_t scriptinstance = 0x02869DB8;
+static constexpr std::uintptr_t scriptinstance = 0x028335B8;
 
-static constexpr std::uintptr_t scriptcontext = 0x0207FBE0;
+static constexpr std::uintptr_t scriptcontext = 0x02032F20;
 
 // Roblox Offsets 
-static constexpr int getnamecallmethod_offset = 100;
+static constexpr int getnamecallmethod_offset = 96;
 static constexpr int networked_dm = 1184;
 static constexpr int Identity1 = 24;
-static constexpr int Identity2 = 112;
+static constexpr int Identity2 = 108;
 
 // Luastate Offsets 
-static constexpr int ls_readonly = 9;
+static constexpr int ls_readonly = 11;
 static constexpr int ls_base_ci = 0;
 static constexpr int ls_end_ci = 0;
 static constexpr int ls_ci = 16;
 static constexpr int ls_saved_pc = 16;
-static constexpr int ls_top = 28;
-static constexpr int ls_base = 24;
+static constexpr int ls_top = 12;
+static constexpr int ls_base = 28;
 static constexpr int ls_env = 56;
 static constexpr int ls_l_gt = 80;
 
 // Globalstate Offsets 
-static constexpr int ls_gs_totalbytes = 76;
-static constexpr int ls_gs_gcthreshold = 84;
-static constexpr int ls_gs_gcpause = 68;
-static constexpr int ls_gs_gcstepmul = 72;
-static constexpr int ls_gs_rootgc = 44;
-static constexpr int ls_gs_mainthread = 1392;
+static constexpr int ls_gs_totalbytes = 84;
+static constexpr int ls_gs_gcthreshold = 76;
+static constexpr int ls_gs_gcpause = 72;
+static constexpr int ls_gs_gcstepmul = 80;
+static constexpr int ls_gs_rootgc = 28;
+static constexpr int ls_gs_mainthread = 236;
 
 // Closure Offsets 
 static constexpr int ls_closure_nupvalues = 4;
 static constexpr int ls_closure_env = 16;
-static constexpr int ls_closure_isc = 0;
+static constexpr int ls_closure_isc = 7;
 
 // Types 
 #define R_LUA_TNONE  -1
-#define R_LUA_TUSERDATA  7
+#define R_LUA_TUSERDATA  8
 #define R_LUA_TFUNCTION  6
 #define R_LUA_TSTRING  5
 #define R_LUA_TBOOLEAN  1
 #define R_LUA_TNUMBER  3
-#define R_LUA_TTABLE  8
+#define R_LUA_TTABLE  9
 #define R_LUA_TNIL  0
-#define R_LUA_TTHREAD  9
+#define R_LUA_TTHREAD  7
 #define R_LUA_TVECTOR  2
 #define R_LUA_TLIGHTUSERDATA  4
 #define R_LUA_TPROTO  10
 #define R_LUA_TUPVALUE  11
 
 // Protos 
-static constexpr int proto_k = 8;
-static constexpr int proto_sizek = 56;
-static constexpr int proto_code = 24;
-static constexpr int proto_sizep = 68;
-static constexpr int proto_locvars = 28;
-static constexpr int proto_sizecode = 60;
-static constexpr int proto_sizeupvalues = 52;
-static constexpr int proto_maxstacksize = 83;
-static constexpr int proto_sizelineinfo = 76;
+static constexpr int proto_k = 36;
+static constexpr int proto_sizek = 68;
+static constexpr int proto_code = 16;
+static constexpr int proto_sizep = 52;
+static constexpr int proto_locvars = 24;
+static constexpr int proto_sizecode = 64;
+static constexpr int proto_sizeupvalues = 56;
+static constexpr int proto_maxstacksize = 81;
+static constexpr int proto_sizelineinfo = 72;
 static constexpr int proto_upvalues = 20;
-static constexpr int proto_size_locvars = 72;
-static constexpr int proto_source = 12;
+static constexpr int proto_size_locvars = 60;
+static constexpr int proto_source = 32;
 static constexpr int proto_numparams = 80;
 
 DWORD RBX_LuaState(DWORD ScriptContext) { return  (ScriptContext +204) - *(DWORD*)(ScriptContext + 204);} 
-std::uint32_t RBX_GlobalState(std::uint32_t a1) {  std::uint32_t  v1  =  *reinterpret_cast<std::uint32_t*>(a1  +  20)  -  (a1  +  20); return v1; } 
-DWORD RBX_SetIdentity(DWORD LS, int identity) { *(DWORD*)(*(DWORD*)(LS + 112) + 24)  = identity; return 0; } 
+std::uint32_t RBX_GlobalState(std::uint32_t a1) {  std::uint32_t  v1  =  *reinterpret_cast<std::uint32_t*>(a1  +  24)  +  (a1  +  24); return v1; } 
+DWORD RBX_SetIdentity(DWORD LS, int identity) { *(DWORD*)(*(DWORD*)(LS + 108) + 24)  = identity; return 0; } 
 int RBX_ProtoObfuscate (int p, int v){ *(int*)p = p - v; return 0; }
 int RBX_ProtoDeobfuscate (int p){ return *(int*)p + p; } 
 
 // Dumped With Mellonyt aka Mellon Addy Dumper My Discord: mellonyt#1234 
-// Addys Dumped: 327
+// Addys Dumped: 326
 // No Duplicate Addys :D 
 }
