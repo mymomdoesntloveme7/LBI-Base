@@ -11,11 +11,14 @@
 
 using namespace Callcheck;
 
-DWORD __stdcall Pipe(PVOID lvpParameter)
+DWORD __stdcall Pipe(void*)
 {
     char buffer[999999];
     DWORD len;
-    HANDLE pipe = CreateNamedPipe(TEXT("\\\\.\\pipe\\ExploitPipe"), PIPE_ACCESS_DUPLEX | PIPE_TYPE_BYTE | PIPE_READMODE_BYTE, PIPE_WAIT, 1, NULL, NULL, NMPWAIT_USE_DEFAULT_WAIT, NULL);
+    HANDLE pipe = CreateNamedPipe(TEXT("\\\\.\\pipe\\ExploitPipe"),
+        PIPE_ACCESS_DUPLEX | PIPE_TYPE_BYTE | PIPE_READMODE_BYTE, PIPE_WAIT,
+        1, NULL, NULL, NMPWAIT_USE_DEFAULT_WAIT, NULL);
+
     while (pipe != INVALID_HANDLE_VALUE)
     {
         if (ConnectNamedPipe(pipe, NULL) != FALSE)
