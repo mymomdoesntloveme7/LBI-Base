@@ -14,7 +14,7 @@ void InitLBI()
 		char char_ = static_cast<char>(static_cast<int>(strtol(byte.c_str(), 0, 16)));
 		serialized.push_back(char_);
 	}
-	lbidata = serialized; // Convert bytecode to readable format
+	lbidata = serialized; // Convert bytecode hex to ascii
 
 	r_deserialize(rL, "LBI", lbidata.c_str(), lbidata.size(), 0);
 	r_spawn(rL);
@@ -22,6 +22,7 @@ void InitLBI()
 
 void Execute(int rL, std::string script) 
 {
+	// Compile script to lua bytecode and pass it to LBI function
 	lua_State* VM = lua_open();
 	luaL_openlibs(VM);
 
