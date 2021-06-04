@@ -47,11 +47,11 @@ void Main()
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
     std::cout << "Getting Lua State...\n";
-    rL = GetState();
+    rL = GetState(); // Get roblox state
     std::cout << "Setting context level...\n";
     *GetLevel(rL) = 7; // Set thread identity to level 7
     std::cout << "Initializing interpreter...\n";
-    InitLBI(); 
+    InitLBI(); // deserialize bytecode
     std::cout << "Registering custom functions...\n";
     Callcheck::Init(); // Initialize callcheck bypass
     registerfunc(rL, reinterpret_cast<int>(getgenv), "getgenv"); // register our custom functions
@@ -60,7 +60,7 @@ void Main()
     registerfunc(rL, reinterpret_cast<int>(getreg), "getreg");
     registerfunc(rL, reinterpret_cast<int>(loadstring), "loadstring");
     std::cout << "\n";
-    CreateThread(0, 0, Pipe, 0, 0, 0);
+    CreateThread(0, 0, Pipe, 0, 0, 0); // create pipe input
     std::cout << "Ready for execution!";
 }
 
