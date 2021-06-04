@@ -37,16 +37,16 @@ void Execute(int rL, std::string script)
 	{
 		lua_getglobal(VM, "string");
 		lua_getfield(VM, -1, "dump");
-		lua_pushvalue(VM, -2);
-		lua_pcall(VM, 1, 1, 0);
+		lua_pushvalue(VM, -3);
+		lua_pcall(VM, 1, -1, 0);
 
-		size_t sz;
-		const char* dumped = lua_tolstring(VM, -1, &sz);
+		size_t bytecode_size;
+		const char* bytecode = lua_tolstring(VM, -1, &bytecode_size);
 
 		r_getfield(rL, -10002, "_G");
 		r_getfield(rL, -1, "locustLBI");
-		r_pushlstring(rL, dumped, sz);
-		r_pcall(rL, 1, 1, 0);
+		r_pushlstring(rL, bytecode, bytecode_size);
+		r_pcall(rL, 1, -1, 0);
 	}
 	return;
 }
