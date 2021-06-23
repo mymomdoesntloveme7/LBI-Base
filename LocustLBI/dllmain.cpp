@@ -47,7 +47,7 @@ void Main()
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
     std::cout << "Getting Lua State...\n";
-    rL = GetState(); // Get roblox state
+    rL = r_newthread(GetState()); // Get roblox state
     std::cout << "Setting context level...\n";
     *GetLevel(rL) = 7; // Set thread identity to level 7
     std::cout << "Initializing interpreter...\n";
