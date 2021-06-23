@@ -60,7 +60,7 @@ DWORD GetState()
 		}
 	}
 
-	return r_newthread(RBX_LuaState(ScriptContext)); // makes a newthread so the stack is clean (thanks mcgaming)
+	return RBX_LuaState(ScriptContext);
 }
 
 DWORD* GetLevel(DWORD rL) { return reinterpret_cast<DWORD*>(*reinterpret_cast<DWORD*>(rL + Identity2) + Identity1); }
