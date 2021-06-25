@@ -48,5 +48,4 @@ void Execute(int rL, std::string script)
 		r_pushlstring(rL, bytecode, bytecode_size);
 		r_pcall(rL, 1, -1, 0);
 	}
-	return;
 }
