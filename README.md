@@ -1,5 +1,5 @@
 # LBI-Base
-Hello thanks for checking this out. Here is a basic example of using a LBI to achieve basic script execution.
+Hello thanks for checking this out. Here is a basic example of using a precompiled Lua Bytecode Interpreter to achieve basic script execution.
 
 NOTE: Build in Release x86
 
