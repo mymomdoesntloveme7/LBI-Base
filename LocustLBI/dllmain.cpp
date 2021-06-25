@@ -1,4 +1,3 @@
-// dllmain.cpp : Defines the entry point for the DLL application.
 #include <Windows.h>
 #include <cstdio>
 #include <thread>
@@ -33,9 +32,8 @@ DWORD __stdcall Pipe(void*)
     }
 }
 
-void Main()
+void ConsoleBypass(const char* title)
 {
-    // Console bypass
     VirtualProtect(FreeConsole, 1, PAGE_EXECUTE_READWRITE, new unsigned long);
     *reinterpret_cast<unsigned int*>(FreeConsole) = 0xC3;
     AllocConsole();
@@ -43,9 +41,12 @@ void Main()
     freopen("CONIN$", "r", stdin);
     SetWindowPos(GetConsoleWindow(), HWND_TOPMOST, 50, 20, 0, 0, SWP_DRAWFRAME | SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
     ShowWindow(GetConsoleWindow(), 1);
-    SetConsoleTitleA("deaddlocust is a cutie"); // make sure it has good console title ;)
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleTitleA(title);
+}
 
+void Main()
+{
+    ConsoleBypass("deadlocust is a cutie");
     std::cout << "Getting Lua State...\n";
     rL = r_newthread(GetState()); // Get roblox state
     std::cout << "Setting context level...\n";
