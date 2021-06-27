@@ -30,3 +30,13 @@ int loadstring(DWORD rL)
 	Execute(rL, r_checklstring(rL, 1, 0));
 	return 0;
 }
+
+int getrawmetatable(DWORD rL)
+{
+	r_getmetatable(rL, 1);
+}
+
+int setrawmetatable(DWORD rL)
+{
+	r_setmetatable(rL, 1);
+}
