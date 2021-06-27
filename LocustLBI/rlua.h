@@ -44,8 +44,8 @@ def_pushvalue r_pushvalue = reinterpret_cast<def_pushvalue>(unprotect(aslr(lua_p
 def_pushcclosure r_pushcclosure = reinterpret_cast<def_pushcclosure>(unprotect(aslr(lua_pushcclosure_addr)));
 def_pcall r_pcall = reinterpret_cast<def_pcall>(unprotect(aslr(lua_pcall_addr)));
 def_checklstring r_checklstring = reinterpret_cast<def_checklstring>(unprotect(aslr(lual_checklstring_addr)));
-def_getmetatable r_getmetatable = reinterpret_cast<def_getmetatable>(unprotect(x(lua_getmetatable_addr)));
-def_setmetatable r_setmetatable = reinterpret_cast<def_setmetatable>(unprotect(x(lua_setmetatable_addr)));
+def_getmetatable r_getmetatable = reinterpret_cast<def_getmetatable>(unprotect(aslr(lua_getmetatable_addr)));
+def_setmetatable r_setmetatable = reinterpret_cast<def_setmetatable>(unprotect(aslr(lua_setmetatable_addr)));
 
 DWORD GetState()
 {
