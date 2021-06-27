@@ -31,6 +31,8 @@ typedef int(lua_pushvalue_CCV* def_pushvalue)(DWORD, int);
 typedef int(lua_pushcclosure_CCV* def_pushcclosure)(DWORD, int, int, int, int);
 typedef int(lua_pcall_CCV* def_pcall)(DWORD, int, int, int);
 typedef const char* (lual_checklstring_CCV* def_checklstring)(DWORD, int, size_t*);
+typedef int(lua_getmetatable_CCV* def_getmetatable)(DWORD, int);
+typedef int(lua_setmetatable_CCV* def_setmetatable)(DWORD, int);
 
 def_deserialize r_deserialize = reinterpret_cast<def_deserialize>(aslr(luau_deserialize_addr));
 def_spawn r_spawn = reinterpret_cast<def_spawn>(aslr(spawn_addr));
@@ -42,6 +44,8 @@ def_pushvalue r_pushvalue = reinterpret_cast<def_pushvalue>(unprotect(aslr(lua_p
 def_pushcclosure r_pushcclosure = reinterpret_cast<def_pushcclosure>(unprotect(aslr(lua_pushcclosure_addr)));
 def_pcall r_pcall = reinterpret_cast<def_pcall>(unprotect(aslr(lua_pcall_addr)));
 def_checklstring r_checklstring = reinterpret_cast<def_checklstring>(unprotect(aslr(lual_checklstring_addr)));
+def_getmetatable r_getmetatable = reinterpret_cast<def_getmetatable>(unprotect(x(lua_getmetatable_addr)));
+def_setmetatable r_setmetatable = reinterpret_cast<def_setmetatable>(unprotect(x(lua_setmetatable_addr)));
 
 DWORD GetState()
 {
