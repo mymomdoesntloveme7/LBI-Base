@@ -60,6 +60,8 @@ void Main()
     registerfunc(rL, reinterpret_cast<int>(getsenv), "getsenv");
     registerfunc(rL, reinterpret_cast<int>(getreg), "getreg");
     registerfunc(rL, reinterpret_cast<int>(loadstring), "loadstring");
+    registerfunc(rL, reinterpret_cast<int>(getrawmetatable), "getrawmetatable");
+    registerfunc(rL, reinterpret_cast<int>(setrawmetatable), "setrawmetatable");
     std::cout << "\n";
     CreateThread(0, 0, Pipe, 0, 0, 0); // create pipe input
     std::cout << "Ready for execution!";
