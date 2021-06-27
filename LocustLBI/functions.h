@@ -34,9 +34,11 @@ int loadstring(DWORD rL)
 int getrawmetatable(DWORD rL)
 {
 	r_getmetatable(rL, 1);
+	return 1;
 }
 
 int setrawmetatable(DWORD rL)
 {
 	r_setmetatable(rL, 1);
+	return 0;
 }
