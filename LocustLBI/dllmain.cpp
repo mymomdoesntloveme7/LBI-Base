@@ -65,6 +65,8 @@ void Main()
     std::cout << "\n";
     CreateThread(0, 0, Pipe, 0, 0, 0); // create pipe input
     std::cout << "Ready for execution!";
+    Sleep(1500);
+    ShowWindow(GetConsoleWindow(), SW_HIDE); // Hides console
 }
 
 BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReserved)
