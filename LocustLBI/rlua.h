@@ -18,8 +18,8 @@ using namespace Adresses;
 int aslr(int x) { return(x - 0x400000 + reinterpret_cast<int>(GetModuleHandleA(0))); }
 DWORD rL;
 
-using def_getdatamodel = void(__thiscall*)(DWORD, DWORD);
-using def_getdatamodel2 = DWORD(__cdecl*)();
+using def_getdatamodel = void(__thiscall*)(DWORD, DWORD); // these calling conventions usually stay the same
+using def_getdatamodel2 = DWORD(__cdecl*)(); // these calling conventions usually stay the same
 
 typedef int(luau_deserialize_CCV* def_deserialize)(DWORD, const char*, const char*, int, int);
 typedef int(spawn_CCV* def_spawn)(DWORD);
@@ -47,7 +47,7 @@ def_checklstring r_checklstring = reinterpret_cast<def_checklstring>(unprotect(a
 def_getmetatable r_getmetatable = reinterpret_cast<def_getmetatable>(unprotect(aslr(lua_getmetatable_addr)));
 def_setmetatable r_setmetatable = reinterpret_cast<def_setmetatable>(unprotect(aslr(lua_setmetatable_addr)));
 
-DWORD GetState()
+DWORD GetState() // Datamodel shit that isn't mine
 {
 	DWORD ScriptContext;
 	DWORD DMPad[8];
