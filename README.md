@@ -1,5 +1,5 @@
 # LBI-Base
-A basic example of using a precompiled Lua Bytecode Interpreter to achieve basic script execution. Addresses are updated every week.
+A basic example of using a precompiled Lua Bytecode Interpreter to achieve basic script execution. Roblox addresses from [mellonyt](https://github.com/Mellonyt).
 
 NOTE: Build in Release x86
 
