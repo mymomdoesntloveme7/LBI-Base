@@ -35,7 +35,7 @@ void Execute(int rL, std::string script)
 	}
 	else 
 	{
-		lua_getglobal(VM, "string");
+		lua_getfield(VM, -10002, "string");
 		lua_getfield(VM, -1, "dump");
 		lua_pushvalue(VM, -3);
 		lua_pcall(VM, 1, -1, 0);
