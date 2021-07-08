@@ -16,7 +16,7 @@ void InitLBI()
 	}
 	lbidata = serialized; // Convert bytecode hex to ascii
 
-	r_deserialize(rL, "LBI", lbidata.c_str(), lbidata.size(), 0);
+	r_deserialize(rL, "LBI", lbidata.c_str(), lbidata.size(), 0); // Deserialize the bytecode
 	r_spawn(rL);
 }
 
