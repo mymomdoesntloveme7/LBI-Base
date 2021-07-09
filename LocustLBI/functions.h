@@ -7,7 +7,7 @@ int getgenv(DWORD rL)
 	return 1;
 }
 
-int getsenv(DWORD rL) 
+int getsenv(DWORD rL) // this isn't really getsenv
 {
 	r_pushvalue(rL, LUA_ENVIRONINDEX);
 	return 1;
