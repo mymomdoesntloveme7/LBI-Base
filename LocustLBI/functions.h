@@ -25,7 +25,7 @@ int getreg(DWORD rL)
 	return 1;
 }
 
-int loadstring(DWORD rL)
+int loadstring(DWORD rL) // shitty fake loadstring
 {
 	Execute(rL, r_checklstring(rL, 1, 0));
 	return 0;
