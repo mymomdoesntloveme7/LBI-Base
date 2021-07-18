@@ -9,8 +9,6 @@ NOTE: Build in Release x86
 
 
 ## Credits
-Callcheck Bypass - Am0y
-
 Retcheck Bypass - Chirality
 
 DataModel stuff - Idk who but it isn't mine
