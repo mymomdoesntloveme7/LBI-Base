@@ -54,7 +54,7 @@ void Main()
     std::cout << "Initializing interpreter...\n";
     InitLBI(); // deserialize bytecode
     std::cout << "Registering custom functions...\n";
-    Callcheck::Init(); // Initialize callcheck bypass
+    AddVectoredExceptionHandler(1, VEH); // Initialize callcheck bypass
     registerfunc(rL, reinterpret_cast<int>(getgenv), "getgenv"); // register our custom functions
     registerfunc(rL, reinterpret_cast<int>(getrenv), "getrenv");
     registerfunc(rL, reinterpret_cast<int>(getsenv), "getsenv");
