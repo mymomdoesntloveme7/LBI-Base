@@ -47,6 +47,12 @@ def_checklstring r_checklstring = reinterpret_cast<def_checklstring>(unprotect(a
 def_getmetatable r_getmetatable = reinterpret_cast<def_getmetatable>(unprotect(aslr(lua_getmetatable_addr)));
 def_setmetatable r_setmetatable = reinterpret_cast<def_setmetatable>(unprotect(aslr(lua_setmetatable_addr)));
 
+void registerfunc(DWORD rL, int funcaddr, const char* name, int upvalues = 0)
+{
+	r_pushcclosure(rL, ReturnSafeAddr(funcaddr), 0, upvalues, 0);
+	r_setfield(rL, -10002, name);
+}
+
 DWORD GetState() // Datamodel shit that isn't mine
 {
 	DWORD ScriptContext;
