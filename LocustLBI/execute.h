@@ -23,7 +23,7 @@ void InitLBI()
 void Execute(int rL, std::string script) 
 {
 	// Compile script to lua bytecode and pass it to LBI function
-	lua_State* VM = lua_open();
+	lua_State* VM = luaL_newstate(); // same as lua_open
 	luaL_openlibs(VM);
 
 	if (luaL_loadbuffer(VM, script.c_str(), script.size(), "LBI"))
