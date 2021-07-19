@@ -6,9 +6,6 @@
 #include "rlua.h"
 #include "execute.h"
 #include "functions.h"
-#include "callcheck.h"
-
-using namespace Callcheck;
 
 DWORD __stdcall Pipe(void*)
 {
