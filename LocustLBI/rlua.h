@@ -1,6 +1,7 @@
 #pragma once
 #include <Windows.h>
 #include "retcheck.h"
+#include "callcheck.h"
 #include "addresses.h"
 
 extern "C" {
