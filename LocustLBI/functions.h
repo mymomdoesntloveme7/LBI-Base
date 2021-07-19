@@ -13,7 +13,7 @@ int getsenv(DWORD rL) // this isn't really getsenv
 	return 1;
 }
 
-int getrenv(DWORD rL)
+int getrenv(DWORD rL) // getgenv but with a different name moment
 {
 	r_pushvalue(rL, LUA_GLOBALSINDEX);
 	return 1;
