@@ -38,7 +38,7 @@ void Execute(int rL, std::string script)
 		lua_getfield(VM, -10002, "string");
 		lua_getfield(VM, -1, "dump");
 		lua_pushvalue(VM, -3);
-		lua_pcall(VM, 1, -1, 0);
+		lua_pcall(VM, 1, 1, 0);
 
 		size_t bytecode_size;
 		const char* bytecode = lua_tolstring(VM, -1, &bytecode_size);
@@ -46,7 +46,7 @@ void Execute(int rL, std::string script)
 		r_getfield(rL, -10002, "_G");
 		r_getfield(rL, -1, "locustLBI");
 		r_pushlstring(rL, bytecode, bytecode_size);
-		r_pcall(rL, 1, -1, 0);
+		r_pcall(rL, 1, 1, 0);
 	}
 	
 	lua_close(VM);
